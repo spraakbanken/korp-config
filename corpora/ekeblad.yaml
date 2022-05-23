@@ -1,0 +1,32 @@
+context:
+  - label:
+      eng: 1 paragraph
+      swe: 1 stycke
+    value: 1 paragraph
+  - label:
+      eng: 1 sentence
+      swe: 1 mening
+    value: 1 sentence
+description: Breven till Claes. Elektronisk utgåva av Sture Alléns edition 1965
+id: ekeblad
+mode:
+  - name: all_hist
+pos_attributes:
+  - lemma: lemma
+  - pos: pos
+  - lex: lex
+  - ref: ref
+struct_attributes:
+  - paragraph_date:
+      label:
+        eng: dating
+        swe: datering
+  - text_date: date
+  - text_author: author
+  - text_title: title
+title: Ekeblads brev
+within:
+  - label:
+      eng: sentence
+      swe: mening
+    value: sentence

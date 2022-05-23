@@ -1,0 +1,66 @@
+context:
+  - label:
+      eng: 1 paragraph
+      swe: 1 stycke
+    value: 1 paragraph
+  - label:
+      eng: 1 sentence
+      swe: 1 mening
+    value: 1 sentence
+description: Nordiska museets etnologiska frågelistor
+id: fragelistor
+mode:
+  - name: default
+pos_attributes:
+  - lemma: lemma
+  - pos: pos
+  - msd: msd
+  - lex: lex
+  - dephead: dephead
+  - deprel: deprel
+  - ref: ref
+  - sense: sense
+  - complemgram: complemgram
+  - ne_ex: ne_ex
+  - ne_name: ne_name
+  - ne_type: ne_type
+  - ne_subtype: ne_subtype
+  - compwf: compwf
+  - prefix: prefix
+  - suffix: suffix
+struct_attributes:
+  - document_id:
+      label:
+        eng: document ID
+        swe: dokument-ID
+  - text_amount_answers:
+      label:
+        eng: amount of answers
+        swe: antal svar
+  - text_author_signature:
+      label:
+        eng: author signature
+        swe: författarsignatur
+  - text_source:
+      extended_component: structServiceSelect
+      label:
+        eng: source
+        swe: källa
+  - text_topicid:
+      label:
+        eng: topic ID
+        swe: ämnes-ID
+  - text_topicname:
+      label:
+        eng: topic
+        swe: ämne
+  - page_n: page
+  - text_year: year
+  - sentence_id:
+      display_type: hidden
+title: Etnologiska frågelistor
+within:
+  - label:
+      eng: sentence
+      swe: mening
+    value: sentence

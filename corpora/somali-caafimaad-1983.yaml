@@ -1,0 +1,29 @@
+context:
+  - label:
+      eng: 1 sentence
+      swe: 1 mening
+    value: 1 sentence
+description: ''
+id: somali-caafimaad-1983
+mode:
+  - folder: buugaag
+    name: somali
+struct_attributes:
+  - text_title: title
+  - text_source:
+      label:
+        eng: source
+        swe: källa
+      type: url
+  - text_publisher:
+      label:
+        eng: publisher
+        swe: utgivare
+  - text_year: year
+  - page_n: page
+title: Caafimaad 1983
+within:
+  - label:
+      eng: sentence
+      swe: mening
+    value: sentence

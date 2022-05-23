@@ -1,0 +1,36 @@
+context:
+  - label:
+      eng: 1 sentence
+      swe: 1 mening
+    value: 1 sentence
+description: 11 spanska noveller
+id: one71
+lang: spa
+mode:
+  - name: spanish
+pos_attributes:
+  - pos:
+      label:
+        eng: part-of-speech
+        swe: ordklass
+  - msd:
+      label: msd
+  - baseform:
+      label:
+        eng: baseform
+        swe: grundform
+struct_attributes:
+  - text_lang:
+      dataset:
+        spa: spanish
+      extended_component: datasetSelect
+      label:
+        eng: language
+        swe: språk
+  - text_title: title
+title: Banco de Datos de Once Novelas Españolas 1951—1971 (SOL)
+within:
+  - label:
+      eng: sentence
+      swe: mening
+    value: sentence

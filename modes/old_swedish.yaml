@@ -1,0 +1,20 @@
+label:
+  swe: Fornsvenska
+  eng: Old Swedish
+order: 30
+autocomplete: false
+folders:
+  fsvb:
+    title: Fornsvenska textbanken
+    subfolders:
+      aldre:
+        title: Äldre fornsvenska
+      nysvenska:
+        title: Nysvenska
+      yngre:
+        title: Yngre fornsvenska
+  medeltid:
+    title: Medeltidsbrev, Svenskt Diplomatarium
+color_primary: '#F7D1E4'
+color_light: '#FFEBF5'
+wordpicture: false

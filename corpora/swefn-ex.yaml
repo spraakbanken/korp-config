@@ -1,0 +1,69 @@
+context:
+  - label:
+      eng: 1 sentence
+      swe: 1 mening
+    value: 1 sentence
+description: ''
+id: swefn-ex
+mode:
+  - name: default
+pos_attributes:
+  - lemma: lemma
+  - pos: pos
+  - msd: msd
+  - lex: lex
+  - dephead: dephead
+  - deprel: deprel
+  - ref: ref
+  - sense: sense
+  - complemgram: complemgram
+  - ne_ex: ne_ex
+  - ne_name: ne_name
+  - ne_type: ne_type
+  - ne_subtype: ne_subtype
+  - compwf: compwf
+  - prefix: prefix
+  - suffix: suffix
+struct_attributes:
+  - example_source:
+      label:
+        eng: source
+        swe: källa
+  - text_compound_pattern_examples:
+      label: compound pattern examples
+  - text_compound_patterns:
+      label: compound patterns
+  - text_core_elements:
+      label:
+        eng: core elements
+        swe: kärnelement
+  - text_created_by:
+      label:
+        eng: created by
+        swe: skapad av
+  - text_domain:
+      label:
+        eng: domain
+        swe: domän
+  - text_frame:
+      label:
+        eng: frame
+        swe: ram
+  - text_notes:
+      label:
+        eng: notes
+        swe: anteckningar
+  - text_peripheral_elements:
+      label:
+        eng: peripheral elements
+        swe: periferielement
+  - text_semantic_type:
+      label:
+        eng: semantic type
+        swe: semantisk typ
+title: Svenskt frasnät (SweFN)
+within:
+  - label:
+      eng: sentence
+      swe: mening
+    value: sentence

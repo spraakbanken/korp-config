@@ -1,0 +1,114 @@
+label:
+  swe: Moderna
+  eng: Modern
+order: 10
+folders:
+  fisk:
+    title: Finlandssvenska texter
+    description: Det första steget för att skapa en finlandssvensk korpus togs redan på 1990-talet (Institutionen för nordiska språk vid Helsingfors universitet) och under åren 1999–2000 fortsatte arbetet (ett samarbetsprojekt mellan Institutet för de inhemska språken, Institutionen för allmän språkvetenskap och CSC (IT Center for Science)). Under åren 2011–2013 byggs den finlandssvenska korpusen ut som ett samarbetsprojekt mellan Svenska litteratursällskapet i Finland, Institutet för de inhemska språken och Göteborgs universitet.
+    subfolders:
+      governmental:
+        title: Myndighetstexter
+      literature:
+        title: Skön- och facklitteratur
+      magazines:
+        title: Tidskrifter
+      newstexts:
+        title: Tidningstexter
+        subfolders:
+          abounderrattelser:
+            description: <a href="www.abounderrattelser.fi" target="_blank">Åbo Underrättelser</a> är en regional svenskspråkig dagstidning i Åbotrakten.
+            title: Åbo Underrättelser
+          fnb:
+            description: <a href="http://www.stt.fi/sv" target="_blank">FNB</a> är Finlands ledande nyhets- och bildbyrå.
+            title: FNB
+          hbl:
+            description: <a href="http://www.hbl.fi" target="_blank">Hufvudstadsbladet</a> är den största finlandssvenska dagstidningen i Finland.
+            title: Hufvudstadsbladet
+          jakobstadstidning:
+            description: Jakobstads Tidning var en lokal dagstidning i Österbotten som gavs ut under perioden 1898–2008.
+            title: Jakobstads tidning
+          osterbottenstidning:
+            description: <a href="http://www.ot.fi" target="_blank">Österbottens Tidning</a> är en regional svenskspråkig tidning i Österbotten.
+            title: Österbottens Tidning
+          pargaskungorelser:
+            description: <a href="http://www.pku.fi" target="_blank">Pargas Kungörelser</a> är en regional tvåspråkig (svenska och finska) tidning med spridning i Pargas med omnejd. I korpusen är endast den svenskspråkiga delen av tidningen med.
+            title: Pargas kungörelser
+          sydosterbotten:
+            description: <a href="http://www.sydin.fi" target="_blank">Syd-Österbotten</a> är en regional svenskspråkig dagstidning i Österbotten.
+            title: Syd-Österbotten
+          vasab:
+            description: <a href="http://www.vasabladet.fi" target="_blank">Vasabladet</a> är en regional svenskspråkig dagstidning i Österbotten.
+            title: Vasabladet
+      webtexts:
+        title: Webbtexter
+  governmental:
+    title: Myndighetstexter
+    subfolders:
+      rd:
+        title: Riksdagens öppna data
+        description: Data från <a href="https://data.riksdagen.se/" target="_blank">data.riksdagen.se</a> insamlat 2017.
+          Samlingen kommer att uppdateras.
+  l2:
+    title: L2 Korp
+  magazines:
+    title: Tidskrifter
+  medical:
+    title: Medicinska texter
+    subfolders:
+      ltd:
+        title: Läkartidningen
+  newstexts:
+    title: Nyhetstexter
+    subfolders:
+      gp:
+        title: GP
+      press:
+        title: Press
+      webnews:
+        title: Webbnyheter
+      svtnews:
+        title: SVT nyheter
+  novels:
+    title: Skönlitteratur
+  protected:
+    title: Skyddade korpusar
+  socialmedia:
+    title:
+      swe: Sociala medier
+      eng: Social Media
+    subfolders:
+      bloggmix:
+        description: Material från ett urval av svenska bloggar. Uppdateras regelbundet.
+        title: Bloggmix
+      forum:
+        title: Diskussionsforum
+        subfolders:
+          familjeliv:
+            description: Material från diskussionsforumet <a target="_blank" href="https://www.familjeliv.se/">Familjeliv</a>. Materialet är under uppbyggnad.
+            title: Familjeliv
+          flashback:
+            description: Material från diskussionsforumet <a target="_blank" href="https://www.flashback.org/">Flashback</a>.
+            title: Flashback
+      twitter:
+        title: Twitter
+  strindberg:
+    title: August Strindberg
+  sweac:
+    title: Akademiska texter
+map_enabled: true
+preselected_corpora:
+  - suc3
+  - wikipedia-sv
+  - talbanken
+  - sfs
+  - snp7879
+  - __newstexts
+  - __fisk
+  - fof
+  - twitter
+  - __socialmedia.bloggmix
+  - romi
+  - romii
+  - rom99
+  - storsuc

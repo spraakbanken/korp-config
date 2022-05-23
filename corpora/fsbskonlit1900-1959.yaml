@@ -1,0 +1,36 @@
+context:
+  - label:
+      eng: 1 sentence
+      swe: 1 mening
+    value: 1 sentence
+description: Material ur skönlitterära verk.
+id: fsbskonlit1900-1959
+mode:
+  - folder: skonlitteratur
+    name: fisk1800
+morphology: saldom|dalinm
+pos_attributes:
+  - lemma: lemma
+  - pos: pos
+  - msd: msd
+  - lex: lex
+  - dephead: dephead
+  - deprel: deprel
+  - ref: ref
+  - saldo: sense-old
+  - prefix: prefix-old
+  - suffix: suffix-old
+struct_attributes:
+  - text_author: author
+  - text_date: year
+  - text_title: title
+  - text_publisher:
+      label:
+        eng: publisher
+        swe: utgivare
+title: Skönlitteratur 1900–1959
+within:
+  - label:
+      eng: sentence
+      swe: mening
+    value: sentence

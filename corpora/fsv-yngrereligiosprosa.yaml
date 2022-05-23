@@ -1,0 +1,290 @@
+context:
+  - label:
+      eng: 1 paragraph
+      swe: 1 stycke
+    value: 1 paragraph
+  - label:
+      eng: 1 sentence
+      swe: 1 mening
+    value: 1 sentence
+description: <a target="_blank" href="http://project2.sol.lu.se/fornsvenska/">Fornsvenska
+  textbanken</a> är ett projekt som digitaliserar fornsvenska texter och gör dem tillgängliga
+  över webben. Projektet leds av Lars-Olof Delsing vid Lunds universitet.
+id: fsv-yngrereligiosprosa
+mode:
+  - folder: fsvb.yngre
+    name: all_hist
+  - folder: fsvb.yngre
+    name: old_swedish
+morphology: fsvm
+pos_attributes:
+  - posset:
+      dataset:
+        AB: AB
+        DT: DT
+        HA: HA
+        HD: HD
+        HP: HP
+        HS: HS
+        IE: IE
+        IN: IN
+        JJ: JJ
+        KN: KN
+        MID|MAD|PAD: DL
+        NN: NN
+        PC: PC
+        PL: PL
+        PM: PM
+        PN: PN
+        PP: PP
+        PS: PS
+        RG: RG
+        RO: RO
+        SN: SN
+        UO: UO
+        VB: VB
+      extended_component: datasetSelect
+      label:
+        eng: homograph set
+        swe: homografmängd
+      opts:
+        is: contains
+        is_not: not contains
+      translation:
+        AB:
+          en: adverb
+          sv: adverb
+        DL:
+          en: punctuation
+          sv: interpunktion
+        DT:
+          en: determiner
+          sv: determinerare
+        E:
+          en: e
+          sv: e
+        HA:
+          en: interrogative/relative adverb
+          sv: frågande/relativt adverb
+        HD:
+          en: interrogative/relative determiner
+          sv: frågande/relativ determinerare
+        HP:
+          en: interrogative/relative pronoun
+          sv: frågande/relativt pronomen
+        HS:
+          en: interrogative/relative possessive
+          sv: frågande/relativt possesivt pronomen
+        IE:
+          en: infinitive marker
+          sv: infinitivmärke
+        IN:
+          en: interjection
+          sv: interjektion
+        JJ:
+          en: adjective
+          sv: adjektiv
+        KN:
+          en: conjunction
+          sv: konjunktion
+        MAD:
+          en: punctuation
+          sv: interpunktion
+        MID:
+          en: punctuation
+          sv: interpunktion
+        MID|MAD|PAD:
+          en: punctuation
+          sv: interpunktion
+        NN:
+          en: noun
+          sv: substantiv
+        PAD:
+          en: punctuation
+          sv: interpunktion
+        PC:
+          en: participle
+          sv: particip
+        PL:
+          en: particle
+          sv: partikel
+        PM:
+          en: proper noun
+          sv: egennamn
+        PN:
+          en: pronoun
+          sv: pronomen
+        PP:
+          en: preposition
+          sv: preposition
+        PS:
+          en: possessive
+          sv: possessivt pronomen
+        RG:
+          en: cardinal number
+          sv: grundtal
+        RO:
+          en: ordinal number
+          sv: ordningstal
+        SN:
+          en: subjunction
+          sv: subjunktion
+        UO:
+          en: foreign word
+          sv: utländskt ord
+        VB:
+          en: verb
+          sv: verb
+      type: set
+  - variants:
+      extended_component:
+        name: autocExtended
+        options:
+          error_on_empty: true
+          type: lemgram
+      external_search: https://spraakbanken.gu.se/karp/#?mode=DEFAULT&search=extended||and|lemgram|equals|<%=
+        val.replace(/:\d+/, '') %>
+      internal_search: true
+      label:
+        eng: similar lemgram
+        swe: närliggande lemgram
+      opts:
+        is: contains
+        is_not: not contains
+      stringify: lemgram
+      type: set
+  - lemma:
+      extended_template: <input ng-model='model' >
+      label:
+        eng: baseform
+        swe: grundform
+      opts:
+        is: contains
+        is_not: not contains
+      type: set
+  - lex:
+      extended_component:
+        name: autocExtended
+        options:
+          error_on_empty: true
+          type: lemgram
+      external_search: https://spraakbanken.gu.se/karp/#?mode=DEFAULT&search=extended||and|lemgram|equals|<%=
+        val.replace(/:\d+/, '') %>
+      internal_search: true
+      label: lemgram
+      opts:
+        is: contains
+        is_not: not contains
+      stringify: lemgram
+      type: set
+struct_attributes:
+  - text_title:
+      dataset:
+        - Johannes döparens födelse ur Codex Bildstenianus Ups C 528
+        - Jesu lidandes bägare och hans blods utgjutelse
+        - Svenska Medeltidspostillor 1, enligt AM 787
+        - Esthers bok, ur Codex Holm A1
+        - Gregorius av Armenien B, ur Codex Holm A 49 Nådendals klosterbok
+        - Legenden om Sankt Sigfrid, ur Codex Bilstenianus
+        - Legenden om Sankta Jakelina, ur Linköpingslegendariet, Benz 39
+        - S.Johannis Theologi uppenbarelse
+        - Legenden om Sankta Elisabet av Brabant, ur Linköpingslegendariet, Benz 39
+        - Legenden om Sankta Elisabet av Ungern
+        - Legenden om Sankt Joakim, ur Codex Holm A 3
+        - Sankta Anna, enligt Codex Benz 9
+        - Sancta Clara, ur Codex Oxenstiernianus
+        - Sancti Marci Euangelium
+        - Legenden om Sankta Tekla, ur Linköpingslegendariet, Benz 39
+        - Om Erik den helige, efter Codex Vat Reg Lat 525
+        - Legenden om Stephanus påve, ur Linköpingslegendariet, Benz 39, översatt
+          av Herr Jöns Ewangelista
+        - Legenden om Sankt Germanus och Genoveva, ur Codex Holm A 49 Nådendals klosterbok
+        - Legender om Germanus \(2\), ur Codex Holm A 49 Nådendals klosterbok
+        - Utdrag ur Legenden om St Mektild, ur Lund Mh 20
+        - Legenden om Sankt Paulus omvändelse, ur Codex Bildstenianus
+        - Legenden om Maria ov Oegnies
+        - Svenska Medeltidspostillor 5, enligt Linc T 181
+        - Legenden om Sankta Felicula och Petronella, ur Linköpingslegendariet, Benz
+          39'
+        - Legenden om Katarina av Egypten, ur Codex Holm A 3
+        - Svenska Medeltidspostillor 2, enligt Lund Mh 51 och HUB
+        - Legenden om Sankt Alexius ur Linköpingslegendariet
+        - Birgittas uppenbarelser, Sju stycken, fordom i Codex Bergmannius, Lund Mh
+          20
+        - Birgittas uppenbarelser, återöversättningen, första redaktionen, Bok 7
+        - Sancti Joannisoppenbarilse
+        - Gregorius Stylista, eller Gregorius på stenen, ur Linköpingslegendariet,
+          Benz 39
+        - Själens kloster,översatt av Jöns Budde
+        - Sankt Ansgarii leverne av Rimbertus, ur Codex Holm A 49 Nådendals klosterbok
+        - Vår herres födelse, ur Codex Holm A 3
+        - Bonaventura, kapitel 6
+        - Exodus 16, ur Holm A3
+        - S Stephani saga, ur Linköpingslegendariet, Benz 39, översatt av Johannes
+          Mathei
+        - Ängelens diktamen, ur Codex Oxenstiernianus
+        - Järteckensboken, ur Codex Oxenstiernianus
+        - Gregorius av Armenien A, ur Codex Bergmannius, Lund Mh 20
+        - Legender om Briccius
+        - Legenden om Sankt Macarius Romanus
+        - Legenden om Sankta Amalberga
+        - Legenden om Sankta Phara, ur Linköpingslegendariet, Benz 39
+        - Legenden om Sankta Maria \(F\)
+        - Legenden om Sankta Maria \(E\), ur Codex Holm A 3
+        - Den heliga Elisabet av Ungerns uppenbarelser A
+        - Patrikssagan, efter Codex Bildstenianus \(Ups C 528\)
+        - Bonaventuras betraktelser, Kapitel 7 ur Holm A 3
+        - Sagan om den helige Blasius, ur Codex Oxenstiernianus
+        - Heliga Birgittas uppenbarelser ur Codex Oxenstiernianus
+        - Birgittas uppenbarelser, åttonde boken, ur Cod Holm A 44
+        - Nicodemi evangelium enligt Codex Oxenstiernianus
+        - Apostla gernigar, ur Codex Oxenstiernianus
+        - Judits bok, ur Codex Holm A 1
+        - Lucidarius, redaktion B, ur Holm A 58, Jöns Buddes bok
+        - Sanct Bartholomei moder, eller Kvinnan utan händer, ur Linköpingslegendariet,
+          översatt av Karl Benedictsson
+        - Codex Bildstenianus; strödda legender Hand I
+        - Regula Salvatoris och Revelationes Extravagantes, ur Berlin KB 3762
+        - Legenden om Sankt Albinus
+        - Birgittas uppenbarelser, Birgittinernorska efter Skokloster 5 kvart
+        - Legenden om Erik den helige, ur Codex Bildstenianus Ups C 528
+        - Legenden om Sankta Joleida, ur Linköpingslegendariet, Benz 39
+        - Birgittas uppenbarelser, återöversättingen, andra redaktionen, Bok 4-8
+        - Den heliga Birgittas liv, Vita abbreviata ur Holm A 33
+        - Legenden om Sankta Macra, ur Nådendals klosterbok
+        - Legenden om Johannes Chrysostomus, ur Linköpingslegendariet, Benz 39
+        - Ruths bok, enligt Holm A 1
+        - Legenden om Germanus \(1b\), ur Codex Bildstenianus Ups C 528
+        - Elisabet av Ungerns uppenbarelser B
+        - Legender om Genoveva, ur Codex Holm A 49 Nådendals klosterbok
+        - Legenden om Olav den helige, ur Codex Bildstenianus
+        - Stimulus Amoris, efter Cod Holm A 9
+        - Sjusovaresagan, ur Linköpingslegendariet, Benz 39
+        - Katarina av Sverige, ur Codex Holm A 58, Jöns Buddes bok
+        - Legenden om Sankta Rakel, ur Linköpingslegendariet, Benz 39
+        - Birgittas uppenbarelser Bok 1-3, ur Codex Holm A 33
+        - Legeneden om Magnus Jarl av Okenöarna
+        - Bonaventuras betraktelser, Codex Bergmannius, Lund Mh 20
+        - Vitæpatrum - Helga manna lefverne, ur Codex Oxenstiernianus
+        - Legenden om Sankta Otilia, ur Linköpingslegendariet, Benz 39
+        - Heliga Barbara, ur Codex Oxenstiernianus
+        - Legenden om Paulus och Johannes, ur Codex Bildstenianus, hand IV
+        - Själens tröst, ur Codex Holm A 108
+        - Sankt Emerentia och Sankt Anna; översatt från tyska av Lars Elfsson ur Linköpingslegendariet,
+          Benz 39
+        - Karl Magnus, enl Cod Holm D 4
+        - Legenden om Blasius \(1b\) ur Ups C 528
+        - Legenden om tre konungar, ur Ups C 528
+        - Legenden om Sankt Servacius
+        - Bonaventuras betraktelser, kapitel 63 ur Holm A 3
+      extended_component: datasetSelect
+      label:
+        eng: title
+        swe: titel
+  - text_date: date
+title: Yngre religiös prosa – Fornsvenska textbankens material
+within:
+  - label:
+      eng: sentence
+      swe: mening
+    value: sentence

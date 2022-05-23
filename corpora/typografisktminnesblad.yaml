@@ -1,0 +1,30 @@
+context:
+  - label:
+      eng: 1 sentence
+      swe: 1 mening
+    value: 1 sentence
+description: Utkom 1642–1892.
+id: typografisktminnesblad
+mode:
+  - folder: tidskrifter.tidskrifter1899
+    name: fisk1800
+morphology: saldom|dalinm|swedbergm
+pos_attributes:
+  - lemma: lemma
+  - pos: pos
+  - msd: msd
+  - lex: lex
+  - dephead: dephead
+  - deprel: deprel
+  - ref: ref
+  - saldo: sense-old
+  - prefix: prefix-old
+  - suffix: suffix-old
+struct_attributes:
+  - text_date: year
+title: Typografiskt minnesblad 1891
+within:
+  - label:
+      eng: sentence
+      swe: mening
+    value: sentence

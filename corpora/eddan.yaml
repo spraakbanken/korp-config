@@ -1,0 +1,21 @@
+context:
+  - label:
+      eng: 1 sentence
+      swe: 1 mening
+    value: 1 sentence
+description: ''
+id: eddan
+mode:
+  - name: all_hist
+  - name: eddan
+struct_attributes:
+  - text_part:
+      label:
+        eng: part
+        swe: del
+title: Sæmundaredda
+within:
+  - label:
+      eng: sentence
+      swe: mening
+    value: sentence

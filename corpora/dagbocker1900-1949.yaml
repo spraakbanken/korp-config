@@ -1,0 +1,43 @@
+context:
+  - label:
+      eng: 1 sentence
+      swe: 1 mening
+    value: 1 sentence
+description: ''
+id: dagbocker1900-1949
+mode:
+  - folder: fragebrevsvar
+    name: fisk1800
+morphology: saldom|dalinm|swedbergm
+pos_attributes:
+  - lemma: lemma
+  - pos: pos
+  - msd: msd
+  - lex: lex
+  - dephead: dephead
+  - deprel: deprel
+  - ref: ref
+  - saldo: sense-old
+  - prefix: prefix-old
+  - suffix: suffix-old
+struct_attributes:
+  - text_date: date
+  - text_title: title
+  - text_source:
+      label:
+        eng: source
+        swe: källa
+  - text_location:
+      label:
+        eng: location
+        swe: plats
+  - text_archivecode:
+      label:
+        eng: archive code
+        swe: arkivkod
+title: Frågebrevsvar 1900–1949
+within:
+  - label:
+      eng: sentence
+      swe: mening
+    value: sentence

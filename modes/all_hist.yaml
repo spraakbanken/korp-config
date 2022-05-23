@@ -1,0 +1,83 @@
+label:
+  swe: Historiskt
+  eng: Old texts
+order: 70
+folders:
+  akerbruk1700:
+    description: Texter om jordbruk från 1700-talet.
+    title: Åkerbruk och gödsel
+  bibel:
+    description: Bibeln, 1873 och 1917 års utgåvor och Gustav Vasas Bibel (nya testamentet)
+    title: Äldre biblar
+  fsvb:
+    title: Fornsvenska textbanken
+    subfolders:
+      aldre:
+        title: Äldre fornsvenska
+        description: <a target="_blank" href="http://project2.sol.lu.se/fornsvenska/">Fornsvenska
+          textbanken</a> är ett projekt som digitaliserar fornsvenska texter och gör dem
+          tillgängliga över webben. Projektet leds av Lars-Olof Delsing vid Lunds universitet.
+      nysvenska:
+        title: Nysvenska
+      yngre:
+        title: Yngre fornsvenska
+  kubhist:
+    title: Kubhist
+    subfolders:
+      blekingsposten:
+        title: Blekingsposten
+      bollnastidning:
+        title: Bollnäs tidning
+      dalpilen:
+        title: Dalpilen
+      fahluweckoblad:
+        title: Fahlu weckoblad
+      faluposten:
+        title: Faluposten
+      folketsrost:
+        title: Folkets röst
+      goteborgsweckoblad:
+        title: Göteborgs weckoblad
+      gotheborgsweckolista:
+        title: Götheborgs weckolista
+      gotlandstidning:
+        title: Gotlands tidning
+      jonkopingsbladet:
+        title: Jönköpingsbladet
+      kalmar:
+        title: Kalmar
+      lindesbergsallehanda:
+        title: Lindesbergs allehanda
+      norraskane:
+        title: Norra Skåne
+      ostergotlandsveckoblad:
+        title: Östergötlands veckoblad
+      ostgotaposten:
+        title: Östgötaposten
+      postochinrikestidning:
+        title: Post- och Inrikes Tidningar
+      stockholmsposten:
+        title: Stockholmsposten
+      tidningforwenersborg:
+        title: Tidning för Wenersborgs stad och län
+      wermlandslanstidning:
+        title: Wermlands läns tidning
+      wernamotidning:
+        title: Wernamo tidning
+  lag:
+    description: Lagtexter från 1600- ,1700- och 1800-talet.
+    title: Äldre lagtexter
+  medeltid:
+    description: Svenskt Diplomatarium - från <a href="http://www.riksarkivet.se/sdhk"
+      target="_blank">Riksarkivet</a>
+    title: Medeltidsbrev, Svenskt Diplomatarium
+  runeberg:
+    description: Tidskrifter från Projekt Runeberg
+    title: Runeberg
+  ubkvt:
+    description: Svenska kvinnotidningar
+    title: Kvinnotidningar
+color_primary: '#F7D1E4'
+color_light: '#FFEBF5'
+struct_attribute_selector: intersection
+pos_attribute_selector: intersection

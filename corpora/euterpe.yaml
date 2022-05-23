@@ -1,0 +1,34 @@
+context:
+  - label:
+      eng: 1 sentence
+      swe: 1 mening
+    value: 1 sentence
+description: Euterpe var en litterär, konstnärlig och samhällskritisk kulturtidskrift
+  som utkom 1900–1905. Föregångare till Argus.
+id: euterpe
+mode:
+  - folder: tidskrifter.tidskrifter1959
+    name: fisk1800
+pos_attributes:
+  - lemma: lemma
+  - pos: pos
+  - msd: msd
+  - lex: lex
+  - dephead: dephead
+  - deprel: deprel
+  - ref: ref
+  - saldo: sense-old
+  - prefix: prefix-old
+  - suffix: suffix-old
+struct_attributes:
+  - text_date: year
+  - text_issue:
+      label:
+        eng: issue
+        swe: utgåva
+title: Euterpe 1900–1905
+within:
+  - label:
+      eng: sentence
+      swe: mening
+    value: sentence

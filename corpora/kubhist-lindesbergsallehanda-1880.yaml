@@ -1,0 +1,230 @@
+context:
+  - label:
+      eng: 1 paragraph
+      swe: 1 stycke
+    value: 1 paragraph
+  - label:
+      eng: 1 sentence
+      swe: 1 mening
+    value: 1 sentence
+custom_attributes:
+  - metadatalink:
+      custom_type: struct
+      label:
+        eng: more meta data
+        swe: mer metadata
+      pattern: <ul><li><a href='http://www.kb.se/Sverigesperiodiskalitteratur/'>Sveriges
+        Periodiska Litteratur</a></li><li><a href='http://tidning.kb.se/nld/nld/nlnav'>Nya
+        Lundstedts Dagstidningar</a></li></ul>
+description: <a href="http://feedback.blogg.kb.se/forums/topic/digidailyprojekten-2010-2014/"
+  target="blank">Digidaily</a> var ett utvecklingsprojekt där Riksarkivet tillsammans
+  med Kungl. biblioteket och Mittuniversitetet utvecklade rationella metoder och processer
+  för massdigitalisering och texttolkning av dagstidningar. Projektet löpte mellan
+  2010 och 2014.
+id: kubhist-lindesbergsallehanda-1880
+mode:
+  - folder: kubhist.lindesbergsallehanda
+    name: kubhist
+  - folder: kubhist.lindesbergsallehanda
+    name: all_hist
+morphology: saldom|dalinm|swedbergm
+pos_attributes:
+  - dalinlex:
+      extended_component:
+        name: autocExtended
+        options:
+          error_on_empty: true
+          type: lemgram
+          variant: dalin
+      external_search: https://spraakbanken.gu.se/karp/#?mode=DEFAULT&search=extended||and|lemgram|equals|<%=
+        val.replace(/:\d+/, '') %>
+      internal_search: true
+      label: dalin-lemgram
+      opts:
+        is: contains
+        is_not: not contains
+      stringify: lemgram
+      type: set
+  - lemma: lemma
+  - pos: pos
+  - lex: lex
+  - dephead: dephead
+  - deprel: deprel
+  - ref: ref
+  - saldo: sense-old
+  - prefix: prefix-old
+  - suffix: suffix-old
+struct_attributes:
+  - text_title:
+      label:
+        eng: title
+        swe: titel
+      opts:
+        is: '='
+        is_not: '!='
+  - text_date: date
+  - page_no: page
+  - text_issn:
+      label: ISSN
+  - text_kbid:
+      label:
+        eng: source
+        swe: källa
+      pattern: <div><div>Kungliga Biblioteket</div><div><a href='http://magasin.kb.se/searchinterface/page.jsp?issue_id=<%=
+        struct_attrs.text_kbid %>&sequence_number=<%= struct_attrs.page_no %>' target='_blank'><img
+        src='http://magasin.kb.se:8080/fedora/get/kb:<%= parseInt((struct_attrs.text_kbid).split(':')[1])
+        + parseInt(struct_attrs.page_no) %>/WEBIMAGE' width='100%'></img></a></div></div>
+  - text_annualprice:
+      label:
+        eng: annual price
+        swe: årspris
+  - text_commentaries:
+      label:
+        eng: commentaries
+        swe: kommentarer
+  - text_completetitle:
+      label:
+        eng: complete title
+        swe: fullständig titel
+  - text_edition:
+      label:
+        eng: edition
+        swe: utgåva
+  - text_editor:
+      label:
+        eng: editor
+        swe: redaktör
+  - text_editorialplace:
+      label:
+        eng: editorial place
+        swe: ort
+  - text_holderofpublicationlicense:
+      label:
+        eng: holder of publication license
+        swe: licenshavare
+  - text_numberofpages:
+      label:
+        eng: number of pages
+        swe: antal sidor
+  - text_periodofpublication:
+      label:
+        eng: period of publication
+        swe: publikationsperiod
+  - text_politicaltendency:
+      extended_component: structServiceSelect
+      label:
+        eng: political tendency
+        swe: politisk tendens
+  - text_printedby:
+      label:
+        eng: printed by
+        swe: tryckt av
+  - text_printedin:
+      label:
+        eng: printed in
+        swe: tryckt i
+  - text_publicationtype:
+      label:
+        eng: publication type
+        swe: publikationstyp
+  - text_publisher:
+      label:
+        eng: publisher
+        swe: utgivare
+  - text_publishingdays:
+      label:
+        eng: publishing days
+        swe: publikationssdagar
+  - text_publishingfrequency:
+      label:
+        eng: publishing frequency
+        swe: publikationsfrekvens
+  - text_typearea:
+      label:
+        eng: type area
+        swe: storlek
+  - text_date: date
+  - text_title:
+      label:
+        eng: title
+        swe: titel
+      opts:
+        is: '='
+        is_not: '!='
+  - page_no: page
+  - text_issn:
+      label: ISSN
+  - text_annualprice:
+      label:
+        eng: annual price
+        swe: årspris
+  - text_commentaries:
+      label:
+        eng: commentaries
+        swe: kommentarer
+  - text_completetitle:
+      label:
+        eng: complete title
+        swe: fullständig titel
+  - text_edition:
+      label:
+        eng: edition
+        swe: utgåva
+  - text_editor:
+      label:
+        eng: editor
+        swe: redaktör
+  - text_editorialplace:
+      label:
+        eng: editorial place
+        swe: ort
+  - text_holderofpublicationlicense:
+      label:
+        eng: holder of publication license
+        swe: licenshavare
+  - text_numberofpages:
+      label:
+        eng: number of pages
+        swe: antal sidor
+  - text_periodofpublication:
+      label:
+        eng: period of publication
+        swe: publikationsperiod
+  - text_politicaltendency:
+      label:
+        eng: political tendency
+        swe: politisk tendens
+  - text_printedby:
+      label:
+        eng: printed by
+        swe: tryckt av
+  - text_printedin:
+      label:
+        eng: printed in
+        swe: tryckt i
+  - text_publicationtype:
+      label:
+        eng: publication type
+        swe: publikationstyp
+  - text_publishingdays:
+      label:
+        eng: publishing days
+        swe: publikationssdagar
+  - text_publishingfrequency:
+      label:
+        eng: publishing frequency
+        swe: publikationsfrekvens
+  - text_typearea:
+      label:
+        eng: type area
+        swe: storlek
+  - text_publisher:
+      label:
+        eng: publisher
+        swe: utgivare
+title: Lindesbergs allehanda 1880-talet
+within:
+  - label:
+      eng: sentence
+      swe: mening
+    value: sentence

@@ -1,0 +1,34 @@
+context:
+  - label:
+      eng: 1 sentence
+      swe: 1 mening
+    value: 1 sentence
+id: bibel1873dalin
+mode:
+  - folder: bibel
+    name: all_hist
+  - name: bible
+morphology: saldom|dalinm|swedbergm
+pos_attributes:
+  - lemma: lemma
+  - pos: pos
+  - msd: msd
+  - lex: lex
+  - dephead: dephead
+  - deprel: deprel
+  - ref: ref
+  - prefix: prefix-old
+  - suffix: suffix-old
+struct_attributes:
+  - text_date: year
+  - text_title: title
+  - chapter_name:
+      label: chapter
+  - verse_name:
+      label: verse
+title: Bibeln 1873
+within:
+  - label:
+      eng: sentence
+      swe: mening
+    value: sentence

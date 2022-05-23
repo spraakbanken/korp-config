@@ -1,0 +1,67 @@
+id: kubord-afb-2017
+title:
+    eng: Word frequencies Aftonbladet 2017
+    swe: Ordfrekvenser Aftonbladet 2017
+description:
+    eng: Part of the collection Kubord
+    swe: Del av samlingen Kubord
+lang: swe
+mode:
+    -   name: kubord
+        folder: afb
+within:
+    -   label:
+            eng: word
+            swe: word
+        value: word
+context:
+    -   label:
+            eng: 0 word
+            swe: 0 ord
+        value: 0 word
+struct_attributes:
+    -   text_date:
+            label:
+                eng: date
+                swe: datum
+    -   text_name:
+            extended_component: structServiceSelect
+            label:
+                eng: name
+                swe: namn
+    -   text_year:
+            extended_component: structServiceSelect
+            hide_sidebar: true
+            label:
+                eng: year
+                swe: år
+            opts:
+                is: '='
+                is_not: '!='
+    -   page_nr:
+            label:
+                eng: page
+                swe: sida
+            opts:
+                is: '='
+                is_not: '!='
+pos_attributes:
+    -   pos: pos
+    -   msd: msd
+    -   lemma: lemma
+    -   sense: sense
+    -   lex: lex
+    -   complemgram: complemgram
+    -   wordbreak:
+            label:
+                eng: hyphenation
+                swe: avstavning
+    -   original:
+            label: original
+    -   freq:
+            label:
+                eng: freqency
+                swe: frekvens
+            opts:
+                is: '='
+                is_not: '!='

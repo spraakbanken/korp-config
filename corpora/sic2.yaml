@@ -1,0 +1,68 @@
+context:
+  - label:
+      eng: 1 post
+      swe: 1 inlägg
+    value: 1 post
+  - label:
+      eng: 1 sentence
+      swe: 1 mening
+    value: 1 sentence
+description: The <a href="https://www.ling.su.se/english/nlp/corpora-and-resources/sic/stockholm-internet-corpus-sic-1.99019"
+  target="blank">Stockholm Internet Corpus (SIC2)</a> contains Swedish blog posts,
+  annotated with part of speech, morphological features, and named entities.
+id: sic2
+mode:
+  - folder: socialmedia
+    name: default
+pos_attributes:
+  - name_type:
+      is_struct_attr: true
+      label:
+        eng: SIC2 name type
+        swe: SIC2-namntyp
+  - lemma: lemma
+  - pos: pos
+  - msd: msd
+  - lex: lex
+  - dephead: dephead
+  - deprel: deprel
+  - ref: ref
+  - sense: sense
+  - complemgram: complemgram
+  - ne_ex: ne_ex
+  - ne_name: ne_name
+  - ne_type: ne_type
+  - ne_subtype: ne_subtype
+  - compwf: compwf
+  - prefix: prefix
+  - suffix: suffix
+  - blingbring: blingbring
+  - swefn: swefn
+  - sentiment: sentiment
+struct_attributes:
+  - text_blingbring: text_blingbring
+  - text_swefn: text_swefn
+  - text_lix: text_lix
+  - text_ovix: text_ovix
+  - text_nk: text_nk
+  - blog_id:
+      extended_component: structServiceSelect
+      label:
+        eng: blog ID
+        swe: blogg-ID
+  - blog_sex:
+      extended_component: structServiceSelect
+      label:
+        eng: author gender
+        swe: författarkön
+  - post_id:
+      extended_component: structServiceSelect
+      label:
+        eng: post ID
+        swe: inläggs-ID
+title: SIC2 - Stockholm Internet Corpus
+within:
+  - label:
+      eng: sentence
+      swe: mening
+    value: sentence

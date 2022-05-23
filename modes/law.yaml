@@ -1,0 +1,13 @@
+label:
+  swe: Lagrummet
+  eng: Habeas Corpus
+folders:
+  fsvlagar:
+    title: Fornsvenska textbankens lagtexter
+  lag1700:
+    title: 1734 års lag och förarbeten
+  modern:
+    title: Moderna lagar och rättsfall
+color_primary: '#E0F4F4'
+color_light: '#F2FFFF'
+wordpicture: false

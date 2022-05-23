@@ -1,0 +1,59 @@
+context:
+  - label:
+      eng: 1 sentence
+      swe: 1 mening
+    value: 1 sentence
+description: Samtliga etexter och sökbara faksimiler från <a href="http://litteraturbanken.se/">Litteraturbanken.se</a>.
+id: lb
+mode:
+  - name: all_hist
+  - name: lb
+pos_attributes:
+  - lemma: lemma
+  - pos: pos
+  - msd: msd
+  - lex: lex
+  - dephead: dephead
+  - deprel: deprel
+  - ref: ref
+  - sense: sense
+  - complemgram: complemgram
+  - ne_ex: ne_ex
+  - ne_name: ne_name
+  - ne_type: ne_type
+  - ne_subtype: ne_subtype
+  - compwf: compwf
+  - prefix: prefix
+  - suffix: suffix
+struct_attributes:
+  - page_url:
+      label:
+        eng: page link
+        swe: sidlänk
+      type: url
+  - text_author: author
+  - text_title:
+      extended_component: structServiceAutocomplete
+      label:
+        eng: title
+        swe: titel
+  - text_url:
+      label:
+        eng: book location
+        swe: länk till boken
+      type: url
+  - text_date:
+      label:
+        eng: imprint year
+        swe: tryckår
+  - page_n: page
+  - text_source:
+      label:
+        eng: source
+        swe: källa
+title: Litteraturbanken
+within:
+  - label:
+      eng: sentence
+      swe: mening
+    value: sentence

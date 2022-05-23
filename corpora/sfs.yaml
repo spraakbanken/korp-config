@@ -1,0 +1,46 @@
+context:
+  - label:
+      eng: 1 paragraph
+      swe: 1 stycke
+    value: 1 paragraph
+  - label:
+      eng: 1 sentence
+      swe: 1 mening
+    value: 1 sentence
+description: Svensk författningssamling 1880-01-01 – 2012-08-16
+id: sfs
+mode:
+  - folder: governmental
+    name: default
+  - folder: modern
+    name: law
+pos_attributes:
+  - lemma: lemma
+  - pos: pos
+  - msd: msd
+  - lex: lex
+  - dephead: dephead
+  - deprel: deprel
+  - ref: ref
+  - sense: sense
+  - complemgram: complemgram
+  - ne_ex: ne_ex
+  - ne_name: ne_name
+  - ne_type: ne_type
+  - ne_subtype: ne_subtype
+  - compwf: compwf
+  - prefix: prefix
+  - suffix: suffix
+struct_attributes:
+  - text_date: date
+  - text_title: title
+title: Svensk författningssamling
+within:
+  - label:
+      eng: paragraph
+      swe: stycke
+    value: paragraph
+  - label:
+      eng: sentence
+      swe: mening
+    value: sentence

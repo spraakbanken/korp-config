@@ -1,0 +1,31 @@
+context:
+  - label:
+      eng: 1 sentence
+      swe: 1 mening
+    value: 1 sentence
+description: Spanska Flugan var en polemisk tidskrift, vars redaktör var J.V. Snellman.
+id: spanskaflugan
+mode:
+  - folder: tidskrifter.tidskrifter1849
+    name: fisk1800
+morphology: saldom|dalinm|swedbergm
+pos_attributes:
+  - lemma: lemma
+  - pos: pos
+  - msd: msd
+  - lex: lex
+  - dephead: dephead
+  - deprel: deprel
+  - ref: ref
+  - saldo: sense-old
+  - prefix: prefix-old
+  - suffix: suffix-old
+struct_attributes:
+  - text_date: year
+  - text_title: title
+title: Spanska Flugan 1839–1841
+within:
+  - label:
+      eng: sentence
+      swe: mening
+    value: sentence

@@ -1,0 +1,46 @@
+context:
+  - label:
+      eng: 1 sentence
+      swe: 1 mening
+    value: 1 sentence
+description: För åtkomst kontakta <a href="mailto:lena.rogstroem@svenska.gu.se">Lena
+  Rogström</a>.
+id: ansokningar
+limited_access: true
+mode:
+  - folder: protected
+    name: default
+pos_attributes:
+  - lemma: lemma
+  - pos: pos
+  - msd: msd
+  - lex: lex
+  - dephead: dephead
+  - deprel: deprel
+  - ref: ref
+  - sense: sense
+  - complemgram: complemgram
+  - ne_ex: ne_ex
+  - ne_name: ne_name
+  - ne_type: ne_type
+  - ne_subtype: ne_subtype
+  - compwf: compwf
+  - prefix: prefix
+  - suffix: suffix
+struct_attributes:
+  - text_birthyear:
+      label:
+        eng: birth year
+        swe: födelseår
+  - text_gender:
+      label:
+        eng: gender
+        swe: kön
+  - text_id:
+      label: id
+title: Ansökningar
+within:
+  - label:
+      eng: sentence
+      swe: mening
+    value: sentence

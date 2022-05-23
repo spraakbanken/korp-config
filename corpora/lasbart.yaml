@@ -1,0 +1,48 @@
+context:
+  - label:
+      eng: 1 sentence
+      swe: 1 mening
+    value: 1 sentence
+description: ''
+id: lasbart
+mode:
+  - name: default
+pos_attributes:
+  - lemma: lemma
+  - pos: pos
+  - msd: msd
+  - lex: lex
+  - dephead: dephead
+  - deprel: deprel
+  - ref: ref
+  - sense: sense
+  - complemgram: complemgram
+  - ne_ex: ne_ex
+  - ne_name: ne_name
+  - ne_type: ne_type
+  - ne_subtype: ne_subtype
+  - compwf: compwf
+  - prefix: prefix
+  - suffix: suffix
+struct_attributes:
+  - text_age:
+      label:
+        eng: age
+        swe: ålder
+  - text_date: date
+  - text_author: author
+  - text_title: title
+  - text_source:
+      label:
+        eng: source
+        swe: källa
+  - text_type:
+      label:
+        eng: type
+        swe: typ
+title: LäSBarT – Lättläst svenska och barnbokstext
+within:
+  - label:
+      eng: sentence
+      swe: mening
+    value: sentence

@@ -1,0 +1,37 @@
+context:
+  - label:
+      eng: 1 sentence
+      swe: 1 mening
+    value: 1 sentence
+description: spanska presstexter från tidskrifterna 'El País' och 'Triunfo'
+id: pe77
+lang: spa
+mode:
+  - name: spanish
+pos_attributes:
+  - lemma: lemma
+  - pos:
+      label:
+        eng: part-of-speech
+        swe: ordklass
+  - msd:
+      label: msd
+  - baseform:
+      label:
+        eng: baseform
+        swe: grundform
+struct_attributes:
+  - text_lang:
+      dataset:
+        spa: spanish
+      extended_component: datasetSelect
+      label:
+        eng: language
+        swe: språk
+  - text_title: title
+title: Banco de Datos de Prensa Española 1977 (SOL)
+within:
+  - label:
+      eng: sentence
+      swe: mening
+    value: sentence

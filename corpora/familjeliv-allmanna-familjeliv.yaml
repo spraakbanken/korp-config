@@ -1,0 +1,79 @@
+context:
+  - label:
+      eng: 1 paragraph
+      swe: 1 stycke
+    value: 1 paragraph
+  - label:
+      eng: 1 sentence
+      swe: 1 mening
+    value: 1 sentence
+description: ''
+id: familjeliv-allmanna-familjeliv
+mode:
+  - folder: socialmedia.forum.familjeliv
+    name: default
+pos_attributes:
+  - lemma: lemma
+  - pos: pos
+  - msd: msd
+  - lex: lex
+  - dephead: dephead
+  - deprel: deprel
+  - ref: ref
+  - sense: sense
+  - complemgram: complemgram
+  - ne_ex: ne_ex
+  - ne_name: ne_name
+  - ne_type: ne_type
+  - ne_subtype: ne_subtype
+  - compwf: compwf
+  - prefix: prefix
+  - suffix: suffix
+struct_attributes:
+  - text_date: date
+  - forum_title:
+      label: forum
+  - forum_url:
+      label: forum
+      type: url
+  - text_links:
+      label:
+        eng: links in post
+        swe: länkar i inlägg
+      type: set
+  - text_url:
+      label:
+        eng: post
+        swe: inlägg
+      type: url
+  - text_username:
+      label:
+        eng: username
+        swe: användarnamn
+  - thread_lastpost:
+      label:
+        eng: most recent post in thread
+        swe: senaste inlägg i tråd
+  - thread_postcount:
+      label:
+        eng: number of posts in thread
+        swe: antal inlägg i tråd
+  - thread_title:
+      label:
+        eng: thread
+        swe: tråd
+  - thread_url:
+      label:
+        eng: thread
+        swe: tråd
+      type: url
+title: 'Familjeliv: Allmänna rubriker – Familjeliv.se'
+within:
+  - label:
+      eng: paragraph
+      swe: stycke
+    value: paragraph
+  - label:
+      eng: sentence
+      swe: mening
+    value: sentence

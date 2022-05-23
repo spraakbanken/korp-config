@@ -1,0 +1,77 @@
+context:
+  - label:
+      eng: 1 sentence
+      swe: 1 mening
+    value: 1 sentence
+  - label:
+      eng: 3 sentence
+      swe: 3 mening
+    value: 3 sentence
+description: För åtkomst kontakta <a href="mailto:data@flov.gu.se">data@flov.gu.se</a>.
+id: gdc
+limited_access: true
+mode:
+  - folder: protected
+    name: default
+pos_attributes:
+  - wordclean:
+      label:
+        eng: normalized word form
+        swe: normaliserad ordform
+  - lemma: lemma
+  - pos: pos
+  - msd: msd
+  - lex: lex
+  - dephead: dephead
+  - deprel: deprel
+  - ref: ref
+  - sense: sense
+  - complemgram: complemgram
+  - ne_ex: ne_ex
+  - ne_name: ne_name
+  - ne_type: ne_type
+  - ne_subtype: ne_subtype
+  - compwf: compwf
+  - prefix: prefix
+  - suffix: suffix
+struct_attributes:
+  - line_speaker:
+      label:
+        eng: speaker
+        swe: talare
+  - line_speakergender:
+      label:
+        eng: gender
+        swe: kön
+  - text_activity1:
+      label:
+        eng: activity 1
+        swe: aktivitet 1
+  - text_activity2:
+      label:
+        eng: activity 2
+        swe: aktivitet 2
+  - text_activity3:
+      label:
+        eng: activity 3
+        swe: aktivitet 3
+  - text_duration:
+      label:
+        eng: duration
+        swe: längd
+  - text_project:
+      label:
+        eng: project
+        swe: projekt
+  - text_date: date
+  - text_title: title
+  - section_name:
+      label:
+        eng: section
+        swe: avdelning
+title: Gothenburg Dialogue Corpus (GDC)
+within:
+  - label:
+      eng: sentence
+      swe: mening
+    value: sentence

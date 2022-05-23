@@ -1,0 +1,22 @@
+context:
+  - label:
+      eng: 1 sentence
+      swe: 1 mening
+    value: 1 sentence
+description: ''
+id: wikipedia-so
+mode:
+  - name: somali
+struct_attributes:
+  - text_title: title
+  - text_source:
+      label:
+        eng: source
+        swe: källa
+      type: url
+title: Somali Wikipedia
+within:
+  - label:
+      eng: sentence
+      swe: mening
+    value: sentence

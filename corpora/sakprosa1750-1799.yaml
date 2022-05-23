@@ -1,0 +1,43 @@
+context:
+  - label:
+      eng: 1 sentence
+      swe: 1 mening
+    value: 1 sentence
+description: ''
+id: sakprosa1750-1799
+mode:
+  - folder: sakprosa
+    name: fisk1800
+morphology: saldom|dalinm|swedbergm
+pos_attributes:
+  - lemma: lemma
+  - pos: pos
+  - msd: msd
+  - lex: lex
+  - dephead: dephead
+  - deprel: deprel
+  - ref: ref
+  - saldo: sense-old
+  - prefix: prefix-old
+  - suffix: suffix-old
+struct_attributes:
+  - text_author: author
+  - text_date: year
+  - text_title: title
+  - text_publisher:
+      label:
+        eng: publisher
+        swe: utgivare
+  - text_url:
+      label: url
+      type: url
+  - text_pages:
+      label:
+        eng: page
+        swe: sida
+title: Sakprosa 1750–1799
+within:
+  - label:
+      eng: sentence
+      swe: mening
+    value: sentence

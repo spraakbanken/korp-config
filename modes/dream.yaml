@@ -1,0 +1,8 @@
+label:
+  swe: DReaM
+  eng: DReaM
+autocomplete: false
+folders:
+  protected:
+    title: Restricted
+wordpicture: false

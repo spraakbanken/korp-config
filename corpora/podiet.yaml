@@ -1,0 +1,126 @@
+id: podiet
+title:
+    eng: Podiet
+    swe: Podiet
+description:
+    eng: Articles from the consert magazine Podiet
+    swe: Artiklar från Konsertmagasinet Podiet
+lang: swe
+mode:
+    -   name: default
+        folder: magazines
+reading_mode:
+    component: standardReadingMode
+within:
+    -   value: sentence
+        label:
+            swe: mening
+            eng: sentence
+    -   value: paragraph
+        label:
+            swe: stycke
+            eng: paragraph
+context:
+    -   value: 1 sentence
+        label:
+            swe: 1 mening
+            eng: 1 sentence
+    -   value: 1 paragraph
+        label:
+            swe: 1 stycke
+            eng: 1 paragraph
+struct_attributes:
+    -   text_blingbring: text_blingbring
+    -   text_swefn: text_swefn
+    -   text_lix: text_lix
+    -   text_ovix: text_ovix
+    -   text_nk: text_nk
+    -   issue_data_collected:
+            label:
+                swe: insamlingsdatum
+                eng: date of data collection
+    -   issue_id:
+            label:
+                swe: utgåvans ID
+                eng: issue ID
+            extended_component: structServiceSelect
+            opts:
+                is: '='
+                is_not: '!='
+    -   issue_title:
+            label:
+                swe: utgåvans titel
+                eng: issue title
+            extended_component: structServiceSelect
+            opts:
+                is: '='
+                is_not: '!='
+    -   issue_url:
+            label:
+                swe: utgåvans URL
+                eng: issue URL
+            type: url
+    -   paragraph_type:
+            label:
+                swe: styckestyp
+                eng: paragraph type
+            extended_component: datasetSelect
+            opts:
+                is: '='
+                is_not: '!='
+            dataset:
+                - title
+            translation:
+                title:
+                    swe: titel
+                    eng: title
+    -   text_date: date
+    -   text_id:
+            label:
+                swe: artikelns ID
+                eng: article ID
+            extended_component: structServiceSelect
+            opts:
+                is: '='
+                is_not: '!='
+    -   text_title:
+            label:
+                swe: artikelns titel
+                eng: article title
+            extended_component: structServiceSelect
+            opts:
+                is: '='
+                is_not: '!='
+    -   text_url:
+            label:
+                swe: artikelns URL
+                eng: article URL
+            type: url
+    - sentence_id:
+            display_type: hidden
+pos_attributes:
+    -   sense: sense
+    -   compwf: compwf
+    -   complemgram: complemgram
+    -   ufeats: ufeats
+    -   deprel: deprel
+    -   dephead: dephead
+    -   ref: ref
+    -   sentiment_label: sentiment_label
+    -   blingbring: blingbring
+    -   swefn: swefn
+    -   ne_ex: ne_ex
+    -   ne_name: ne_name
+    -   ne_type: ne_type
+    -   ne_subtype: ne_subtype
+    -   lemma: lemma
+    -   lex: lex
+    -   msd: msd
+    -   pos: pos
+    - _head:
+            display_type: hidden
+    - _tail:
+            display_type: hidden
+attribute_filters:
+    - issue_title
+    - text_title

@@ -1,0 +1,77 @@
+context:
+  - label:
+      eng: 1 paragraph
+      swe: 1 stycke
+    value: 1 paragraph
+  - label:
+      eng: 1 sentence
+      swe: 1 mening
+    value: 1 sentence
+description: 18 artiklar från kungliga vetenskapsakademiens handlingar. Alla artiklarna
+  handlar om åkerbruk och gödsel. De är från 1740–1778.
+id: kvah
+mode:
+  - folder: akerbruk1700
+    name: all_hist
+morphology: swedbergm|dalinm|saldom
+pos_attributes:
+  - lemma: lemma
+  - pos: pos
+  - msd: msd
+  - lex: lex
+  - dephead: dephead
+  - deprel: deprel
+  - ref: ref
+  - saldo: sense-old
+  - prefix: prefix-old
+  - suffix: suffix-old
+struct_attributes:
+  - text_title:
+      dataset:
+        - 'Swar på den andra frågan, i 2. Qvartalet: huruledes säden på en åker må
+          ständigt kunna ökas til 40 kornet.'
+        - 'Herr Inspectoren BRANDBERGS RÖN och Försök til Landtbrukets förbättrande.Framgifne
+          Af SAM: SCHULTZE'
+        - 'BESKRIFNING På En ny Sånings-Machine, påfunnen och til Kongl. Vetensk.
+          Academien ingifven, Af DANIEL THUNBERG. '
+        - BESKRIFNING på Tork-Häsjor och Trösk-vagnar, som brukas i Wäster-Norrland,
+          Ingifven af NILS GISSLER, M. D. Lector vid Hernösands Gymnasium.
+        - Tankar om Landtbrukets upodlande genom ymnig ock god Gödsels samlande i
+          Städerna.
+        - Skolmästaren Herr ANDERS HELLSTRÖMS FÖRSÖK at förbättra Sånings-Machiner
+        - ÅKER-REDSKAP Af Järn, inrättade af H. Baron. J.BRAUNER.
+        - Påminnelse vid sättet at göda åkrar; af JOH. J. HAARTMAN, M.D. med. Professor
+          i Åbo, Ridd. af K. Wasa Orden.
+        - Om obrunnen gödsels förmån på åkrar, framför den som är brunnen. af PEHR
+          WASSTRÖM
+        - ' BESKRIFNING På de i Norrland brukelige Trösk-vältar, af PEHR HELLZÉN,
+          lector vid Hernösands Gymnasium.'
+        - Om Sånings-Machins förbättring ock nytta
+        - 'Et sätt at göda och så vigare, än med Sånings Machin Af SACHAR. WESTBCK '
+        - Et ankommit Bref om Sånings- under Namn af  .
+        - Rön om Åkerbrukets nyttiga främjande medelst Utsädets och Gödslens wissa
+          besparning. Framgifwit af SACHARIAS WESTBECK, Kyrkoherde uti Öst-Löfsta
+          Församling i .
+        - ' Försök til Säds utsåning med Machine, anstälde på Fullerö Sätesgård, år
+          1759, Af CARL JOHAN CRONSTEDT.'
+        - Om en ny påfunnen Tuf-Plog.
+      extended_component: datasetSelect
+      label:
+        eng: title
+        swe: titel
+      opts:
+        is: '='
+        is_not: '!='
+  - text_date: date
+  - chapter_name:
+      label: chapter
+title: KVAH
+within:
+  - label:
+      eng: paragraph
+      swe: stycke
+    value: paragraph
+  - label:
+      eng: sentence
+      swe: mening
+    value: sentence

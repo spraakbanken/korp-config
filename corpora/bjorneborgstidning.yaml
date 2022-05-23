@@ -1,0 +1,30 @@
+context:
+  - label:
+      eng: 1 sentence
+      swe: 1 mening
+    value: 1 sentence
+description: Tidning som utkom i Björneborg mellan åren 1860 och 1965, med vissa avbrott.
+id: bjorneborgstidning
+mode:
+  - folder: tidningar
+    name: fisk1800
+morphology: saldom|dalinm|swedbergm
+pos_attributes:
+  - lemma: lemma
+  - pos: pos
+  - msd: msd
+  - lex: lex
+  - dephead: dephead
+  - deprel: deprel
+  - ref: ref
+  - saldo: sense-old
+  - prefix: prefix-old
+  - suffix: suffix-old
+struct_attributes:
+  - text_date: date
+title: Björneborgs Tidning 1897–1907
+within:
+  - label:
+      eng: sentence
+      swe: mening
+    value: sentence

@@ -1,0 +1,24 @@
+label:
+  swe: Kubord
+  eng: Kubord
+order: 60
+folders:
+  afb:
+    title: Aftonbladet
+  dn:
+    title: Dagens Nyheter
+  exp:
+    title: Expressen
+  gp:
+    title: Göteborgsposten
+  ss:
+    title: Sydsvenskan
+  svd:
+    title: Svenska Dagbladet
+preselected_corpora:
+  - dn
+  - gp
+  - svd
+color_primary: '#E0F4F4'
+color_light: '#F2FFFF'
+wordpicture: false

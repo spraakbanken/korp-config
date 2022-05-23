@@ -1,0 +1,18 @@
+context:
+  - label:
+      eng: 1 linknl
+      swe: 1 meningspar
+    value: 1 linknl
+id: europarl-nl
+lang: nld
+linked_to:
+  - europarl-sv
+mode:
+  - folder: europarl
+    name: parallel
+title: Europarl svenska-nederländska
+within:
+  - label:
+      eng: linknl
+      swe: meningspar
+    value: linknl

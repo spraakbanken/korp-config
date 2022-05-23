@@ -1,0 +1,31 @@
+context:
+  - label:
+      eng: 1 sentence
+      swe: 1 mening
+    value: 1 sentence
+description: Finlands första tidning. Starkt knuten till Aurorasällskapet och Henrik
+  Gabriel Porthan. Utkom i Åbo åren 1771–1778 och 1782–1785.
+id: tidningarsallskapetiabo
+mode:
+  - folder: tidningar
+    name: fisk1800
+morphology: saldom|dalinm|swedbergm
+pos_attributes:
+  - lemma: lemma
+  - pos: pos
+  - msd: msd
+  - lex: lex
+  - dephead: dephead
+  - deprel: deprel
+  - ref: ref
+  - saldo: sense-old
+  - prefix: prefix-old
+  - suffix: suffix-old
+struct_attributes:
+  - text_date: date
+title: Tidningar Utgifne af et Sällskap i Åbo 1771–1783
+within:
+  - label:
+      eng: sentence
+      swe: mening
+    value: sentence

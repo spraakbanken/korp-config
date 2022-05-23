@@ -1,0 +1,23 @@
+context:
+  - label:
+      eng: 1 link
+      swe: 1 meningspar
+    value: 1 link
+hide: true
+id: espc-en
+lang: eng
+limited_access: true
+linked_to:
+  - espc-sv
+mode:
+  - name: parallel
+struct_attributes:
+  - text_author: author
+  - text_date: year
+  - text_title: title
+title: The English-Swedish Parallel Corpus (ESPC)
+within:
+  - label:
+      eng: link
+      swe: meningspar
+    value: link
