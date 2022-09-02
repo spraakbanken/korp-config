@@ -13,4 +13,4 @@ input_case_insensitive_default: true
 color_primary: '#FFE7D2'
 color_light: '#FFF4EB'
 statistics_case_insensitive_default: true
-wordpicture: false
+word_picture: false

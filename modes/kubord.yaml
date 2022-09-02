@@ -15,10 +15,12 @@ folders:
     title: Sydsvenskan
   svd:
     title: Svenska Dagbladet
+  ogc:
+    title: Östgöta Correspondenten
 preselected_corpora:
   - dn
   - gp
   - svd
 color_primary: '#E0F4F4'
 color_light: '#F2FFFF'
-wordpicture: false
+word_picture: false

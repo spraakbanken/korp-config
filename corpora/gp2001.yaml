@@ -10,9 +10,7 @@ context:
 description: Göteborgs-Posten 2001.
 id: gp2001
 mode:
-  - folder:
-      - newstexts.gp
-      - socialmedia
+  - folder: newstexts.gp
     name: default
 pos_attributes:
   - lemma: lemma

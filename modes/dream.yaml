@@ -5,4 +5,4 @@ autocomplete: false
 folders:
   protected:
     title: Restricted
-wordpicture: false
+word_picture: false

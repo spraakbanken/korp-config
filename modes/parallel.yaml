@@ -25,5 +25,5 @@ hits_per_page_values:
 color_primary: '#FFF3D8'
 color_light: '#FFF9EE'
 start_lang: swe
-wordpicture: false
+word_picture: false
 parallel: true

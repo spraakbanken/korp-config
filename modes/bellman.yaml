@@ -6,4 +6,4 @@ color_primary: '#F7D1E4'
 color_light: '#FFEBF5'
 struct_attribute_selector: intersection
 pos_attribute_selector: intersection
-wordpicture: false
+word_picture: false

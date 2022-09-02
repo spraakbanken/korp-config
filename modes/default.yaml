@@ -47,8 +47,8 @@ folders:
     subfolders:
       rd:
         title: Riksdagens öppna data
-        description: Data från <a href="https://data.riksdagen.se/" target="_blank">data.riksdagen.se</a> insamlat 2017.
-          Samlingen kommer att uppdateras.
+        description: Data från <a href="https://data.riksdagen.se/" target="_blank">data.riksdagen.se</a> insamlat 2017 och 2022.
+          Samlingen är under uppdatering.
   l2:
     title: L2 Korp
   magazines:
