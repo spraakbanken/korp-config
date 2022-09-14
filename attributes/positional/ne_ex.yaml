@@ -5,8 +5,8 @@ dataset:
 extended_component: datasetSelect
 is_struct_attr: true
 label:
-  eng: expression
-  swe: uttryck
+  eng: type expression
+  swe: typ av uttryck
 translation:
   ENAMEX:
     eng: name expression
