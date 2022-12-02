@@ -47,8 +47,7 @@ folders:
     subfolders:
       rd:
         title: Riksdagens öppna data
-        description: Data från <a href="https://data.riksdagen.se/" target="_blank">data.riksdagen.se</a> insamlat 2017 och 2022.
-          Samlingen är under uppdatering.
+        description: Data från <a href="https://data.riksdagen.se/data/dokument/" target="_blank">data.riksdagen.se/data/dokument/</a> insamlat 2022.
   l2:
     title: L2 Korp
   magazines:
@@ -98,17 +97,20 @@ folders:
     title: Akademiska texter
 map_enabled: true
 preselected_corpora:
-  - suc3
-  - wikipedia-sv
-  - talbanken
-  - sfs
-  - snp7879
-  - __newstexts
-  - __fisk
-  - fof
-  - twitter
-  - __socialmedia.bloggmix
-  - romi
-  - romii
-  - rom99
-  - storsuc
+   - __newstexts.svtnews
+   - attasidor
+   - da
+#  - suc3
+#  - wikipedia-sv
+#  - talbanken
+#  - sfs
+#  - snp7879
+#  - __newstexts
+#  - __fisk
+#  - fof
+#  - twitter
+#  - __socialmedia.bloggmix
+#  - romi
+#  - romii
+#  - rom99
+#  - storsuc

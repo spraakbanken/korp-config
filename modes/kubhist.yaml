@@ -3,58 +3,9 @@ label:
   eng: Kubhist
 order: 50
 folders:
-  kubhist:
-    title: Kubhist
-    description: Korpussamlingen Kubhist är ett resultat at projektet
-        <a href="http://feedback.blogg.kb.se/forums/topic/digidailyprojekten-2010-2014/"
-        target="blank">Digidaily</a> som var ett utvecklingsprojekt där Riksarkivet tillsammans
-        med Kungliga biblioteket och Mittuniversitetet utvecklade rationella metoder och processer
-        för massdigitalisering och texttolkning av dagstidningar. Projektet löpte mellan
-        2010 och 2014.
-    subfolders:
-      blekingsposten:
-        title: Blekingsposten
-      bollnastidning:
-        title: Bollnäs tidning
-      dalpilen:
-        title: Dalpilen
-      fahluweckoblad:
-        title: Fahlu weckoblad
-      faluposten:
-        title: Faluposten
-      folketsrost:
-        title: Folkets röst
-      goteborgsweckoblad:
-        title: Göteborgs weckoblad
-      gotheborgsweckolista:
-        title: Götheborgs weckolista
-      gotlandstidning:
-        title: Gotlands tidning
-      jonkopingsbladet:
-        title: Jönköpingsbladet
-      kalmar:
-        title: Kalmar
-      lindesbergsallehanda:
-        title: Lindesbergs allehanda
-      norraskane:
-        title: Norra Skåne
-      ostergotlandsveckoblad:
-        title: Östergötlands veckoblad
-      ostgotaposten:
-        title: Östgötaposten
-      postochinrikestidning:
-        title: Post- och Inrikes Tidningar
-      stockholmsposten:
-        title: Stockholmsposten
-      tidningforwenersborg:
-        title: Tidning för Wenersborgs stad och län
-      wermlandslanstidning:
-        title: Wermlands läns tidning
-      wernamotidning:
-        title: Wernamo tidning
   kubhist2:
     title: Kubhist 2
-    description: Korpussamlingen Kubhist är ett resultat at projektet
+    description: Korpussamlingen Kubhist är ett resultat av projektet
         <a href="http://feedback.blogg.kb.se/forums/topic/digidailyprojekten-2010-2014/"
         target="blank">Digidaily</a> som var ett utvecklingsprojekt där Riksarkivet tillsammans
         med Kungliga biblioteket och Mittuniversitetet utvecklade rationella metoder och processer

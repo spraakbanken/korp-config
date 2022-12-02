@@ -15,7 +15,7 @@ description: <a href="http://feedback.blogg.kb.se/forums/topic/digidailyprojekte
 id: kubhist2-dalpilen-1920
 limited_access: true
 mode:
-  - folder: kubhist2.skyddat
+  - folder: kubhist2.dalpilen
     lab_only: true
     name: kubhist
 morphology: saldom|dalinm|swedbergm
