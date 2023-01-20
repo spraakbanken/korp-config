@@ -9,7 +9,7 @@ description:
 lang: swe
 mode:
     -   name: kubord
-        folder: ogc
+        folder: kubord.ogc
 within:
     -   label:
             eng: word

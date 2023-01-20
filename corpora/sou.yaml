@@ -24,8 +24,10 @@ pos_attributes:
   - deprel: deprel
   - ref: ref
   - saldo: sense-old
-  - prefix: prefix-old
-  - suffix: suffix-old
+  - prefix: prefix
+  - suffix: suffix
+  - compwf: compwf
+  - complemgram: complemgram
 struct_attributes:
   - text_librisid:
       label: Libris-ID

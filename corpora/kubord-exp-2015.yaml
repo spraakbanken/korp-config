@@ -8,7 +8,7 @@ description:
 lang: swe
 mode:
     -   name: kubord
-        folder: exp
+        folder: kubord.exp
 within:
     -   label:
             eng: word

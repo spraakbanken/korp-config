@@ -8,7 +8,7 @@ description:
 lang: swe
 mode:
     -   name: kubord
-        folder: svd
+        folder: kubord.svd
 within:
     -   label:
             eng: word

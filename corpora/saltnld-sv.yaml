@@ -21,8 +21,8 @@ pos_attributes:
   - deprel: deprel
   - ref: ref
   - saldo: sense-old
-  - prefix: prefix-old
-  - suffix: suffix-old
+#  - prefix: prefix
+#  - suffix: suffix
   - linkref:
       display_type: hidden
       label: linkref

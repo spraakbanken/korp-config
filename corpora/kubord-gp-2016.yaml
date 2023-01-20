@@ -8,7 +8,7 @@ description:
 lang: swe
 mode:
     -   name: kubord
-        folder: gp
+        folder: kubord.gp
 within:
     -   label:
             eng: word

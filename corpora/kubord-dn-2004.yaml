@@ -9,7 +9,7 @@ description:
 lang: swe
 mode:
     -   name: kubord
-        folder: dn
+        folder: kubord.dn
 within:
     -   label:
             eng: word
