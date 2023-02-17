@@ -9,8 +9,7 @@ description:
 title:
     swe: Svenska partiprogram och valmanifest
     eng: Swedish party programs and election manifestos
-reading_mode:
-    component: standardReadingMode
+reading_mode: true
 within:
     -   value: sentence
         label:
@@ -30,7 +29,6 @@ context:
             swe: 5 meningar
             eng: 5 sentences
 struct_attributes:
-    -   sentence_id: sentence_id
     -   text_blingbring: text_blingbring
     -   text_swefn: text_swefn
     -   text_lix: text_lix
@@ -69,8 +67,6 @@ pos_attributes:
     -   lex: lex
     -   msd: msd
     -   pos: pos
-    -   _tail: _tail
-    -   _head: _head
 attribute_filters:
     - text_party_name
     - text_year

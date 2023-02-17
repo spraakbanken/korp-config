@@ -11,8 +11,7 @@ lang: swe
 mode:
     -   name: default
         folder: governmental.rd
-reading_mode:
-    component: standardReadingMode
+reading_mode: true
 within:
     -   value: sentence
         label:
@@ -28,7 +27,6 @@ context:
             swe: 1 text
             eng: 1 text
 struct_attributes:
-    -   sentence_id: sentence_id
     -   text_blingbring: text_blingbring
     -   text_swefn: text_swefn
     -   text_lix: text_lix
@@ -149,5 +147,3 @@ pos_attributes:
     -   lex: lex
     -   msd: msd
     -   pos: pos
-    -   _tail: _tail
-    -   _head: _head

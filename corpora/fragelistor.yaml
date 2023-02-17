@@ -9,8 +9,7 @@ description:
 lang: swe
 mode:
     -   name: default
-reading_mode:
-    component: standardReadingMode
+reading_mode: true
 within:
     -   value: sentence
         label:
@@ -30,7 +29,6 @@ context:
             swe: 1 stycke
             eng: 1 paragraph
 struct_attributes:
-    -   sentence_id: sentence_id
     -   text_blingbring: text_blingbring
     -   text_swefn: text_swefn
     -   text_lix: text_lix
@@ -104,8 +102,6 @@ pos_attributes:
     -   lex: lex
     -   msd: msd
     -   pos: pos
-    -   _tail: _tail
-    -   _head: _head
 attribute_filters:
     - topic_source
     - topic_topic_name
