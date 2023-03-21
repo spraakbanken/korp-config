@@ -179,18 +179,7 @@ pos_attributes:
       type: set
 struct_attributes:
   - text_title:
-      dataset:
-        - Barlaam och Josaphat, ur Codex Holm A 49 Nådendals klosterbok
-        - Sju vise mästare B, Nådendals klosterbok, Codex Holm A 49
-        - Didrik av Bern, hand A
-        - Sverige krönika, eller Prosaiska krönikan efter Holm D 26
-        - Konungastyrelsen, Bureus utgåva
-        - Didrik av Bern, hand B
-        - Namnlös och Valentin, ur Codex Holm D 4a
-        - Sju vise mästare C, efter Codex Askabyensis
-        - Historia Trojana, ur Codex Holm D 3a
-        - Sju vise mästare A, ur Codex Holm D 4
-      extended_component: datasetSelect
+      extended_component: structServiceSelect
       label:
         eng: title
         swe: titel

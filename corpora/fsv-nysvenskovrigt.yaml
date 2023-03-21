@@ -20,19 +20,7 @@ pos_attributes:
   - pos: pos
 struct_attributes:
   - text_title:
-      dataset:
-        - 'Runius: Prosastycken'
-        - Mag. Joh. Qvirfelds himmelska örtegårds-sällskap
-        - 'Gyllenborg: Svenska sprätthöken'
-        - Jon Stålhammars brev
-        - Agneta Horns levnadsbeskrivning
-        - Beskrifning öfwer Sweriges Lapmarker 1747 av Pehr Högström, kap 1-4
-        - AnnaVasas brev
-        - Carl Carlsson Gyllenhielms anteckningar
-        - 'Samuel Columbus: Mål-roo eller Roo-mål'
-        - 'Haqvin Spegel: Dagbok'
-        - 'UrbanHiärne: Stratonice'
-      extended_component: datasetSelect
+      extended_component: structServiceSelect
       label:
         eng: title
         swe: titel

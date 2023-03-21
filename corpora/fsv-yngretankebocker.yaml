@@ -179,20 +179,7 @@ pos_attributes:
       type: set
 struct_attributes:
   - text_title:
-      dataset:
-        - 'Läkebok 1: blandad läkedom, ur Codex AM'
-        - 'Läkebok 11: Månaderna, efter KBs handskrift med gammal signatur K 45, supplerad
-          på Danska ur codex Grensholmensis'
-        - Läkebok, 8 ur codex Grensholmensis i Linköping
-        - Läkebok 4, ur Codex Holm A 49
-        - Läkebok 2, ur pappershandskriften Ups C 601
-        - Bondakonst av Peder Månsson
-        - Läkedomar, codex Ups Benz 22
-        - Läkebok 5 och 6, ur Codex 19 Benz
-        - Läkebok 7, efter Codex linc M 5
-        - 'Läkebok 10: Zoodiaken, månaderna m m, efter hskr i Rålambska samlingen'
-        - Läkedom, efter Peder Månssons handskrift i Linköpings Stiftsbibliotek
-      extended_component: datasetSelect
+      extended_component: structServiceSelect
       label:
         eng: title
         swe: titel

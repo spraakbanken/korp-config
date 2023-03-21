@@ -3,6 +3,9 @@ dataset:
   - TIMEX
   - NUMEX
 extended_component: datasetSelect
+opts:
+  is: "="
+  is_not: "!="
 is_struct_attr: true
 label:
   eng: type expression

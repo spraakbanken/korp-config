@@ -20,13 +20,7 @@ pos_attributes:
   - pos: pos
 struct_attributes:
   - text_title:
-      dataset:
-        - Peder Swarts krönika
-        - Per Brahes krönika
-        - Olaus Petris Krönika, stil B
-        - Olaus Petris Krönika, stil A
-        - Olaus Petris Krönika
-      extended_component: datasetSelect
+      extended_component: structServiceSelect
       label:
         eng: title
         swe: titel

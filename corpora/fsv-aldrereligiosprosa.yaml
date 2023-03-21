@@ -179,13 +179,7 @@ pos_attributes:
       type: set
 struct_attributes:
   - text_title:
-      dataset:
-        - Birgittaautograferna
-        - Fornsvenska legendariet enligt Codex Bureanus
-        - Pentateuchparafrasen, enligt MB I A
-        - Pentateuchparafrasen B, enligt MB I B
-        - Fornsvenska legendariet enligt Codex Bildstenianus
-      extended_component: datasetSelect
+      extended_component: structServiceSelect
       label:
         eng: title
         swe: titel

@@ -20,9 +20,7 @@ pos_attributes:
   - pos: pos
 struct_attributes:
   - text_title:
-      dataset:
-        - 'Dalin: Then Swänska Argus'
-      extended_component: datasetSelect
+      extended_component: structServiceSelect
       label:
         eng: title
         swe: titel

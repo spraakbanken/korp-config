@@ -4,7 +4,7 @@ label:
 order: 60
 folders:
   kubord:
-    title: Kubord
+    title: Kubord 1
     description: Ordfrekvenser från moderna tidningstexter från Kungliga biblioteket.
     subfolders:
       afb:
@@ -27,12 +27,23 @@ folders:
       Kubord 2 är en uppdaterad version av Kubord och innehåller utöver ordfrekvenser även ordrelationer från moderna
       tidningstexter från Kungliga biblioteket. I den här samligen är det möjligt att göra ordbildssökningar.
     subfolders:
+      afb:
+        title: Aftonbladet
+      dn:
+        title: Dagens Nyheter
+      exp:
+        title: Expressen
+      gp:
+        title: Göteborgsposten
+      ss:
+        title: Sydsvenskan
       svd:
         title: Svenska Dagbladet
+      ogc:
+        title: Östgöta Correspondenten
 preselected_corpora:
-  - kubord.dn
-  - kubord.gp
-  - kubord.svd
+  - kubord2.dn
+  - kubord2.svd
 color_primary: '#E0F4F4'
 color_light: '#F2FFFF'
 word_picture: true

@@ -179,14 +179,7 @@ pos_attributes:
       type: set
 struct_attributes:
   - text_title:
-      dataset:
-        - Fornsvenska Ordspråk
-        - Erikskrönikan, ur Spegelbergs bok, Codex Holm D2
-        - Fredrik av Normandie
-        - Ivan Lejonriddaren, ur SFSS Bd 50 Uppsala 1931
-        - Flores och Blanzeflor
-        - Karlskrönikan
-      extended_component: datasetSelect
+      extended_component: structServiceSelect
       label:
         eng: title
         swe: titel

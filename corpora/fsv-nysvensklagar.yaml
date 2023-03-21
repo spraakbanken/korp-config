@@ -44,18 +44,7 @@ pos_attributes:
       type: set
 struct_attributes:
   - text_title:
-      dataset:
-        - Missgiernings Balk
-        - Giftermåls balk \(1734\)
-      extended_component: datasetSelect
-      label:
-        eng: title
-        swe: titel
-  - text_title:
-      dataset:
-        - Missgiernings Balk
-        - Giftermåls balk \(1734\)
-      extended_component: datasetSelect
+      extended_component: structServiceSelect
       label:
         eng: title
         swe: titel

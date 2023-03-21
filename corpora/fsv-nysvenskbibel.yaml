@@ -20,10 +20,7 @@ pos_attributes:
   - pos: pos
 struct_attributes:
   - text_title:
-      dataset:
-        - Gustav Vasas Bibel, Markusevanguliet
-        - Gustav Vasas Bibel, Lukasevangeliet
-      extended_component: datasetSelect
+      extended_component: structServiceSelect
       label:
         eng: title
         swe: titel

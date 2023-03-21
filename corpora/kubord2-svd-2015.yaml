@@ -5,8 +5,12 @@ mode:
     -   name: kubord
         folder: kubord2.svd
 description:
-    eng: Part of the collection Kubord 2
-    swe: Del av samlingen Kubord 2
+    swe: <b>Del av samlingen Kubord 2</b><br><br>Kubord 2 är en uppdaterad version
+        av Kubord och innehåller utöver ordfrekvenser även ordrelationer från moderna
+        tidningstexter från Kungliga biblioteket.
+    eng: <b>Part of the collection Kubord 2</b><br><br>Kubord 2 is an updated version
+        of Kubord and contains both token frequencies and word relations from modern
+        newspaper texts from the The National Library of Sweden.
 title:
     eng: Kubord 2 - Word relations Svenska Dagbladet 2015
     swe: Kubord 2 - Ordrelationer Svenska Dagbladet 2015
@@ -21,6 +25,13 @@ context:
             swe: 0 ord
         value: 0 word
 struct_attributes:
+    -   page_nr:
+            label:
+                eng: page
+                swe: sida
+            opts:
+                is: '='
+                is_not: '!='
     -   text_date:
             label:
                 eng: date
@@ -39,13 +50,6 @@ struct_attributes:
             opts:
                 is: '='
                 is_not: '!='
-    -   page_nr:
-            label:
-                eng: page
-                swe: sida
-            opts:
-                is: '='
-                is_not: '!='
 pos_attributes:
     -   pos: pos
     -   dephead_pos:
@@ -53,39 +57,27 @@ pos_attributes:
                 eng: dependency head POS
                 swe: dependenshuvud POS
     -   complemgram: complemgram
-    -   dephead_compound:
-            label:
-                eng: dependency head compound
-                swe: dependenshuvud sammansättning
+    -   original:
+            label: original
+    -   deprel: deprel
     -   dephead_lemgram:
             label:
                 eng: dependency head lemgram
                 swe: dependenshuvud lemgram
-    -   dephead_lemma:
-            label:
-                eng: dependency head lemma
-                swe: dependenshuvud lemma
     -   dephead_msd:
             label:
                 eng: dependency head MSD
                 swe: dependenshuvud MSD
-    -   dephead_original:
+    -   wordbreak:
             label:
-                eng: dependency head original
-                swe: dependenshuvud original
-    -   dephead_sense:
-            label:
-                eng: dependency head sense
-                swe: dependenshuvud sense
-    -   dephead_token:
-            label:
-                eng: dependency head token
-                swe: dependenshuvud token
+                eng: hyphenation
+                swe: avstavning
+    -   sense: sense
     -   dephead_wordbreak:
             label:
                 eng: dependency head hyphenation
                 swe: dependenshuvud avstavning
-    -   deprel: deprel
+    -   lex: lex
     -   freq:
             label:
                 eng: freqency
@@ -93,13 +85,25 @@ pos_attributes:
             opts:
                 is: '='
                 is_not: '!='
-    -   lemma: lemma
-    -   lex: lex
-    -   msd: msd
-    -   original:
-            label: original
-    -   sense: sense
-    -   wordbreak:
+    -   dephead_sense:
             label:
-                eng: hyphenation
-                swe: avstavning
+                eng: dependency head sense
+                swe: dependenshuvud sense
+    -   lemma: lemma
+    -   msd: msd
+    -   dephead_lemma:
+            label:
+                eng: dependency head lemma
+                swe: dependenshuvud lemma
+    -   dephead_compound:
+            label:
+                eng: dependency head compound
+                swe: dependenshuvud sammansättning
+    -   dephead_original:
+            label:
+                eng: dependency head original
+                swe: dependenshuvud original
+    -   dephead_token:
+            label:
+                eng: dependency head token
+                swe: dependenshuvud token

@@ -1,0 +1,8 @@
+label:
+  swe: Xhosa
+  eng: Xhosa
+hidden: true
+autocomplete: false
+word_picture: false
+preselected_corpora:
+  - xhosa

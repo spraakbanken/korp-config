@@ -8,6 +8,9 @@ dataset:
   - MSR
   - TME
 extended_component: datasetSelect
+opts:
+  is: "="
+  is_not: "!="
 is_struct_attr: true
 label:
   eng: name type

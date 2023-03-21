@@ -181,12 +181,7 @@ pos_attributes:
       type: set
 struct_attributes:
   - text_title:
-      dataset:
-        - Kristoffers Landslag, nyskrivna flockar i förhållande till MEL
-        - Kristoffers Landslag, innehållsligt ändrade flockar i förhållande til MEL
-        - Kristoffers Landslag, flockar direkt hämtade från MEL
-        - Kristoffers Landslag
-      extended_component: datasetSelect
+      extended_component: structServiceSelect
       label:
         eng: title
         swe: titel
