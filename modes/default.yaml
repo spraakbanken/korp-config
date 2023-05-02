@@ -4,17 +4,27 @@ label:
 order: 10
 folders:
   fisk:
-    title: Finlandssvenska texter
+    title:
+      swe: Finlandssvenska texter
+      eng: Finland Swedish
     description: Det första steget för att skapa en finlandssvensk korpus togs redan på 1990-talet (Institutionen för nordiska språk vid Helsingfors universitet) och under åren 1999–2000 fortsatte arbetet (ett samarbetsprojekt mellan Institutet för de inhemska språken, Institutionen för allmän språkvetenskap och CSC (IT Center for Science)). Under åren 2011–2013 byggs den finlandssvenska korpusen ut som ett samarbetsprojekt mellan Svenska litteratursällskapet i Finland, Institutet för de inhemska språken och Göteborgs universitet.
     subfolders:
       governmental:
-        title: Myndighetstexter
+        title:
+          swe: Myndighetstexter
+          eng: Governmental texts
       literature:
-        title: Skön- och facklitteratur
+        title:
+          swe: Skön- och facklitteratur
+          eng: Fiction and non-fiction literature
       magazines:
-        title: Tidskrifter
+        title:
+          swe: Tidskrifter
+          eng: Journals
       newstexts:
-        title: Tidningstexter
+        title:
+          swe: Tidningstexter
+          eng: Newspaper texts
         subfolders:
           abounderrattelser:
             description: <a href="www.abounderrattelser.fi" target="_blank">Åbo Underrättelser</a> är en regional svenskspråkig dagstidning i Åbotrakten.
@@ -41,35 +51,53 @@ folders:
             description: <a href="http://www.vasabladet.fi" target="_blank">Vasabladet</a> är en regional svenskspråkig dagstidning i Österbotten.
             title: Vasabladet
       webtexts:
-        title: Webbtexter
+        title:
+          swe: Webbtexter
+          eng: Web texts
   governmental:
-    title: Myndighetstexter
+    title:
+      swe: Myndighetstexter
+      eng: Governmental texts
     subfolders:
       rd:
         title: Riksdagens öppna data
-        description: Data från <a href="https://data.riksdagen.se/data/dokument/" target="_blank">data.riksdagen.se/data/dokument/</a> insamlat 2022.
+        description:
+          swe: Data från <a href="https://data.riksdagen.se/data/dokument/" target="_blank">data.riksdagen.se/data/dokument/</a> insamlat 2022.
+          eng: The data was collected from <a href="data.riksdagen.se/data/dokument/"target="_blank">data.riksdagen.se/data/dokument/</a> in 2022 and is subject to updates.
   l2:
-    title: L2 Korp
+    title:
+      swe: L2-Korp
+      eng: L2 Korp
   magazines:
-    title: Tidskrifter
+    title:
+      swe: Tidskrifter
+      eng: Journals
   medical:
-    title: Medicinska texter
+    title:
+      swe: Medicinska texter
+      eng: Medical texts
     subfolders:
       ltd:
         title: Läkartidningen
   newstexts:
-    title: Nyhetstexter
+    title:
+      swe: Nyhetstexter
+      swe: News texts
     subfolders:
       gp:
-        title: GP
+        title: Göteborgs-Posten
       press:
         title: Press
       webnews:
-        title: Webbnyheter
+        title:
+          swe: Webbnyheter
+          eng: Web news
       svtnews:
         title: SVT nyheter
   novels:
-    title: Skönlitteratur
+    title:
+      swe: Skönlitteratur
+      eng: Fiction
   protected:
     title:
       swe: Skyddade korpusar
@@ -77,26 +105,38 @@ folders:
   socialmedia:
     title:
       swe: Sociala medier
-      eng: Social Media
+      eng: Social media
     subfolders:
       bloggmix:
-        description: Material från ett urval av svenska bloggar. Uppdateras regelbundet.
-        title: Bloggmix
+        description:
+          swe: Material från ett urval av svenska bloggar. Uppdateras regelbundet.
+          eng: Texts from a selection of Swedish blogs. Is continually updated.
+        title:
+          swe: Bloggmix
+          eng: Blog mix
       forum:
-        title: Diskussionsforum
+        title:
+          swe: Diskussionsforum
+          eng: Internet forums
         subfolders:
           familjeliv:
-            description: Material från diskussionsforumet <a target="_blank" href="https://www.familjeliv.se/">Familjeliv</a>. Materialet är under uppbyggnad.
+            description:
+              swe: Material från diskussionsforumet <a target="_blank" href="https://www.familjeliv.se/">Familjeliv</a>. Uppdateras årligen.
+              eng: Texts from the internet forum <a target="_blank" href="https://www.familjeliv.se/">Familjeliv</a>. Is continually updated.
             title: Familjeliv
           flashback:
-            description: Material från diskussionsforumet <a target="_blank" href="https://www.flashback.org/">Flashback</a>.
+            description:
+              swe: Material från diskussionsforumet <a target="_blank" href="https://www.flashback.org/">Flashback</a>. Uppdateras årligen.
+              swe: Texts from the internet forum <a target="_blank" href="https://www.flashback.org/">Flashback</a>. Is continually updated.
             title: Flashback
       twitter:
         title: Twitter
   strindberg:
     title: August Strindberg
   sweac:
-    title: Akademiska texter
+    title:
+      swe: Akademiska texter
+      eng: Akademic texts
 map_enabled: true
 preselected_corpora:
    - __newstexts.svtnews
