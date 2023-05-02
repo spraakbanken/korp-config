@@ -5,7 +5,9 @@ order: 60
 folders:
   kubord:
     title: Kubord 1
-    description: Ordfrekvenser från moderna tidningstexter från Kungliga biblioteket.
+    description:
+      swe: Ordfrekvenser från moderna tidningstexter från Kungliga biblioteket
+      eng: Word frequencies from modern newspaper texts from the National Library of Sweden
     subfolders:
       afb:
         title: Aftonbladet
@@ -23,9 +25,15 @@ folders:
         title: Östgöta Correspondenten
   kubord2:
     title: Kubord 2
-    description: |
-      Kubord 2 är en uppdaterad version av Kubord och innehåller utöver ordfrekvenser även ordrelationer från moderna
-      tidningstexter från Kungliga biblioteket. I den här samligen är det möjligt att göra ordbildssökningar.
+    description:
+      swe: |
+        <b>Ordrelationer från moderna tidningstexter från Kungliga biblioteket<b><br><br>
+        Kubord 2 är en uppdaterad version av Kubord och innehåller utöver ordfrekvenser även ordrelationer från moderna
+        tidningstexter från Kungliga biblioteket. I den här samligen är det möjligt att göra ordbildssökningar.
+      eng: |
+        <b>Word relations from modern newspaper texts from the National Library of Sweden<b><br><br>
+        Kubord 2 is an updated version of Kubord 1 and contains both token frequencies and word relations from modern
+        newspaper texts from the The National Library of Sweden.
     subfolders:
       afb:
         title: Aftonbladet
@@ -44,6 +52,4 @@ folders:
 preselected_corpora:
   - kubord2.dn
   - kubord2.svd
-color_primary: '#E0F4F4'
-color_light: '#F2FFFF'
 word_picture: true
