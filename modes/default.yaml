@@ -71,7 +71,9 @@ folders:
   novels:
     title: Skönlitteratur
   protected:
-    title: Skyddade korpusar
+    title:
+      swe: Skyddade korpusar
+      eng: Protected corpora
   socialmedia:
     title:
       swe: Sociala medier

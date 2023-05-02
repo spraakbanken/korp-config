@@ -1,6 +1,6 @@
 label:
-  eng: author
-  swe: författare
+  eng: source file
+  swe: källfil
 extended_component: structServiceAutocomplete
 opts:
   is: '='
