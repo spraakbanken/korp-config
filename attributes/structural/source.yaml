@@ -1,7 +1,0 @@
-label:
-  eng: source file
-  swe: källfil
-extended_component: structServiceAutocomplete
-opts:
-  is: '='
-  is_not: '!='
