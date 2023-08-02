@@ -7,7 +7,17 @@ context:
       eng: 1 sentence
       swe: 1 mening
     value: 1 sentence
-description: ''
+description:
+  swe: |
+    <b>Göteborgs universitetsbiblioteks OCR-lästa men ej korrekturlästa digitalisering av ett betänkande från 1882</b><br><br>
+    Göteborgs universitetsbiblioteks digitalisering av <a href="https://gupea.ub.gu.se/handle/2077/40979">Betänkande angående likformig
+    uppställning af grammatiska för rikets allm. läroverk afsedda   läroböcker jemte dertill hörande grammatiska utkast</a> (1882). Den 
+    tryckta utgåvan har skannats och OCR-lästs, men ej korrekturlästs.
+  eng: |
+    <b>A report from 1882, digitized by the Gothenburg University Library</b><br><br>
+    Digitization of <a href=""https://gupea.ub.gu.se/handle/2077/40979"">Betänkande angående likformig uppställning af grammatiska
+    för rikets allm. läroverk afsedda läroböcker jemte dertill hörande grammatiska utkast</a> (1882) by the Gothenburg University Library.
+    The printed edition has been scanned and OCR:ed but not corrected.
 id: betankande
 mode:
   - name: all_hist
@@ -54,7 +64,7 @@ struct_attributes:
       label:
         eng: publisher
         swe: utgivare
-title: Betänkande angående likformig uppställning av grammatiska läroböcker
+title: Betänkande ang. läroböcker (1882)
 within:
   - label:
       eng: paragraph

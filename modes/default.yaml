@@ -82,7 +82,7 @@ folders:
   newstexts:
     title:
       swe: Nyhetstexter
-      swe: News texts
+      eng: News texts
     subfolders:
       gp:
         title: Göteborgs-Posten

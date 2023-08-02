@@ -3,6 +3,15 @@ label:
   eng: Kubhist
 order: 50
 folders:
+  kubhist:
+    title: Kubhist
+    description: Korpussamlingen Kubhist är ett resultat av projektet
+        <a href="http://feedback.blogg.kb.se/forums/topic/digidailyprojekten-2010-2014/"
+        target="blank">Digidaily</a> som var ett utvecklingsprojekt där Riksarkivet tillsammans
+        med Kungliga biblioteket och Mittuniversitetet utvecklade rationella metoder och processer
+        för massdigitalisering och texttolkning av dagstidningar. Projektet löpte mellan
+        2010 och 2014.<br><br>
+        Korpusarna i den här mappen har annoterats om 2023 och innehåller tidningsartiklar mellan 1907 och 1926.
   kubhist2:
     title: Kubhist 2
     description: Korpussamlingen Kubhist är ett resultat av projektet
@@ -12,6 +21,7 @@ folders:
         för massdigitalisering och texttolkning av dagstidningar. Projektet löpte mellan
         2010 och 2014.<br><br>
         Kubhist 2 är en uppdaterad version av Kubhist med förbättrad OCR och mer material.
+        Tidningsartiklarna sträcker sig från 1645 till 1906.
     subfolders:
       aftonbladet:
         title: Aftonbladet
@@ -147,3 +157,4 @@ preselected_corpora:
   - kubhist2.aftonbladet
 color_primary: '#E0F4F4'
 color_light: '#F2FFFF'
+map_enabled: true

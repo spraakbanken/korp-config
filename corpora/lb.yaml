@@ -4,6 +4,16 @@ context:
       swe: 1 mening
     value: 1 sentence
 description: Samtliga etexter och sökbara faksimiler från <a href="http://litteraturbanken.se/">Litteraturbanken.se</a>.
+description:
+  swe: |-
+    <b>Samtliga e-texter och sökbara faksimiler från Litteraturbanken (litteraturbanken.se)</b><br><br>
+    Korpusen består av alla e-texter och sökbara faksimiler från <a href="http://litteraturbanken.se/">Litteraturbanken</a>,
+    en fritt tillgänglig samling av svenska skönlitterära texter från medeltiden till nutiden.
+  eng: |-
+    <b>All e-texts and searchable facsimiles fron the Swedish Literature Bank (litteraturbanken.se)</b><br><br>
+    The corpus contains all e-texts and searchable facsimiles from <a href="http://litteraturbanken.se/">the Swedish
+    Literature Bank</a>, a freely available collection of
+    Swedish literary works, ranging from medieval to contemporary.
 id: lb
 mode:
   - name: all_hist

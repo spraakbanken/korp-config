@@ -1,3 +1,11 @@
+id: runeberg-svtidskr
+title: Svensk Tidskrift
+description:
+  swe: |-
+    <b>27 årgångar av den konservativa idétidskriften Svensk Tidskrift, mellan 1891 och 1940</b><br><br>
+    Resursen innehåller årgångarna 1891, 1911–1913, 1915–1932, 1936–1940. De har digitiserats av <a href="http://runeberg.org/svtidskr/" target="_blank">Projekt Runeberg</a>.
+  eng: |-
+    27 annual volumes of the conservative journal Svensk Tidskrift, from 1891 to 1940
 context:
   - label:
       eng: 1 paragraph
@@ -7,8 +15,6 @@ context:
       eng: 1 sentence
       swe: 1 mening
     value: 1 sentence
-description: ''
-id: runeberg-svtidskr
 mode:
   - name: runeberg
   - folder: runeberg
@@ -90,7 +96,6 @@ struct_attributes:
         is_not: '!='
   - chapter_name:
       label: chapter
-title: Svensk Tidskrift
 within:
   - label:
       eng: paragraph

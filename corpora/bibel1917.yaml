@@ -1,10 +1,20 @@
+id: bibel1917
+title:
+  swe: Bibeln 1917
+  eng: Swedish Bible 1917
+description:
+  swe: |-
+    <b>Officiell svensk översättning av Bibeln från 1917</b></br><br>  
+    Bibelöversättningen från 1917 är den andra av tre officiella svenska bibelöversättningar. Arbetet pågick ända från 1773, och involverade bland annat Esaias Tegnér den yngre, sonson till den kände poeten. Texten digitaliserades manuellt 1994-1996 av ett tjugotal frivilliga, och håller god kvalitet. Vissa fotnoter tycks saknas, och kommateringen är inte helt enhetlig eftersom de olika annoterarna använde olika tryckta utgåvor.
+    Korpusen bygger på <a href="http://runeberg.org/bibeln/">Projekt Runebergs</a> digitalisering av 1917 års bibelöversättning. Projekt Runeberg har också en <a href="http://runeberg.org/bibeln/efs1927/">digital fakismilutgåva</a> av 1917 års översättning.
+  eng: |-
+    <b>Officiell svensk översättning av Bibeln från 1917</b></br><br>
+    The Swedish Bible translation from 1917 is the second of three official translations. Work on it started already in 1773. It was manually digitised 1994-1996, and is overall of good quality. The text can also be found at <a href="http://runeberg.org/bibeln/efs1927/">Projekt Runeberg</a>.
 context:
   - label:
       eng: 1 sentence
       swe: 1 mening
     value: 1 sentence
-description: ''
-id: bibel1917
 mode:
   - folder: bibel
     name: all_hist
@@ -85,7 +95,6 @@ struct_attributes:
       label: chapter
   - verse_name:
       label: verse
-title: Bibeln 1917
 within:
   - label:
       eng: sentence

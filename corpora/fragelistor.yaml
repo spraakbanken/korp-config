@@ -4,8 +4,20 @@ title:
     swe: Etnologiska frågelistor
     eng: Ethnological question lists
 description:
-    swe: Nordiska museets etnologiska frågelistor
-    eng: Question lists of the Nordic Museum
+      swe: |-
+          <b>Nordiska museets etnologiska frågelistor</b><br><br>
+          Korpusen består av besvarade frågelistor som samlades in av Nordiska
+          museet mellan 1926 och 1988. Du kan läsa mer om frågelistorna på <a
+          href="https://www.nordiskamuseet.se/samlingar/insamling/fragelistor">Nordiska
+          museets hemsida</a>. Både huvudserien, de så kallade Nm-listorna, och
+          specialfrågelistorna, Sp-listorna ingår i korpusen.
+      eng: |-
+          <b>Question lists of the Nordic Museum</b><br><br>
+          The corpus consists of the answers to the ethnological questionnairs sent
+          out by Nordiska museet between 1926 and 1988. You can read more about the
+          questionnairs (in Swedish) on the <a
+          href="https://www.nordiskamuseet.se/samlingar/insamling/fragelistor">webpage
+          of Nordiska museet</a>.
 lang: swe
 mode:
     -   name: default

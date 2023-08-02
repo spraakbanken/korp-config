@@ -1,3 +1,13 @@
+id: runeberg-urdagkron
+title: Ur Dagens Krönika
+description:
+  swe: |-
+    <b>Åtta årgångar av kulturtidskriften Ur Dagens Krönika, 1881–1890</b><br><br>
+    Resursen innehåller årgångarna 1881–1886 samt 1889–1890. De har
+    digitiserats av <a href="http://runeberg.org/urdagkron/"
+    target="_blank">Projekt Runeberg</a>.
+  eng: |-
+    Eight annual volumes of the cultural journal Ur Dagens Krönika, 1881–1890
 context:
   - label:
       eng: 1 paragraph
@@ -7,8 +17,6 @@ context:
       eng: 1 sentence
       swe: 1 mening
     value: 1 sentence
-description: ''
-id: runeberg-urdagkron
 mode:
   - name: runeberg
   - folder: runeberg
@@ -90,7 +98,6 @@ struct_attributes:
         is_not: '!='
   - chapter_name:
       label: chapter
-title: Ur Dagens Krönika
 within:
   - label:
       eng: paragraph
