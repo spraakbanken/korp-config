@@ -56,7 +56,9 @@ struct_attributes:
   - text_author: author
   - text_title: title
   - page_n: page
-title: Bellmans samlade verk
+title:
+  swe: Bellman
+  eng: Bellman
 within:
   - label:
       eng: paragraph

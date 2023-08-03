@@ -13,7 +13,13 @@ custom_attributes:
       label: ''
       pattern: <a href='https://spraakbanken.gu.se/sites/spraakbanken.gu.se/files/Metadata_COCTAILL.pdf'
         target='_blank'>Metadata explanation</a>
-description: ''
+description:
+  swe: Korpus av kursböcker för undervisning av L2-svenska. Annoterade manuellt för
+    textstruktur och pedagogiska/didaktiska kategorier; automatiskt uppmärkt med språkvetenskapliga
+    annoteringar.
+  eng: Corpus of coursebooks used for teaching L2 Swedish. Annotated manually for
+    text structure and pedagogical/didactical categories; automatically linguistically
+    annotated.
 id: coctaill
 mode:
   - folder: l2

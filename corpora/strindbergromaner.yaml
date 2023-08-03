@@ -7,7 +7,7 @@ context:
       eng: 1 sentence
       swe: 1 mening
     value: 1 sentence
-description: |
+description: |-
   <b>August Strindbergs samlade verk. Innehåller material från de 59 volymer som utgivits fram till år 2003.</b><br><br>
   Korpusen bygger på Kerstin Dahlbäcks arbetsmaterial med samtliga tryckta och otryckta brev av Strindberg som var tillgängliga
   1 augusti 1991. Materialet kan innehålla både korrekturfel och tolkningsfel utifrån de handskrivna förlagorna. Breven från de
@@ -42,7 +42,9 @@ struct_attributes:
   - text_date: year
   - text_title: title
   - page_n: page
-title: August Strindbergs samlade verk
+title:
+  swe: August Strindbergs romaner
+  eng: August Strindberg's novels
 within:
   - label:
       eng: paragraph

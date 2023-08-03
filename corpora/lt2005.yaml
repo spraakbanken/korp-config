@@ -32,7 +32,9 @@ struct_attributes:
       label:
         eng: issue
         swe: utgåva
-title: Läkartidningen 2005
+title:
+  swe: Läkartidningen 2005
+  eng: Läkartidningen medical journal 2005
 within:
   - label:
       eng: sentence

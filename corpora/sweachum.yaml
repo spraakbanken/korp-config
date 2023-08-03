@@ -3,7 +3,9 @@ context:
       eng: 1 sentence
       swe: 1 mening
     value: 1 sentence
-description: ''
+description:
+  swe: En korpus med akademiska texter
+  eng: A corpus with academic texts
 id: sweachum
 mode:
   - folder: sweac
@@ -36,7 +38,9 @@ struct_attributes:
       label:
         eng: subject
         swe: ämne
-title: Humaniora
+title:
+  swe: 'Akademiska texter: Humaniora'
+  eng: 'Academic texts: Humanities'
 within:
   - label:
       eng: sentence

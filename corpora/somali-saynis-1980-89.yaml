@@ -34,7 +34,9 @@ struct_attributes:
         eng: edition
         swe: utgåva
   - page_n: page
-title: Saynis 1980-89
+title:
+  swe: Saynis 1980–89
+  eng: Saynis 1980–89
 within:
   - label:
       eng: sentence

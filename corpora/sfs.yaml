@@ -34,7 +34,9 @@ pos_attributes:
 struct_attributes:
   - text_date: date
   - text_title: title
-title: Svensk författningssamling
+title:
+  swe: Svensk författningssamling
+  eng: Swedish statute book
 within:
   - label:
       eng: paragraph

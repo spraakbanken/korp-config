@@ -58,7 +58,9 @@ struct_attributes:
         swe: kopia
       pattern: <span> <%= val.replace(/</g, '&lt;').replace(/</g, '&lt;') %></span>
       type: set
-title: Besvarade språkfrågor
+title:
+  swe: Besvarade språkfrågor
+  eng: Questions and answers about the Swedish language
 within:
   - label:
       eng: sentence

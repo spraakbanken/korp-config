@@ -62,7 +62,9 @@ struct_attributes:
       label:
         eng: favourite count
         swe: favoriter
-title: Twitter - 2015
+title:
+  swe: Svensk Twitter 2015
+  eng: Swedish Twitter 2015
 within:
   - label:
       eng: sentence

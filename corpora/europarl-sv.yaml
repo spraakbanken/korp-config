@@ -63,9 +63,14 @@ struct_attributes:
         eng: language
         swe: språk
   - text_date: date
-title: Europarl svenska
+title:
+  swe: Europarl – svenska
+  eng: Europarl – Swedish
 within:
   - label:
       eng: linkda
       swe: meningspar
     value: linkda
+description:
+  swe: Svenska delen av European Parliament Proceedings Parallel Corpus
+  eng: The Swedish part of European Parliament Proceedings Parallel Corpus

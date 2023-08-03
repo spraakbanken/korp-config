@@ -32,7 +32,9 @@ struct_attributes:
       label:
         eng: city
         swe: stad
-title: Medeltidsbrev - Latin
+title:
+  swe: Medeltidsbrev - Latin
+  eng: Medieval letters - Latin
 within:
   - label:
       eng: sentence

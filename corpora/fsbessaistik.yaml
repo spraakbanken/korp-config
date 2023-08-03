@@ -37,7 +37,9 @@ struct_attributes:
       label:
         eng: publisher
         swe: utgivare
-title: Essäistisk litteratur 1963–2010
+title:
+  swe: Essäistisk litteratur 1963–2013
+  eng: Essayistic literature 1963–2013
 within:
   - label:
       eng: paragraph

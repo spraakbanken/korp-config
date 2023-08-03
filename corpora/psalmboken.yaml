@@ -7,7 +7,9 @@ context:
       eng: 1 sentence
       swe: 1 mening
     value: 1 sentence
-description: ''
+description:
+  swe: Psalmboken från 1937
+  eng: The Swedish psalm book from 1937
 id: psalmboken
 mode:
   - name: default
@@ -30,7 +32,9 @@ pos_attributes:
   - suffix: suffix
 struct_attributes:
   - text_year: year
-title: Psalmboken (1937)
+title:
+  swe: Psalmboken (1937)
+  eng: Psalm book (1937)
 within:
   - label:
       eng: sentence

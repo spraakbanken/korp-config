@@ -3,7 +3,9 @@ context:
       eng: 1 sentence
       swe: 1 mening
     value: 1 sentence
-description: ''
+description:
+  swe: En korpus med akademiska texter
+  eng: A corpus with academic texts
 id: sweacsam
 mode:
   - folder: sweac
@@ -45,7 +47,9 @@ struct_attributes:
       label:
         eng: type
         swe: typ
-title: Samhällsvetenskap
+title:
+  swe: 'Akademiska texter: Samhällsvetenskap'
+  eng: 'Academic texts: Social science'
 within:
   - label:
       eng: sentence

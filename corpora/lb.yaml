@@ -3,7 +3,6 @@ context:
       eng: 1 sentence
       swe: 1 mening
     value: 1 sentence
-description: Samtliga etexter och sökbara faksimiler från <a href="http://litteraturbanken.se/">Litteraturbanken.se</a>.
 description:
   swe: |-
     <b>Samtliga e-texter och sökbara faksimiler från Litteraturbanken (litteraturbanken.se)</b><br><br>
@@ -61,7 +60,9 @@ struct_attributes:
       label:
         eng: source
         swe: källa
-title: Litteraturbanken
+title:
+  swe: Litteraturbanken
+  eng: The Swedish Literature Bank
 within:
   - label:
       eng: sentence

@@ -33,7 +33,9 @@ struct_attributes:
   - text_author: author
   - text_title: title
   - text_year: year
-title: Norstedtsromaner (1999)
+title:
+  swe: Norstedtsromaner (1999)
+  eng: Norstedts novels (1999)
 within:
   - label:
       eng: sentence

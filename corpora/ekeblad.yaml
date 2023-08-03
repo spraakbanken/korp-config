@@ -24,7 +24,9 @@ struct_attributes:
   - text_date: date
   - text_author: author
   - text_title: title
-title: Ekeblads brev
+title:
+  swe: Ekeblads brev
+  eng: Ekeblad's letters
 within:
   - label:
       eng: sentence

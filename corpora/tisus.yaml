@@ -396,7 +396,9 @@ struct_attributes:
       label:
         eng: age
         swe: ålder
-title: TISUS-texter
+title:
+  swe: TISUS-texter
+  eng: TISUS texts
 within:
   - label:
       eng: paragraph

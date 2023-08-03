@@ -46,7 +46,9 @@ struct_attributes:
         eng: page
         swe: sida
   - text_date: date
-title: FTS - Färöisk textsamling
+title:
+  swe: FTS - Färöisk textsamling
+  eng: FTS - Faroese text collection
 within:
   - label:
       eng: sentence

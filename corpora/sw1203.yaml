@@ -390,7 +390,9 @@ struct_attributes:
       label:
         eng: age
         swe: ålder
-title: SW1203-uppsatser
+title:
+  swe: SW1203-uppsatser
+  eng: SW1203-essays
 within:
   - label:
       eng: paragraph

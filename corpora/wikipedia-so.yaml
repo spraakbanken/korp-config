@@ -3,7 +3,9 @@ context:
       eng: 1 sentence
       swe: 1 mening
     value: 1 sentence
-description: ''
+description:
+  swe: Korpus av somaliska Wikipedia
+  eng: Corpus of Somali Wikipedia
 id: wikipedia-so
 mode:
   - name: somali
@@ -14,7 +16,9 @@ struct_attributes:
         eng: source
         swe: källa
       type: url
-title: Somali Wikipedia
+title:
+  swe: Somaliska Wikipedia
+  eng: Somali Wikipedia
 within:
   - label:
       eng: sentence

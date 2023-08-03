@@ -37,7 +37,9 @@ struct_attributes:
       label:
         eng: publisher
         swe: utgivare
-title: Barnlitteratur 1988–2013
+title:
+  swe: Barnlitteratur 1988–2012
+  eng: Children's literature 1988–2012
 within:
   - label:
       eng: paragraph

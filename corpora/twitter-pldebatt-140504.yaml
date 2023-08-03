@@ -109,7 +109,9 @@ struct_attributes:
       label:
         eng: location
         swe: plats
-title: Twitter - Partiledardebatt maj 2014
+title:
+  swe: 'Twitter: Partiledardebatt maj 2014'
+  eng: 'Twitter: Party Leader Debate May 2014'
 within:
   - label:
       eng: sentence

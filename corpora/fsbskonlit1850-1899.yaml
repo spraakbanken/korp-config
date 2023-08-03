@@ -24,7 +24,9 @@ struct_attributes:
   - text_author: author
   - text_date: year
   - text_title: title
-title: Skönlitteratur 1850–1899
+title:
+  swe: Finlandssvensk skönlitteratur 1850–1899
+  eng: Finland Swedish fiction 1850–1899
 within:
   - label:
       eng: sentence

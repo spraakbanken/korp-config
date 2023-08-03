@@ -36,7 +36,9 @@ struct_attributes:
       label:
         eng: archive code
         swe: arkivkod
-title: Dagböcker 1700-tal
+title:
+  swe: Dagböcker 1700-tal
+  eng: Diaries 1700-tal
 within:
   - label:
       eng: sentence

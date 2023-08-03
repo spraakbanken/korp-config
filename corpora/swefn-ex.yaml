@@ -3,7 +3,13 @@ context:
       eng: 1 sentence
       swe: 1 mening
     value: 1 sentence
-description: ''
+description:
+  swe: En lexikalisk-semantisk resurs baserad på samma principer som engelska Berkeley
+    FrameNet. Denna del av resursen innehåller korpusexemplen, automatiskt annoterade
+    med språklig information.
+  eng: A lexical semantic resource based on the same principles as the English Berkeley
+    FrameNet. This part of the resource contains the corpus examples, automatically
+    enriched with linguistic information.
 id: swefn-ex
 mode:
   - name: default
@@ -61,7 +67,9 @@ struct_attributes:
       label:
         eng: semantic type
         swe: semantisk typ
-title: Svenskt frasnät (SweFN)
+title:
+  swe: Svenskt frasnät (SweFN)
+  eng: Swedish framenet (SweFN)
 within:
   - label:
       eng: sentence

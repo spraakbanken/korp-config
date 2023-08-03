@@ -36,7 +36,9 @@ struct_attributes:
       label:
         eng: archive code
         swe: arkivkod
-title: Dagböcker 1800–1849
+title:
+  swe: Dagböcker 1800–1849
+  eng: Diaries 1800–1849
 within:
   - label:
       eng: sentence

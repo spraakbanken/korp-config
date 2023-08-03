@@ -32,7 +32,9 @@ struct_attributes:
       label:
         eng: issue
         swe: utgåva
-title: Läkartidningen 2000
+title:
+  swe: Läkartidningen 2000
+  eng: Läkartidningen medical journal 2000
 within:
   - label:
       eng: sentence

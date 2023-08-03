@@ -31,7 +31,9 @@ struct_attributes:
       label:
         eng: volume
         swe: band
-title: 'ORDAT: Svenska dagbladets årsbok 1923–1958'
+title:
+  swe: ORDAT
+  eng: ORDAT
 within:
   - label:
       eng: sentence

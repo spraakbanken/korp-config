@@ -96,7 +96,9 @@ struct_attributes:
   - text_date: date
   - chapter_name:
       label: chapter
-title: Nils Matsson Kiöpings resor
+title:
+  swe: Nils Matsson Kiöpings resor
+  eng: Nils Matsson Kiöping's journeys
 within:
   - label:
       eng: paragraph

@@ -37,7 +37,9 @@ struct_attributes:
       label:
         eng: publisher
         swe: utgivare
-title: Sakprosa 2006–2013
+title:
+  swe: Finlandssvensk sakprosa 2006–2013
+  eng: Finland Swedish non-fiction 2006–2013
 within:
   - label:
       eng: paragraph

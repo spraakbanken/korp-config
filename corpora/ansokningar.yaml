@@ -38,7 +38,9 @@ struct_attributes:
         swe: kön
   - text_id:
       label: id
-title: Ansökningar
+title:
+  swe: Ansökningar
+  eng: Applications
 within:
   - label:
       eng: sentence

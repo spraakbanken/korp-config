@@ -48,7 +48,9 @@ struct_attributes:
       label:
         eng: month
         swe: månad
-title: August Strindbergs brev
+title:
+  swe: August Strindbergs brev
+  eng: August Strindberg's letters
 within:
   - label:
       eng: paragraph

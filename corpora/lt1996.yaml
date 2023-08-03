@@ -34,7 +34,9 @@ struct_attributes:
   - text_year: year
   - text_id:
       label: text
-title: Läkartidningen 1996
+title:
+  swe: Läkartidningen 1996
+  eng: Läkartidningen medical journal 1996
 within:
   - label:
       eng: sentence

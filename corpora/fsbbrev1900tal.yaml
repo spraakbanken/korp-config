@@ -40,7 +40,9 @@ struct_attributes:
       label:
         eng: archive code
         swe: arkivkod
-title: Brev 1900–1959
+title:
+  swe: Brev 1900–1959
+  eng: Letters 1900–1959
 within:
   - label:
       eng: sentence

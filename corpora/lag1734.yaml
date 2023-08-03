@@ -91,7 +91,9 @@ struct_attributes:
         is: '='
         is_not: '!='
   - text_date: date
-title: 1734 års lag
+title:
+  swe: 1734 års lag
+  eng: Laws of 1734
 within:
   - label:
       eng: sentence

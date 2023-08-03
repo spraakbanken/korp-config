@@ -29,7 +29,9 @@ pos_attributes:
 struct_attributes:
   - text_date: year
   - text_title: title
-title: Propositioner 1993–2013
+title:
+  swe: Propositioner 1993–2013
+  eng: Proposals 1993–2013
 within:
   - label:
       eng: sentence

@@ -35,7 +35,9 @@ pos_attributes:
 struct_attributes:
   - text_author: author
   - text_title: title
-title: Bonniersromaner II (1980–81)
+title:
+  swe: Bonniersromaner II (1980–81)
+  eng: Bonniers novels II (1980–81)
 within:
   - label:
       eng: paragraph

@@ -109,7 +109,9 @@ struct_attributes:
       label:
         eng: location
         swe: plats
-title: Twitter - Partiledardebatt oktober 2013
+title:
+  swe: 'Twitter: Partiledardebatt oktober 2013'
+  eng: 'Twitter: Party Leader Debate October 2013'
 within:
   - label:
       eng: sentence

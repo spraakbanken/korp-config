@@ -64,9 +64,14 @@ struct_attributes:
         eng: tags
         swe: nyckelord
       type: set
-title: Bloggmix 2014
+title:
+  swe: Bloggmix 2014
+  eng: Blog mix 2014
 within:
   - label:
       eng: sentence
       swe: mening
     value: sentence
+description:
+  swe: Material från ett urval av svenska bloggar. Uppdateras regelbundet.
+  eng: Material from a selection of Swedish blogs. Is updated regularly.

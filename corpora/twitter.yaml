@@ -114,7 +114,9 @@ struct_attributes:
         eng: website
         swe: webbsida
       type: url
-title: Twittermix
+title:
+  swe: Twittermix
+  eng: Twitter Mix
 within:
   - label:
       eng: sentence

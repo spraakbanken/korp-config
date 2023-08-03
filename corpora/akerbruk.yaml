@@ -43,7 +43,9 @@ struct_attributes:
   - text_date: date
   - chapter_name:
       label: chapter
-title: Åkerbruk
+title:
+  swe: Åkerbruk
+  eng: Agriculture
 within:
   - label:
       eng: paragraph

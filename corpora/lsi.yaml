@@ -104,7 +104,9 @@ struct_attributes:
       label:
         eng: sentence
         swe: mening
-title: Linguistic Survey of India
+title:
+  swe: Linguistic Survey of India (LSI)
+  eng: Linguistic Survey of India (LSI)
 within:
   - label:
       eng: sentence

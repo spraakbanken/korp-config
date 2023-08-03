@@ -53,7 +53,9 @@ struct_attributes:
       label:
         eng: published
         swe: publicerat
-title: Gustaf Vasas bibel - Nya testamentet
+title:
+  swe: Gustav Vasas bibel - Nya testamentet
+  eng: Gustav Vasa's bible - New testament
 within:
   - label:
       eng: paragraph

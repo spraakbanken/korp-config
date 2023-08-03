@@ -26,7 +26,9 @@ struct_attributes:
       label:
         eng: issue
         swe: utgåva
-title: Litterär tidskrift utgifven i Helsingfors
+title:
+  swe: Litterär tidskrift utgifven i Helsingfors
+  eng: Literary magazine published in Helsingfors
 within:
   - label:
       eng: sentence

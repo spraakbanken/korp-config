@@ -29,7 +29,9 @@ pos_attributes:
 struct_attributes:
   - text_id:
       label: text
-title: SUC-romaner
+title:
+  swe: SUC-romaner (StorSUC)
+  eng: SUC Novels (StorSUC)
 within:
   - label:
       eng: sentence

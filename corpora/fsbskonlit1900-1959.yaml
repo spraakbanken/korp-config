@@ -28,7 +28,9 @@ struct_attributes:
       label:
         eng: publisher
         swe: utgivare
-title: Skönlitteratur 1900–1959
+title:
+  swe: Finlandssvensk skönlitteratur 1900–1959
+  eng: Finland Swedish fiction 1900–1959
 within:
   - label:
       eng: sentence

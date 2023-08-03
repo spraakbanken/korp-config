@@ -37,7 +37,9 @@ struct_attributes:
       label:
         eng: publisher
         swe: utgivare
-title: Myndighetsprosa 1990–2013
+title:
+  swe: Finlandssvensk Myndighetsprosa 1990–2013
+  eng: Finlandssvensk Myndighetsprosa 1990–2013
 within:
   - label:
       eng: paragraph

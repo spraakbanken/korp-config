@@ -146,7 +146,9 @@ struct_attributes:
         eng: interview
         swe: intervju
       pattern: <a href="<%=val%>">XML</a>
-title: InterFra svenska
+title:
+  swe: InterFra svenska
+  eng: InterFra Swedish
 within:
   - label:
       eng: paragraph

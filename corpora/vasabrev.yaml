@@ -53,7 +53,9 @@ struct_attributes:
       label:
         eng: published
         swe: publicerat
-title: Gustav Vasas brevproduktion
+title:
+  swe: Gustav Vasas brevproduktion
+  eng: Gustav Vasa's letter production
 within:
   - label:
       eng: paragraph

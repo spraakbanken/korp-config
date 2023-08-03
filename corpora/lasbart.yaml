@@ -3,7 +3,9 @@ context:
       eng: 1 sentence
       swe: 1 mening
     value: 1 sentence
-description: ''
+description:
+  swe: Lättläst svenska och barnbokstext
+  eng: Easy to read Swedish and texts from children's books
 id: lasbart
 mode:
   - name: default
@@ -40,7 +42,9 @@ struct_attributes:
       label:
         eng: type
         swe: typ
-title: LäSBarT – Lättläst svenska och barnbokstext
+title:
+  swe: LäSBarT
+  eng: LäSBarT
 within:
   - label:
       eng: sentence

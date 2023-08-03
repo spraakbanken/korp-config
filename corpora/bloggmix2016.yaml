@@ -70,3 +70,6 @@ within:
       eng: sentence
       swe: mening
     value: sentence
+description:
+  swe: Material från ett urval av svenska bloggar. Uppdateras regelbundet.
+  eng: Material from a selection of Swedish blogs. Is updated regularly.

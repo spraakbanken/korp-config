@@ -3,7 +3,9 @@ context:
       eng: 1 sentence
       swe: 1 mening
     value: 1 sentence
-description: ''
+description:
+  swe: Tidningen DiabetologNytt 1996-1999
+  eng: The paper DiabetologNytt (Diabetologynews) 1996-1999
 id: diabetolog
 mode:
   - folder: medical

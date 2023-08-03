@@ -25,7 +25,9 @@ pos_attributes:
   - compwf: compwf
   - prefix: prefix
   - suffix: suffix
-title: SNP 78–79 (Riksdagens snabbprotokoll)
+title:
+  swe: SNP 1978–79
+  eng: SNP 1978–79
 within:
   - label:
       eng: sentence

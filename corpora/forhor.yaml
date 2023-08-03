@@ -72,7 +72,9 @@ struct_attributes:
       label:
         eng: interpreted
         swe: tolkat
-title: Förhör
+title:
+  swe: Förhör
+  eng: Interrogations
 within:
   - label:
       eng: paragraph

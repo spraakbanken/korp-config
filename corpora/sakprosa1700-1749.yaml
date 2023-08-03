@@ -3,7 +3,10 @@ context:
       eng: 1 sentence
       swe: 1 mening
     value: 1 sentence
-description: ''
+description:
+  swe: Del av finlandssvensk språkbank över svenskan i Finland i dag och i går
+  eng: Part of the Finland Swedish language bank over Swedish in Finland today and
+    yesterday
 id: sakprosa1700-1749
 mode:
   - folder: sakprosa
@@ -35,7 +38,9 @@ struct_attributes:
       label:
         eng: page
         swe: sida
-title: Sakprosa 1700–1749
+title:
+  swe: Sakprosa 1700–1749
+  eng: Non-fiction 1700–1749
 within:
   - label:
       eng: sentence

@@ -42,7 +42,9 @@ struct_attributes:
   - text_id:
       display_type: hidden
       label: id
-title: Svensk prosafiktion 1800–1900
+title:
+  swe: Svensk prosafiktion 1800–1900
+  eng: Swedish Prose Fiction 1800–1900
 within:
   - label:
       eng: sentence

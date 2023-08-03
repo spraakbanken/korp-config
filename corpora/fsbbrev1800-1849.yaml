@@ -40,7 +40,9 @@ struct_attributes:
       label:
         eng: archive code
         swe: arkivkod
-title: Brev 1800–1849
+title:
+  swe: Brev 1800–1849
+  eng: Letters 1800–1849
 within:
   - label:
       eng: sentence
