@@ -7,8 +7,13 @@ context:
       eng: 1 sentence
       swe: 1 mening
     value: 1 sentence
-description: Material ur kolumner publicerade av <a target="_blank" href="http://www.magma.fi">Tankesmedjan
-  Magma</a>
+description:
+  swe: |-
+    <b>Material ur kolumner publicerade av Tankesmedjan Magma</b><br><br><p>Korpusen är del av språkbanken för finlandssvenska inom projektet <i>Svenskan i Finland – i dag och i går</i>. Läs mer hos <a href="https://www.sls.fi/sv/infrastruktur-oversiktsprojekt#svenskan-i-finland-i-dag-och-i-gr-20102017">Svenska litteratursällskapet i Finland</a></p>
+    <p>Magma är en partipolitiskt obunden tankesmedja med syfte att bana väg för nytänkande kring svenskans framtid i Finland. På <a target="_blank" href="http://www.magma.fi">Magmas hemsida</a> publiceras det kolumner av gästande kolumnister.</p>
+    <p>Kolumnisterna i samlingen Magmakolumner 2009-2012 är Rurik Ahlberg, Jörn Donner, Monika Fagerholm, Anna-Karin Friis, Peter Lodenius, Björn Månsson, Andrea Reuter, Dennis Rundt, Marika Tandefelt och Nils Erik Villstrand. Kolumnisterna är finlandssvenska.</p>
+  eng: Part of the Finland Swedish language bank over Swedish in Finland today and
+    yesterday
 id: magmakolumner
 mode:
   - folder: fisk.webtexts

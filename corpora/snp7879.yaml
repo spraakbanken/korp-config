@@ -3,7 +3,9 @@ context:
       eng: 1 sentence
       swe: 1 mening
     value: 1 sentence
-description: Riksdagens snabbprotokoll 1978–1979.
+description:
+  swe: Riksdagens snabbprotokoll 1978–1979
+  eng: Swedish parliament proceedings 1978–1979
 id: snp7879
 mode:
   - folder: governmental

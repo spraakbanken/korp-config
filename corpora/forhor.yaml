@@ -7,8 +7,11 @@ context:
       eng: 1 sentence
       swe: 1 mening
     value: 1 sentence
-description: För åtkomst kontakta <a href="mailto:ylva.byrman@svenska.gu.se">Ylva
-  Byrman</a>.
+description:
+  swe: Korpusen är skyddad, kontakta Ylva Burman (ylva.byrman@svenska.gu.se) för mer
+    information och åtkomst.
+  eng: The corpus is protected, contact Ylva Burman (ylva.byrman@svenska.gu.se) for
+    more information and access.
 id: forhor
 limited_access: true
 mode:

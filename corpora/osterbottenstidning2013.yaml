@@ -9,26 +9,8 @@ context:
     value: 1 sentence
 description:
   swe: |-
-    <b>Del av finlandssvensk språkbank över svenskan i Finland i dag och i går</b><br><br><html>
-
-    <p>
-    Korpusen är del av språkbanken för finlandssvenska inom projektet <i>Svenskan i Finland -- i dag och i går</i>. Läs mer hos  <a href="https://www.sls.fi/sv/infrastruktur-oversiktsprojekt#svenskan-i-finland-i-dag-och-i-gr-20102017">Svenska litteratursällskapet i Finland</a>
-    <!-- <a href="http://www.sls.fi/doc.php?category=5&docid=799">Svenska litteratursällskapet i Finland</a>. -->
-    </p>
-
-
-    <!--
-    <p>
-    Österbottens Tidning
-    </p>
-    -->
-
-    <p>
-    Österbottens Tidning (www.ot.fi) är en regional svenskspråkig dagstidning i Österbotten. Tidningen grundades 2008 då Jakobstads Tidning och Österbottningen fusionerades. Österbottens Tidning utkommer sju dagar i veckan.
-    </p>
-
-
-    </html>
+    <b>Regional svenskspråkig dagstidning i Österbotten</b><br><br><p>Korpusen är del av språkbanken för finlandssvenska inom projektet <i>Svenskan i Finland – i dag och i går</i>. Läs mer hos <a href="https://www.sls.fi/sv/infrastruktur-oversiktsprojekt#svenskan-i-finland-i-dag-och-i-gr-20102017">Svenska litteratursällskapet i Finland</a></p>
+    <p><a target="_blank" href="www.ot.fi">Österbottens Tidning</a> är en regional svenskspråkig dagstidning i Österbotten. Tidningen grundades 2008 då Jakobstads Tidning och Österbottningen fusionerades. Österbottens Tidning utkommer sju dagar i veckan.</p>
   eng: Part of the Finland Swedish language bank over Swedish in Finland today and
     yesterday
 id: osterbottenstidning2013

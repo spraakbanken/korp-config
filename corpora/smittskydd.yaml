@@ -3,7 +3,10 @@ context:
       eng: 1 sentence
       swe: 1 mening
     value: 1 sentence
-description: Smittskyddsinstitutets tidskrift, årgångarna 2002–2010.
+description:
+  swe: Smittskyddsinstitutets tidskrift Smittskydd, årgångarna 2002–2010
+  eng: The newspaper Smittskydd by Smittskyddsinstitutet (Swedish Institute for Communicable
+    Disease Control) 2002–2010
 id: smittskydd
 mode:
   - folder: medical

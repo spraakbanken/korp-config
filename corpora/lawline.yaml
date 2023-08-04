@@ -7,8 +7,11 @@ context:
       eng: 1 sentence
       swe: 1 mening
     value: 1 sentence
-description: Frågor och svar kring juridisk rådgivning från lawline.<br><br>För åtkomst
-  kontakta <a href="mailto:lena.rogstroem@svenska.gu.se">Lena Rogström</a>.
+description:
+  swe: <b>Frågor och svar kring juridisk rådgivning från lawline.</b><br><br>För åtkomst
+    kontakta <a href="mailto:lena.rogstroem@svenska.gu.se">Lena Rogström</a>
+  eng: <b>Questions and answers about law counseling.</b><br><br>For access please
+    contact <a href="mailto:lena.rogstroem@svenska.gu.se">Lena Rogström</a>
 id: lawline
 limited_access: true
 mode:

@@ -8,26 +8,10 @@ context:
       swe: 1 mening
     value: 1 sentence
 description:
-  swe: |-
-    <b>Del av finlandssvensk språkbank över svenskan i Finland i dag och i går</b><br><br><html>
-
-    <p>
-    Korpusen är del av språkbanken för finlandssvenska inom projektet <i>Svenskan i Finland -- i dag och i går</i>. Läs mer hos  <a href="https://www.sls.fi/sv/infrastruktur-oversiktsprojekt#svenskan-i-finland-i-dag-och-i-gr-20102017">Svenska litteratursällskapet i Finland</a>
-    <!-- <a href="http://www.sls.fi/doc.php?category=5&docid=799">Svenska litteratursällskapet i Finland</a>. -->
-    </p>
-
-
-    <!--
-    <p>
-    Hufvudstadsbladet
-    </p>
-    -->
-
-    <p>
-    Hufvudstadsbladet (www.hbl.fi) är den största finlandssvenska dagstidningen i Finland. Enligt Upplagekontroll 2012 finns 48 % av tidningens prenumeranter inom huvudstadsregionen och 41 % inom Nyland. Resten fördelar sig jämnt över övriga svenskbygder i Finland. Hufvudstadsbladet har publicerats sedan 1864. Tidningen kommer ut sju dagar i veckan.
-    </p>
-
-    </html>
+  swe: <b>Tidning som grundades av August Schauman år 1865</b><br><br><p>Korpusen
+    är del av språkbanken för finlandssvenska inom projektet <i>Svenskan i Finland
+    – i dag och i går</i>. Läs mer hos <a href="https://www.sls.fi/sv/infrastruktur-oversiktsprojekt#svenskan-i-finland-i-dag-och-i-gr-20102017">Svenska
+    litteratursällskapet i Finland</a></p>
   eng: Part of the Finland Swedish language bank over Swedish in Finland today and
     yesterday
 id: hbl1991

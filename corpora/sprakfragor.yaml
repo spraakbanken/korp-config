@@ -7,8 +7,12 @@ context:
       eng: 1 text
       swe: 1 text
     value: 1 text
-description: Spåkrådets rådgivningsmejl<br><br>För åtkomst kontakta <a href="mailto:per-anders.jande@sprakochfolkminnen.se">Per-Anders
-  Jande</a>.
+description:
+  swe: <b>Spåkrådets rådgivningsmejl</b><br><br>För åtkomst kontakta <a href="mailto:per-anders.jande@sprakochfolkminnen.se">Per-Anders
+    Jande</a>.
+  eng: <b>Counselling mails of the Language Council of Sweden</b><br><br>For access
+    please contact <a href="mailto:per-anders.jande@sprakochfolkminnen.se">Per-Anders
+    Jande</a>.
 id: sprakfragor
 limited_access: true
 mode:

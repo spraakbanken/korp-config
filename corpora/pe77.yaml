@@ -1,11 +1,10 @@
 id: pe77
-title: 
+title:
   swe: Banco de Datos de Prensa Española 1977
   eng: Databank of 1977 Spanish Press
 description:
-  swe: |
-    <b>Texter från två spanska tidningar från 1977. Del av SOL - Spanska Online.</b><br><br>
-    Korpusen innehåller texter från tidningarna "El País" och "Triunfo", utgivna
+  swe: |-
+    <b>Texter från två spanska tidningar från 1977. Del av SOL - Spanska Online.</b><br><br>Korpusen innehåller texter från tidningarna "El País" och "Triunfo", utgivna
     i Spanien. De inkluderade utgåvorna är från 1977 och innehåller
     annotationer för författare, källa, genre/kategori och platsen där artikeln
     publicerades. Korpusen innehåller ca 3 000 tidningsartiklar skrivna av över

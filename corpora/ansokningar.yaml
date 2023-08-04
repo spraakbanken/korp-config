@@ -3,8 +3,11 @@ context:
       eng: 1 sentence
       swe: 1 mening
     value: 1 sentence
-description: För åtkomst kontakta <a href="mailto:lena.rogstroem@svenska.gu.se">Lena
-  Rogström</a>.
+description:
+  swe: Anonymiserade jobbansökningar. Korpusen är skyddad, kontakta Lena Rogström
+    (lena.rogstroem@svenska.gu.se) för mer information och åtkomst.
+  eng: Anonymised job applications. The corpus is protected, contact Lena Rogström
+    (lena.rogstroem@svenska.gu.se) for more information and access.
 id: ansokningar
 limited_access: true
 mode:

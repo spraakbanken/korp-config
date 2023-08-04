@@ -10,7 +10,9 @@ context:
       eng: 1 sentence
       swe: 1 mening
     value: 1 sentence
-description: 69 romaner utgivna 1976–77.
+description:
+  swe: En korpus med 69 Bonniersromaner från 1976–77
+  eng: A corpus of 69 Bonnier novels from 1976–77
 id: romi
 mode:
   - folder: novels

@@ -3,8 +3,14 @@ context:
       eng: 1 sentence
       swe: 1 mening
     value: 1 sentence
-description: Euterpe var en litterär, konstnärlig och samhällskritisk kulturtidskrift
-  som utkom 1900–1905. Föregångare till Argus.
+description:
+  swe: <b>Euterpe var en litterär, konstnärlig och samhällskritisk kulturtidskrift
+    som utkom 1900–1905. Föregångare till Argus.</b><br><br><p>Korpusen är del av
+    språkbanken för finlandssvenska inom projektet <i>Svenskan i Finland – i dag och
+    i går</i>. Läs mer hos <a href="https://www.sls.fi/sv/infrastruktur-oversiktsprojekt#svenskan-i-finland-i-dag-och-i-gr-20102017">Svenska
+    litteratursällskapet i Finland</a></p>
+  eng: Part of the Finland Swedish language bank over Swedish in Finland today and
+    yesterday
 id: euterpe
 mode:
   - folder: tidskrifter.tidskrifter1959

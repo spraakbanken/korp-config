@@ -3,7 +3,10 @@ context:
       eng: 1 sentence
       swe: 1 mening
     value: 1 sentence
-description: Tidskrift för den svenska kvinnorörelsen - utgiven av Fredrika-Bremer-Förbundet
+description:
+  swe: En korpus med texter från kvinnotidningen Hertha, tidskrift för den svenska
+    kvinnorörelsen - utgiven av Fredrika-Bremer-Förbundet
+  eng: A corpus with texts from the women's newspaper Hertha
 id: ub-kvt-hertha
 mode:
   - folder: ubkvt

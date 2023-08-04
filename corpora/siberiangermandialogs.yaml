@@ -5,8 +5,7 @@ context:
     value: 1 sentence
 description:
   swe: |-
-    <b>Sibirientyska är nedtecknad talad tyska som talas idag av c:a 36 000 människor i regionen Krasnojarsk i Sibirien (Ryssland).</b><br><br>
-    Korpusen har c:a 34 000 ord. Ryska ord och alla verbformer har annoterats (ryska ord och hybrider står i
+    <b>Sibirientyska är nedtecknad talad tyska som talas idag av c:a 36 000 människor i regionen Krasnojarsk i Sibirien (Ryssland).</b><br><br>Korpusen har c:a 34 000 ord. Ryska ord och alla verbformer har annoterats (ryska ord och hybrider står i
     parentes; böjda verbformer får attribut FINIT eller INFINIT). Sibirientyska ingår
     i ett <a href="http://sprak.gu.se/kontakta-oss/larare/andersen-christiane/syntax-in-contact/"
     target="_blank">samarbetsprojekt</a> mellan Göteborgs universitet och Astafjev universitet

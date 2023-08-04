@@ -7,11 +7,23 @@ context:
       eng: 1 sentence
       swe: 1 mening
     value: 1 sentence
-description: |-
-  <b>August Strindbergs samlade verk. Innehåller material från de 59 volymer som utgivits fram till år 2003.</b><br><br>
-  Korpusen bygger på Kerstin Dahlbäcks arbetsmaterial med samtliga tryckta och otryckta brev av Strindberg som var tillgängliga
-  1 augusti 1991. Materialet kan innehålla både korrekturfel och tolkningsfel utifrån de handskrivna förlagorna. Breven från de
-  sista åren har preliminära beteckningar och ska omnumreras i överensstämmelse med delarna XVII–XX i utgåvan av Strindbergs brev.
+description:
+  swe: |-
+    <b>Del av August Strindbergs samlade verk</b><br><br><p>
+    August Strindbergs romaner och dramer har utgivits som Nationalupplagan av August Strindbergs samlade verk av Stockholms universitet och Norstedts.
+    </p>
+
+    <p>
+    Materialet i databaserna är ej korrekturläst av utgivarna, smärre felaktigheter och avvikelser från de tryckta volymerna kan därför förekomma. För mer information om utgivningen av Samlade Verk, se <a href="http://www.littvet.su.se/strb/index.htm">Strindbergsprojektets hemsida</a>. Se även <a href="http://k2xx.spraakdata.gu.se/strindberg/sbgsok.shtml">frekvens- och ordförklaringssökning</a>.
+    </p>
+  eng: |-
+    <b>Part of the collected works of August Strindberg</b><br><br><p>
+    August Strindberg's novels and dramas have been published as a national edition, Nationalupplagan av August Strindbergs samlade verk, by Stockholm University and Norstedts.
+    </p>
+
+    <p>
+    The material is not proofread by the editors, and may thus contain minor errors and deviations from the printed volumes. For more information about the publication of the Collected Works, see the homepage of <a href="http://www.littvet.su.se/strb/index.htm">the Strindberg project</a>. See also the <a href="http://k2xx.spraakdata.gu.se/strindberg/sbgsok.shtml">frequency and word explanation query</a>.
+    </p>
 id: strindbergromaner
 mode:
   - folder: strindberg

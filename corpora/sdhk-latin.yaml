@@ -3,8 +3,11 @@ context:
       eng: 1 sentence
       swe: 1 mening
     value: 1 sentence
-description: Svenskt Diplomatarium - från <a href="http://www.riksarkivet.se/sdhk"
-  target="_blank">Riksarkivet</a>
+description:
+  swe: <b>Brev på latin, ur Svenskt Diplomatariums huvudkartotek (SDHK)</b><br><br>Från
+    <a href="http://www.riksarkivet.se/sdhk" target="_blank">Riksarkivet</a>.
+  eng: Charters written in Latin, from the Diplomatarium Suecanum (Svenskt Diplomatariums
+    huvudkartotek, SDHK)
 id: sdhk-latin
 mode:
   - folder: medeltid

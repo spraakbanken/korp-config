@@ -17,8 +17,12 @@ custom_attributes:
       label: ''
       pattern: <a href='https://spraakbanken.gu.se/sites/spraakbanken.gu.se/files/Metadata_SW1203_0.pdf'
         target='_blank'>Metadata explanation</a>
-description: För åtkomst kontakta <a href="mailto:ingegerd.enstroem@svenska.gu.se">Ingegerd
-  Enström</a>.
+description:
+  swe: <b>Essays written by L2 Swedish language learners, university courses</b><br><br>För
+    åtkomst kontakta <a href="mailto:ingegerd.enstroem@svenska.gu.se">Ingegerd Enström</a>.
+  eng: <b>Essays written by L2 Swedish language learners, university courses</b><br><br>For
+    access please contact <a href="mailto:ingegerd.enstroem@svenska.gu.se">Ingegerd
+    Enström</a>.
 id: sw1203
 limited_access: true
 mode:

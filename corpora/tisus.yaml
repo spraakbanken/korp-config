@@ -13,8 +13,11 @@ custom_attributes:
       label: ''
       pattern: <a href='https://spraakbanken.gu.se/sites/spraakbanken.gu.se/files/Metadata_explanations2.pdf'
         target='_blank'>Metadata explanation</a>
-description: För åtkomst kontakta <a href="mailto:elena.volodina@svenska.gu.se">Elena
-  Volodina</a>.
+description:
+  swe: <b>Essays written by L2 Swedish learners as part of a TISUS exam</b><br><br>För
+    åtkomst kontakta <a href="mailto:elena.volodina@svenska.gu.se">Elena Volodina</a>.
+  eng: <b>Essays written by L2 Swedish learners as part of a TISUS exam</b><br><br>For
+    access please contact <a href="mailto:elena.volodina@svenska.gu.se">Elena Volodina</a>.
 id: tisus
 limited_access: true
 mode:

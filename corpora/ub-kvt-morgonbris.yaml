@@ -3,7 +3,10 @@ context:
       eng: 1 sentence
       swe: 1 mening
     value: 1 sentence
-description: Arbeterskornas tidning - utgiven av kvinnornas fackförbund
+description:
+  swe: En korpus med texter från kvinnotidningen Morgonbris, arbeterskornas tidning
+    - utgiven av kvinnornas fackförbund
+  eng: A corpus with texts from the women's newspaper Morgonbris
 id: ub-kvt-morgonbris
 mode:
   - folder: ubkvt

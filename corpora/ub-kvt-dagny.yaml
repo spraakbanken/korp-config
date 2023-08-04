@@ -3,7 +3,10 @@ context:
       eng: 1 sentence
       swe: 1 mening
     value: 1 sentence
-description: Tidskrift för sociala och literära intressen - utgiven av Frederika-Bremer-Förbundet
+description:
+  swe: En korpus med texter från kvinnotidningen Dagny, tidskrift för sociala och
+    literära intressen - utgiven av Frederika-Bremer-Förbundet
+  eng: A corpus with texts from the women's newspaper Dagny
 id: ub-kvt-dagny
 mode:
   - folder: ubkvt

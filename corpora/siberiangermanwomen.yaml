@@ -4,9 +4,8 @@ context:
       swe: 1 mening
     value: 1 sentence
 description:
-  swe: |
-    <b>Samtal med fyra kvinnor födda mellan 1927 och 1937 i sovjetiska Volgarepubliken</b><br><br>
-    Korpusen består av samtal med fyra kvinnor födda mellan 1927 och 1937
+  swe: |-
+    <b>Samtal med fyra kvinnor födda mellan 1927 och 1937 i sovjetiska Volgarepubliken</b><br><br>Korpusen består av samtal med fyra kvinnor födda mellan 1927 och 1937
     i sovjetiska Volgarepubliken. Deras modersmål är en tysk varietet som har talats
     i Ryssland sedan andra halvan av 1700-talet. Kvinnorna lever sedan Andra världskrigets
     slut i regionen Krasnojarsk. De berättar om sina liv och sin nuvarande vardag i
@@ -24,7 +23,7 @@ description:
     {brackets}; all verb forms have got the attribute FINIT or INFINIT. More information
     on the research project see <a href="http://sprak.gu.se/kontakta-oss/larare/andersen-christiane/syntax-in-contact/"
     target="_blank">Syntax in contact</a>.
-  eng: |
+  eng: |-
     <b>Dialogs between four women born in 1927 to 1937 in the Soviet Volga Republic</b><br><br>
     The corpus consists of dialogs between four women born in 1927 to 1937 in
     the Sovªiet Volga Republic. Their mother tongue is a German variety

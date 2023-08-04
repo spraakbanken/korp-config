@@ -11,9 +11,11 @@ custom_attributes:
   - image:
       custom_type: struct
       sidebar_component: lsiImage
-description: A digital version of the classic Grierson’s <i>Linguistic Survey of India</i>
-  (LSI; 1903-1927) covering more than 250 varieties representing the four major South
-  Asian language families.
+description:
+  swe: {}
+  eng: A digital version of the classic Grierson’s <i>Linguistic Survey of India</i>
+    (LSI; 1903-1927) covering more than 250 varieties representing the four major
+    South Asian language families.
 id: lsi
 mode:
   - name: lsi

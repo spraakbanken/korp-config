@@ -10,7 +10,9 @@ context:
       eng: 1 sentence
       swe: 1 mening
     value: 1 sentence
-description: 60 romaner från 1980–81.
+description:
+  swe: En korpus med 60 Bonniersromaner från 1980–81
+  eng: A corpus of 60 Bonnier novels from 1980–81
 id: romii
 mode:
   - folder: novels

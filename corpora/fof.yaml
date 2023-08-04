@@ -3,8 +3,27 @@ context:
       eng: 1 sentence
       swe: 1 mening
     value: 1 sentence
-description: Artiklar från tidskriften Forskning & Framsteg, nummer 7, 1992 till och
-  med nummer 8, 1996.
+description:
+  swe: |-
+    <b>En korpus av populärvetenskapliga artiklar från Forskning & Framsteg</b><br><br><p>
+    Artiklar från tidskriften <B>Forskning &amp; Framsteg</B>,
+    nummer 7, 1992 till och med nummer 8, 1996.
+    </p>
+    <p>
+    Materialet i konkordansen över Forskning &amp; Framsteg
+    är inte helt identiskt med det som publicerats i
+    pappersutgåvan beroende på att vissa ändringar har
+    utförts i senare produktionsled. Dessutom finns enstaka
+    artiklar i konkordansen som inte alls publicerats eller som
+    kommit att publiceras i ett senare nummer av tidskriften
+    än vad som här anges. Vissa texter som tryckts
+    i tidningen saknas i konkordansen.
+    </p>
+    <p>
+    Vi tackar Forskning &amp; Framsteg för det alltid
+    lika vänliga tillmötesgåendet, år från år.
+    </p>
+  eng: A corpus of popular science articles from Forskning & Framsteg
 id: fof
 mode:
   - folder: magazines

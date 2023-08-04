@@ -7,8 +7,12 @@ context:
       eng: 1 sentence
       swe: 1 mening
     value: 1 sentence
-description: <a target="_blank" href="http://www.bbl.fi">Borgåbladet</a> är en regional
-  svenskspråkig dagstidning i Borgå med omnejd.
+description:
+  swe: |-
+    <b>Regional svenskspråkig dagstidning i Borgå med omnejd</b><br><br><p>Korpusen är del av språkbanken för finlandssvenska inom projektet <i>Svenskan i Finland – i dag och i går</i>. Läs mer hos <a href="https://www.sls.fi/sv/infrastruktur-oversiktsprojekt#svenskan-i-finland-i-dag-och-i-gr-20102017">Svenska litteratursällskapet i Finland</a></p>
+    <p><a target="_blank" href="http://www.bbl.fi">Borgåbladet</a> är en regional svenskspråkig dagstidning i Borgå med omnejd. Tidningen grundades 1860 och utkommer fem dagar i veckan.</p>
+  eng: Part of the Finland Swedish language bank over Swedish in Finland today and
+    yesterday
 id: borgabladet
 mode:
   - folder: fisk.newstexts

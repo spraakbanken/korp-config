@@ -3,8 +3,13 @@ context:
       eng: 1 sentence
       swe: 1 mening
     value: 1 sentence
-description: Utgavs av föreningen Martha 1903–1958. Bytte sedan namn till först Marthabladet
-  och senare Martha (1999–).
+description:
+  swe: <b>Utgavs av föreningen Martha 1903–1958. Bytte sedan namn till först Marthabladet
+    och senare Martha (1999–).</b><br><br><p>Korpusen är del av språkbanken för finlandssvenska
+    inom projektet <i>Svenskan i Finland – i dag och i går</i>. Läs mer hos <a href="https://www.sls.fi/sv/infrastruktur-oversiktsprojekt#svenskan-i-finland-i-dag-och-i-gr-20102017">Svenska
+    litteratursällskapet i Finland</a></p>
+  eng: Part of the Finland Swedish language bank over Swedish in Finland today and
+    yesterday
 id: husmodern
 mode:
   - folder: tidskrifter.tidskrifter1959

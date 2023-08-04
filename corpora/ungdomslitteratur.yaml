@@ -7,7 +7,23 @@ context:
       eng: 1 sentence
       swe: 1 mening
     value: 1 sentence
-description: Material ur ungdomslitterära verk publicerade under 1992–2013.
+description:
+  swe: |-
+    <b>Material ur ungdomslitterära verk publicerade under 1992–2013</b><br><br><p>Korpusen är del av språkbanken för finlandssvenska inom projektet <i>Svenskan i Finland – i dag och i går</i>. Läs mer hos <a href="https://www.sls.fi/sv/infrastruktur-oversiktsprojekt#svenskan-i-finland-i-dag-och-i-gr-20102017">Svenska litteratursällskapet i Finland</a></p>
+    <p>Samlingen innehåller ungdomslitteratur utgiven av förlagen Fontana Media, Schildts och Söderströms förlag samt av Söderströms förlag. Författarna till verken är finlandssvenska. Observera att samlingen är liten.</p>
+    <p>Dessa verk ingår i samlingen:
+        <ul>
+            <li>Tre dagar, Fontell Mats, 2001</li>
+            <li>Brev till världens ände, Luther Annika, 2005</li>
+            <li>De hemlösas stad, Luther Annika, 2011</li>
+            <li>Bryta mot lagen, Tikkanen Märta, 1992</li>
+            <li>Anaché, Turtschaninoff Maria, 2012</li>
+            <li>Arra, Turtschaninoff Maria, 2009</li>
+            <li>Underfors, Turtschaninoff Maria, 2011</li>
+        </ul>
+    </p>
+  eng: Part of the Finland Swedish language bank over Swedish in Finland today and
+    yesterday
 id: ungdomslitteratur
 mode:
   - folder: fisk.literature

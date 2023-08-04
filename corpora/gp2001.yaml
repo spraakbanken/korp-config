@@ -7,7 +7,9 @@ context:
       eng: 1 sentence
       swe: 1 mening
     value: 1 sentence
-description: Göteborgs-Posten 2001.
+description:
+  swe: En korpus med texter från Göteborgsposten
+  eng: A corpus with texts from Göteborgsposten
 id: gp2001
 mode:
   - folder: newstexts.gp

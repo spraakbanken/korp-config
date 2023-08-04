@@ -14,8 +14,11 @@ custom_attributes:
       pattern: <a href='http://twitter.com/<%= struct_attrs.user_username %>/status/<%=
         struct_attrs.text_id %>' target='_blank'>http://twitter.com/<%= struct_attrs.user_username
         %>/status/<%= struct_attrs.text_id %></a>
-description: Material från Twitter, insamlat under partiledardebatten 4 maj 2014 samt
-  några dagar före och efter.
+description:
+  swe: Material från Twitter, insamlat under partiledardebatten 4 maj 2014 samt några
+    dagar före och efter
+  eng: Material from Twitter, collected during the party leader debate on May 4th
+    2013 and a few days before and after
 id: twitter-pldebatt-140504
 mode:
   - folder: socialmedia.twitter

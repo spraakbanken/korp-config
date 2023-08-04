@@ -7,9 +7,12 @@ context:
       eng: 1 sentence
       swe: 1 mening
     value: 1 sentence
-description: <a target="_blank" href="http://jff.fi/index.asp?page=5">JFT</a> publiceras
-  av Juridiska Föreningen i Finland r.f. Den är Nordens äldsta utkommande rättsvetenskapliga
-  tidskrift.
+description:
+  swe: |-
+    <b>Nordens äldsta utkommande rättsvetenskapliga tidskrift</b><br><br><p>Korpusen är del av språkbanken för finlandssvenska inom projektet <i>Svenskan i Finland – i dag och i går</i>. Läs mer hos <a href="https://www.sls.fi/sv/infrastruktur-oversiktsprojekt#svenskan-i-finland-i-dag-och-i-gr-20102017">Svenska litteratursällskapet i Finland</a></p>
+    <p><a target="_blank" href="http://jff.fi/index.asp?page=5">JFT</a> publiceras av Juridiska Föreningen i Finland r.f. Tidskriften är Nordens äldsta utkommande rättsvetenskapliga tidskrift, grundad 1865. JFT utkommer med sex nummer per år.</p>
+  eng: Part of the Finland Swedish language bank over Swedish in Finland today and
+    yesterday
 id: jft
 mode:
   - folder: fisk.magazines

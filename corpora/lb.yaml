@@ -5,8 +5,7 @@ context:
     value: 1 sentence
 description:
   swe: |-
-    <b>Samtliga e-texter och sökbara faksimiler från Litteraturbanken (litteraturbanken.se)</b><br><br>
-    Korpusen består av alla e-texter och sökbara faksimiler från <a href="http://litteraturbanken.se/">Litteraturbanken</a>,
+    <b>E-texter och sökbara faksimiler från Litteraturbanken (litteraturbanken.se)</b><br><br>Korpusen består av alla e-texter och sökbara faksimiler som fanns tillgängliga i november 2020 på <a href="http://litteraturbanken.se/">Litteraturbanken</a>,
     en fritt tillgänglig samling av svenska skönlitterära texter från medeltiden till nutiden.
   eng: |-
     <b>All e-texts and searchable facsimiles fron the Swedish Literature Bank (litteraturbanken.se)</b><br><br>

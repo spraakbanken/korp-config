@@ -1,14 +1,12 @@
 id: runeberg-folkbbl
 title: Folkbiblioteksbladet
 description:
-  swe: |
-    <b>Årgångarna 1904–1908 av tidskriften Folkbiblioteksbladet</b><br><br>
-    Folkbiblioteksbladet utgavs 1903–1911 av Folkbildningsförbundet och Föreningen
+  swe: |-
+    <b>Årgångarna 1904–1908 av tidskriften Folkbiblioteksbladet</b><br><br>Folkbiblioteksbladet utgavs 1903–1911 av Folkbildningsförbundet och Föreningen
     för folkbibliotek och läsestugor. Denna resurs innehåller de fem årgångarna
     1904–1908, digitiserade av <a href="http://runeberg.org/folkbbl/"
     target="_blank">Projekt Runeberg</a>.
-  eng: |-
-    Annual volumes 1904–1908 of the Folkbiblioteksbladet journal
+  eng: Annual volumes 1904–1908 of the Folkbiblioteksbladet journal
 context:
   - label:
       eng: 1 paragraph

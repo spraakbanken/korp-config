@@ -3,8 +3,10 @@ context:
       eng: 1 sentence
       swe: 1 mening
     value: 1 sentence
-description: 'Läkartidningens publicerade artiklar under 1996.<br/>Antal artiklar:
-  2345'
+description:
+  swe: '<b>Läkartidningens publicerade artiklar under 1996.<br/>Antal artiklar: 2345</b><br><br>Del
+    av Korpus för vårdens och omsorgens fackspråk'
+  eng: Part of the corpus for health care technical language
 id: lt1996
 mode:
   - folder: medical.ltd

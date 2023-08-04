@@ -3,7 +3,9 @@ context:
       eng: 1 sentence
       swe: 1 mening
     value: 1 sentence
-description: Kvinnotidning Tidevarvet
+description:
+  swe: En korpus med texter från kvinnotidningen Tidevarvet
+  eng: A corpus with texts from the women's newspaper Tidevarvet
 id: ub-kvt-tidevarvet
 mode:
   - folder: ubkvt

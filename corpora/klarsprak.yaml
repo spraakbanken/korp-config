@@ -7,8 +7,12 @@ context:
       eng: 1 sentence
       swe: 1 mening
     value: 1 sentence
-description: Korpusen skapades i ett pilotprojekt om att studera effekterna av myndigheternas klarspråksarbete.
-    Mer info finns i <a href="https://gup.ub.gu.se/publication/259902?lang=sv" target="_blank">denna artikel</a>.
+description:
+  swe: |-
+    Korpusen skapades i ett pilotprojekt om att studera effekterna av
+    myndigheternas klarspråksarbete. Mer info finns i <a
+    href="https://gup.ub.gu.se/publication/259902?lang=sv"
+    target="_blank">denna artikel</a>.
 id: klarsprak
 mode:
   - folder: governmental

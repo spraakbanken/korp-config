@@ -7,7 +7,9 @@ context:
       eng: 1 sentence
       swe: 1 mening
     value: 1 sentence
-description: Helgbilaga till Göteborgs-Posten.
+description:
+  swe: Helgbilaga till Göteborgs-Posten
+  eng: Weekend appendix of Göteborgs-Posten
 id: gp2d
 mode:
   - folder: newstexts.gp

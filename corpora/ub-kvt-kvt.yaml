@@ -3,7 +3,9 @@ context:
       eng: 1 sentence
       swe: 1 mening
     value: 1 sentence
-description: Kvinnornas Tidning
+description:
+  swe: En korpus med texter från Kvinnornas Tidning
+  eng: A corpus with texts from the women's newspaper Kvinnornas Tidning
 id: ub-kvt-kvt
 mode:
   - folder: ubkvt

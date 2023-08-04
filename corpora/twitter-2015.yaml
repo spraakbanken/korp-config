@@ -14,7 +14,10 @@ custom_attributes:
       pattern: <a href='http://twitter.com/<%= struct_attrs.user_username %>/status/<%=
         struct_attrs.text_id %>' target='_blank'>http://twitter.com/<%= struct_attrs.user_username
         %>/status/<%= struct_attrs.text_id %></a>
-description: Material från ett urval av svenskspråkiga Twitteranvändare från 2015.
+description:
+  swe: Material från ett urval av svenskspråkiga Twitteranvändare från 2015
+  eng: Material collected from a selection of Swedish speaking twitter users from
+    2015
 id: twitter-2015
 mode:
   - folder: socialmedia.twitter

@@ -7,8 +7,10 @@ context:
       eng: 1 sentence
       swe: 1 mening
     value: 1 sentence
-description: '''Nya Testamentet i Gustaf Vasas Bibel /under jämförelse med texten
-  av år 1526 utgivet av Natan Lindqvist'' från 1941'
+description:
+  swe: Nya Testamentet i Gustav Vasas bibel /under jämförelse med texten av år 1526
+    utgivet av Natan Lindqvist 1941
+  eng: The new testament in Gustav Vasa's Bible published by Natan Lidqvist in 1941
 id: vasabibel-nt
 mode:
   - folder: bibel

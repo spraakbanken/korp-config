@@ -3,7 +3,10 @@ context:
       eng: 1 sentence
       swe: 1 mening
     value: 1 sentence
-description: Tidning utgiven av landsföreningen för kvinnans politiska rösträtt
+description:
+  swe: En korpus med texter från kvinnotidningen Rösträtt för Kvinnor, tidning utgiven
+    av landsföreningen för kvinnans politiska rösträtt
+  eng: A corpus with texts from the women's newspaper Rösträtt för Kvinnor
 id: ub-kvt-rostratt
 mode:
   - folder: ubkvt

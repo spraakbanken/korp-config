@@ -3,8 +3,11 @@ context:
       eng: 1 sentence
       swe: 1 mening
     value: 1 sentence
-description: Färöisk textsamling, i samarbete med Färöarnas universitet, Fróðskaparsetur
-  Føroya.
+description:
+  swe: Färöisk TextSamling, i samarbete med Färöarnas universitet, Fróðskaparsetur
+    Føroya, http://www.setur.fo/
+  eng: Faroese text collection, in cooperation with University of Faroe Islands, Fróðskaparsetur
+    Føroya, http://www.setur.fo/
 id: fts
 mode:
   - name: faroe

@@ -3,7 +3,10 @@ context:
       eng: 1 sentence
       swe: 1 mening
     value: 1 sentence
-description: Praktisk veckotidning för kvinnan och hemmet
+description:
+  swe: En korpus med texter från kvinnotidningen Idun, praktisk veckotidning för kvinnan
+    och hemmet
+  eng: A corpus with texts from the women's newspaper Idun
 id: ub-kvt-idun
 mode:
   - folder: ubkvt

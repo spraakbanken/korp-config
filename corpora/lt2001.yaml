@@ -3,7 +3,10 @@ context:
       eng: 1 sentence
       swe: 1 mening
     value: 1 sentence
-description: Läkartidningens publicerade artiklar under 2001.
+description:
+  swe: <b>Läkartidningens publicerade artiklar under 2001.</b><br><br>Del av Korpus
+    för vårdens och omsorgens fackspråk
+  eng: Part of the corpus for health care technical language
 id: lt2001
 mode:
   - folder: medical.ltd

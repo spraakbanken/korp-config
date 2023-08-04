@@ -4,7 +4,7 @@ mode:
   - name: default
 description:
   eng: All articles from the Swedish Wikipedia. Updated regularly.
-  swe: Samtliga artikar från svenska Wikipedia. Uppdateras regelbundet.
+  swe: Korpus av svenskspråkiga Wikipedia
 title:
   swe: Svenska Wikipedia
   eng: Swedish Wikipedia
