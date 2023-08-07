@@ -29,7 +29,9 @@ pos_attributes:
   - suffix: suffix-old
 struct_attributes:
   - text_date: date
-title: Tidningar Utgifne af et Sällskap i Åbo 1771–1783
+title:
+  swe: 'Äldre finlandssvenska: Tidningar Utgifne af et Sällskap i Åbo 1771–1783'
+  eng: 'Old Finland Swedish: Tidningar Utgifne af et Sällskap i Åbo 1771–1783'
 within:
   - label:
       eng: sentence

@@ -32,7 +32,9 @@ struct_attributes:
       label:
         eng: issue
         swe: utgåva
-title: Typograftidning 1889–1890
+title:
+  swe: 'Äldre finlandssvenska: Typograftidning 1889–1890'
+  eng: 'Old Finland Swedish: Typograftidning 1889–1890'
 within:
   - label:
       eng: sentence

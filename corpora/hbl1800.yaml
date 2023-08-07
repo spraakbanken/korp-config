@@ -28,7 +28,9 @@ pos_attributes:
   - suffix: suffix-old
 struct_attributes:
   - text_date: date
-title: Hufvudstadsbladet 1893–1903
+title:
+  swe: 'Äldre finlandssvenska: Hufvudstadsbladet 1893–1903'
+  eng: 'Old Finland Swedish: Hufvudstadsbladet 1893–1903'
 within:
   - label:
       eng: sentence

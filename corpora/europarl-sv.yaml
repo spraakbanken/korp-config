@@ -64,8 +64,8 @@ struct_attributes:
         swe: språk
   - text_date: date
 title:
-  swe: Europarl – svenska
-  eng: Europarl – Swedish
+  swe: 'Europarl: svenska'
+  eng: 'Europarl: Swedish'
 within:
   - label:
       eng: linkda

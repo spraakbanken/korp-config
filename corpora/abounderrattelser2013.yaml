@@ -36,7 +36,9 @@ pos_attributes:
   - suffix: suffix
 struct_attributes:
   - text_date: date
-title: Åbo Underrättelser 2013
+title:
+  swe: 'Finlandssvenska: Åbo Underrättelser 2013'
+  eng: 'Finland Swedish: Åbo Underrättelser 2013'
 within:
   - label:
       eng: paragraph

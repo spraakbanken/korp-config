@@ -23,7 +23,9 @@ struct_attributes:
         swe: plats
   - text_year: year
   - page_n: page
-title: Xisaab 2001 Soomaaliya
+title:
+  swe: 'Somaliska: Xisaab 2001 Soomaaliya'
+  eng: 'Somali: Xisaab 2001 Soomaaliya'
 within:
   - label:
       eng: sentence

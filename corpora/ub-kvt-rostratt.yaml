@@ -52,7 +52,9 @@ struct_attributes:
         is: '='
         is_not: '!='
   - text_year: year
-title: Rösträtt för Kvinnor
+title:
+  swe: 'Kvinnotidningar: Rösträtt för Kvinnor'
+  eng: 'Kvinnotidningar: Rösträtt för Kvinnor'
 within:
   - label:
       eng: sentence

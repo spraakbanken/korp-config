@@ -30,7 +30,9 @@ pos_attributes:
   - compwf: compwf
   - prefix: prefix
   - suffix: suffix
-title: Vasabladet 2012
+title:
+  swe: 'Finlandssvenska: Vasabladet 2012'
+  eng: 'Finland Swedish: Vasabladet 2012'
 within:
   - label:
       eng: sentence

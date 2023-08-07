@@ -30,7 +30,9 @@ pos_attributes:
   - suffix: suffix-old
 struct_attributes:
   - text_date: date
-title: Wiborgs Tidning 1867–1877
+title:
+  swe: 'Äldre finlandssvenska: Wiborgs Tidning 1867–1877'
+  eng: 'Old Finland Swedish: Wiborgs Tidning 1867–1877'
 within:
   - label:
       eng: sentence

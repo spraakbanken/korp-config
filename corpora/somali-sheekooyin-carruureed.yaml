@@ -26,7 +26,9 @@ struct_attributes:
       label:
         eng: edition
         swe: utgåva
-title: Sheekooyin Carruureed (Turjuman)
+title:
+  swe: 'Somaliska: Sheekooyin Carruureed (Turjuman)'
+  eng: 'Somali: Sheekooyin Carruureed (Turjuman)'
 within:
   - label:
       eng: sentence

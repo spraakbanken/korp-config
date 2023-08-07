@@ -16,7 +16,9 @@ struct_attributes:
       type: url
   - text_author: author
   - text_date: year
-title: Sheekooyin Gaagaaban
+title:
+  swe: 'Somaliska: Sheekooyin Gaagaaban'
+  eng: 'Somali: Sheekooyin Gaagaaban'
 within:
   - label:
       eng: sentence

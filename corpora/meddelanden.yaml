@@ -40,7 +40,9 @@ struct_attributes:
       label:
         eng: issue
         swe: utgåva
-title: Meddelanden från Åbo Akademi 2002–2010
+title:
+  swe: 'Finlandssvenska: Meddelanden från Åbo Akademi 2002–2010'
+  eng: 'Finland Swedish: Meddelanden från Åbo Akademi 2002–2010'
 within:
   - label:
       eng: paragraph

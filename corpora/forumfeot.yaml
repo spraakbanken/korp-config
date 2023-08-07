@@ -36,7 +36,9 @@ pos_attributes:
   - suffix: suffix
 struct_attributes:
   - text_date: date
-title: Forum för ekonomi och teknik 2008–2012
+title:
+  swe: 'Finlandssvenska: Forum för ekonomi och teknik 2008–2012'
+  eng: 'Finland Swedish: Forum för ekonomi och teknik 2008–2012'
 within:
   - label:
       eng: paragraph

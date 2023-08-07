@@ -25,7 +25,9 @@ struct_attributes:
         eng: title
         swe: titel
   - text_date: date
-title: Nysvenska bibelböcker – Fornsvenska textbankens material
+title:
+  swe: 'Fornsvenska textbankens material: Nysvenska bibelböcker'
+  eng: 'Fornsvenska textbankens material: Nysvenska bibelböcker'
 within:
   - label:
       eng: sentence

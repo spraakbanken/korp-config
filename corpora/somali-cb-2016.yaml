@@ -24,7 +24,9 @@ struct_attributes:
         eng: edition
         swe: utgåva
   - page_n: page
-title: Cilmiga Bulshada 2016 Somaliland
+title:
+  swe: 'Somaliska: Cilmiga Bulshada 2016 Somaliland'
+  eng: 'Somali: Cilmiga Bulshada 2016 Somaliland'
 within:
   - label:
       eng: sentence

@@ -37,7 +37,9 @@ pos_attributes:
   - suffix: suffix
 struct_attributes:
   - text_year: year
-title: Hufvudstadsbladet 1998
+title:
+  swe: 'Finlandssvenska: Hufvudstadsbladet 1998'
+  eng: 'Finland Swedish: Hufvudstadsbladet 1998'
 within:
   - label:
       eng: paragraph

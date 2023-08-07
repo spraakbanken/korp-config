@@ -57,8 +57,8 @@ struct_attributes:
         eng: publisher
         swe: utgivare
 title:
-  swe: Barnlitteratur 1988–2012
-  eng: Children's literature 1988–2012
+  swe: 'Finlandssvenska: Barnlitteratur 1988–2012'
+  eng: 'Finland Swedish: Children''s literature 1988–2012'
 within:
   - label:
       eng: paragraph

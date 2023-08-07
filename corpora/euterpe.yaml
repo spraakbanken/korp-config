@@ -32,7 +32,9 @@ struct_attributes:
       label:
         eng: issue
         swe: utgåva
-title: Euterpe 1900–1905
+title:
+  swe: 'Äldre finlandssvenska: Euterpe 1900–1905'
+  eng: 'Old Finland Swedish: Euterpe 1900–1905'
 within:
   - label:
       eng: sentence

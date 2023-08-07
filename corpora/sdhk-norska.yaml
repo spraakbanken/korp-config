@@ -36,8 +36,8 @@ struct_attributes:
         eng: city
         swe: stad
 title:
-  swe: Medeltidsbrev - Norska
-  eng: Medieval letters - Norwegian
+  swe: 'Medeltidsbrev: Norska'
+  eng: 'Medieval letters: Norwegian'
 within:
   - label:
       eng: sentence

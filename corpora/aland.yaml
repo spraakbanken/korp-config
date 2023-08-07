@@ -28,7 +28,9 @@ pos_attributes:
   - suffix: suffix-old
 struct_attributes:
   - text_date: date
-title: Åland 1891–1911
+title:
+  swe: 'Äldre finlandssvenska: Åland 1891–1911'
+  eng: 'Old Finland Swedish: Åland 1891–1911'
 within:
   - label:
       eng: sentence

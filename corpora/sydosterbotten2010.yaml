@@ -36,7 +36,9 @@ pos_attributes:
   - suffix: suffix
 struct_attributes:
   - text_date: date
-title: Syd-Österbotten 2010
+title:
+  swe: 'Finlandssvenska: Syd-Österbotten 2010'
+  eng: 'Finland Swedish: Syd-Österbotten 2010'
 within:
   - label:
       eng: paragraph

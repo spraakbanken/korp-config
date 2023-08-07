@@ -41,8 +41,8 @@ struct_attributes:
         eng: language
         swe: språk
 title:
-  swe: ASPAC – svenska
-  eng: ASPAC – Swedish
+  swe: 'ASPAC: svenska'
+  eng: 'ASPAC: Swedish'
 within:
   - label:
       eng: sentence

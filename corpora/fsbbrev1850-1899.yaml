@@ -47,8 +47,8 @@ struct_attributes:
         eng: archive code
         swe: arkivkod
 title:
-  swe: Brev 1850–1899
-  eng: Letters 1850–1899
+  swe: 'Äldre finlandssvenska: Brev 1850–1899'
+  eng: 'Old Finland Swedish: Letters 1850–1899'
 within:
   - label:
       eng: sentence

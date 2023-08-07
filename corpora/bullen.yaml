@@ -36,7 +36,9 @@ pos_attributes:
   - suffix: suffix
 struct_attributes:
   - text_date: date
-title: Bullen 2010–2012
+title:
+  swe: 'Finlandssvenska: Bullen 2010–2012'
+  eng: 'Finland Swedish: Bullen 2010–2012'
 within:
   - label:
       eng: paragraph

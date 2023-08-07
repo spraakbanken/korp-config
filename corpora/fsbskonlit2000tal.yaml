@@ -88,8 +88,8 @@ struct_attributes:
         eng: publisher
         swe: utgivare
 title:
-  swe: Finlandssvensk skönlitteratur 2000–2013
-  eng: Finland Swedish fiction 2000–2013
+  swe: 'Finlandssvenska: Skönlitteratur 2000–2013'
+  eng: 'Finland Swedish: Fiction 2000–2013'
 within:
   - label:
       eng: sentence

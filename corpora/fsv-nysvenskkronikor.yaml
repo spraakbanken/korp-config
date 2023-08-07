@@ -25,7 +25,9 @@ struct_attributes:
         eng: title
         swe: titel
   - text_date: date
-title: Nysvenska krönikor – Fornsvenska textbankens material
+title:
+  swe: 'Fornsvenska textbankens material: Nysvenska krönikor'
+  eng: 'Fornsvenska textbankens material: Nysvenska krönikor'
 within:
   - label:
       eng: sentence

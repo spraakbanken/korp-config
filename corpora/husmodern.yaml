@@ -32,7 +32,9 @@ struct_attributes:
       label:
         eng: issue
         swe: utgåva
-title: Husmodern 1903–1912
+title:
+  swe: 'Äldre finlandssvenska: Husmodern 1903–1912'
+  eng: 'Old Finland Swedish: Husmodern 1903–1912'
 within:
   - label:
       eng: sentence

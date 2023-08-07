@@ -35,8 +35,8 @@ struct_attributes:
         swe: utgåva
   - page_n: page
 title:
-  swe: Saynis 1980–89
-  eng: Saynis 1980–89
+  swe: 'Somaliska: Saynis 1980–89'
+  eng: 'Somali: Saynis 1980–89'
 within:
   - label:
       eng: sentence

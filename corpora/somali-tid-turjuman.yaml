@@ -41,7 +41,9 @@ struct_attributes:
         eng: edition
         swe: utgåva
   - page_n: page
-title: Taariikh iyo Dhaqan (Turjuman)
+title:
+  swe: 'Somaliska: Taariikh iyo Dhaqan (Turjuman)'
+  eng: 'Somali: Taariikh iyo Dhaqan (Turjuman)'
 within:
   - label:
       eng: sentence

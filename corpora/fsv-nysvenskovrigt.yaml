@@ -25,7 +25,9 @@ struct_attributes:
         eng: title
         swe: titel
   - text_date: date
-title: Nysvenska, övrigt – Fornsvenska textbankens material
+title:
+  swe: 'Fornsvenska textbankens material: Nysvenska, övrigt'
+  eng: 'Fornsvenska textbankens material: Nysvenska, övrigt'
 within:
   - label:
       eng: sentence

@@ -40,7 +40,9 @@ struct_attributes:
       label:
         eng: section
         swe: avdelning
-title: Vasabladet 1991
+title:
+  swe: 'Finlandssvenska: Vasabladet 1991'
+  eng: 'Finland Swedish: Vasabladet 1991'
 within:
   - label:
       eng: paragraph

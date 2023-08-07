@@ -35,8 +35,8 @@ struct_attributes:
         eng: publisher
         swe: utgivare
 title:
-  swe: Finlandssvensk skönlitteratur 1900–1959
-  eng: Finland Swedish fiction 1900–1959
+  swe: 'Äldre finlandssvenska: Skönlitteratur 1900–1959'
+  eng: 'Old Finland Swedish: Fiction 1900–1959'
 within:
   - label:
       eng: sentence

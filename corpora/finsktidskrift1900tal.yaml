@@ -33,7 +33,9 @@ struct_attributes:
         eng: issue
         swe: utgåva
   - text_date: year
-title: Finsk Tidskrift 1900–1912
+title:
+  swe: 'Äldre finlandssvenska: Finsk Tidskrift 1900–1912'
+  eng: 'Old Finland Swedish: Finsk Tidskrift 1900–1912'
 within:
   - label:
       eng: sentence

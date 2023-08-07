@@ -27,7 +27,9 @@ pos_attributes:
   - suffix: suffix-old
 struct_attributes:
   - text_date: year
-title: Typografiskt minnesblad 1891
+title:
+  swe: 'Äldre finlandssvenska: Typografiskt minnesblad 1891'
+  eng: 'Old Finland Swedish: Typografiskt minnesblad 1891'
 within:
   - label:
       eng: sentence

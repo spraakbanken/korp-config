@@ -23,7 +23,9 @@ struct_attributes:
       label:
         eng: edition
         swe: utgåva
-title: Suugaan
+title:
+  swe: 'Somaliska: Suugaan'
+  eng: 'Somali: Suugaan'
 within:
   - label:
       eng: sentence

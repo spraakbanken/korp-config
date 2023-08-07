@@ -40,7 +40,9 @@ struct_attributes:
       label:
         eng: issue
         swe: utgåva
-title: Hanken 2008–2011
+title:
+  swe: 'Finlandssvenska: Hanken 2008–2011'
+  eng: 'Finland Swedish: Hanken 2008–2011'
 within:
   - label:
       eng: paragraph

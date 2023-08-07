@@ -37,7 +37,9 @@ pos_attributes:
   - suffix: suffix
 struct_attributes:
   - text_date: date
-title: Hufvudstadsbladet 2014
+title:
+  swe: 'Finlandssvenska: Hufvudstadsbladet 2014'
+  eng: 'Finland Swedish: Hufvudstadsbladet 2014'
 within:
   - label:
       eng: paragraph

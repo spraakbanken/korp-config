@@ -32,7 +32,9 @@ struct_attributes:
       label:
         eng: issue
         swe: utgåva
-title: Astra 1920–1959
+title:
+  swe: 'Äldre finlandssvenska: Astra 1920–1959'
+  eng: 'Old Finland Swedish: Astra 1920–1959'
 within:
   - label:
       eng: sentence

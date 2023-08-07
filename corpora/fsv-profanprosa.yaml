@@ -184,7 +184,9 @@ struct_attributes:
         eng: title
         swe: titel
   - text_date: date
-title: Profan prosa – Fornsvenska textbankens material
+title:
+  swe: 'Fornsvenska textbankens material: Profan prosa'
+  eng: 'Fornsvenska textbankens material: Profan prosa'
 within:
   - label:
       eng: sentence

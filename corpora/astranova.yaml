@@ -53,7 +53,9 @@ struct_attributes:
       label:
         eng: issue
         swe: utgåva
-title: Astra Nova 2008–2010
+title:
+  swe: 'Finlandssvenska: Astra Nova 2008–2010'
+  eng: 'Finland Swedish: Astra Nova 2008–2010'
 within:
   - label:
       eng: paragraph

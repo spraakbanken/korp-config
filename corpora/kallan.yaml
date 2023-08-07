@@ -40,7 +40,9 @@ struct_attributes:
       label:
         eng: issue
         swe: utgåva
-title: Källan 2008–2010
+title:
+  swe: 'Finlandssvenska: Källan 2008–2010'
+  eng: 'Finland Swedish: Källan 2008–2010'
 within:
   - label:
       eng: paragraph

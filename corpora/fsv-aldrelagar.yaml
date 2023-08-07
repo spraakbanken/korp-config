@@ -186,7 +186,9 @@ struct_attributes:
         eng: title
         swe: titel
   - text_date: date
-title: Äldre lagar – Fornsvenska textbankens material
+title:
+  swe: 'Fornsvenska textbankens material: Äldre lagar'
+  eng: 'Fornsvenska textbankens material: Äldre lagar'
 within:
   - label:
       eng: sentence

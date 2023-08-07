@@ -40,7 +40,9 @@ struct_attributes:
       label:
         eng: issue
         swe: utgåva
-title: Nya Argus 2010–2011
+title:
+  swe: 'Finlandssvenska: Nya Argus 2010–2011'
+  eng: 'Finland Swedish: Nya Argus 2010–2011'
 within:
   - label:
       eng: paragraph

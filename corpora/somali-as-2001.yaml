@@ -28,7 +28,9 @@ struct_attributes:
         eng: edition
         swe: utgåva
   - page_n: page
-title: Af-Soomaali 2001 Somaliland
+title:
+  swe: 'Somaliska: Af-Soomaali 2001 Somaliland'
+  eng: 'Somali: Af-Soomaali 2001 Somaliland'
 within:
   - label:
       eng: paragraph

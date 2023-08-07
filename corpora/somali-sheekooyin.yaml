@@ -19,7 +19,9 @@ struct_attributes:
         eng: publisher
         swe: utgivare
   - text_date: year
-title: Sheekooyin Carruureed
+title:
+  swe: 'Somaliska: Sheekooyin Carruureed'
+  eng: 'Somali: Sheekooyin Carruureed'
 within:
   - label:
       eng: sentence

@@ -41,7 +41,9 @@ struct_attributes:
       label:
         eng: section
         swe: avdelning
-title: Hufvudstadsbladet 1991
+title:
+  swe: 'Finlandssvenska: Hufvudstadsbladet 1991'
+  eng: 'Finland Swedish: Hufvudstadsbladet 1991'
 within:
   - label:
       eng: paragraph

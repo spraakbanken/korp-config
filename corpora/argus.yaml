@@ -32,7 +32,9 @@ struct_attributes:
       label:
         eng: issue
         swe: utgåva
-title: Argus 1907–1911
+title:
+  swe: 'Äldre finlandssvenska: Argus 1907–1911'
+  eng: 'Old Finland Swedish: Argus 1907–1911'
 within:
   - label:
       eng: sentence

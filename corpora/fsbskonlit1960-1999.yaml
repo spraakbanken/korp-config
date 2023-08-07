@@ -83,8 +83,8 @@ struct_attributes:
         eng: publisher
         swe: utgivare
 title:
-  swe: Finlandssvensk skönlitteratur 1960–1999
-  eng: Finland Swedish Fiction 1960–1999
+  swe: 'Finlandssvenska: Skönlitteratur 1960–1999'
+  eng: 'Finland Swedish: Fiction 1960–1999'
 within:
   - label:
       eng: sentence

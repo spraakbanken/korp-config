@@ -47,8 +47,8 @@ struct_attributes:
         eng: archive code
         swe: arkivkod
 title:
-  swe: Brev 1700-tal
-  eng: Letters 1700-tal
+  swe: 'Äldre finlandssvenska: Brev 1700-tal'
+  eng: 'Old Finland Swedish: Letters 1700-tal'
 within:
   - label:
       eng: sentence

@@ -25,7 +25,9 @@ struct_attributes:
       label:
         eng: edition
         swe: utgåva
-title: Kitaabka Quduuska Ah
+title:
+  swe: 'Somaliska: Kitaabka Quduuska Ah'
+  eng: 'Somali: Kitaabka Quduuska Ah'
 within:
   - label:
       eng: sentence

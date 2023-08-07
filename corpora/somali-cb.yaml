@@ -29,7 +29,9 @@ struct_attributes:
         eng: page source
         swe: sidkälla
       type: url
-title: Cilmiga Bulshada 1971–1980
+title:
+  swe: 'Somaliska: Cilmiga Bulshada 1971–1980'
+  eng: 'Somali: Cilmiga Bulshada 1971–1980'
 within:
   - label:
       eng: sentence

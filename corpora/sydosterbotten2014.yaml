@@ -44,7 +44,9 @@ struct_attributes:
       label:
         eng: article section
         swe: artikelavdelning
-title: Syd-Österbotten 2014
+title:
+  swe: 'Finlandssvenska: Syd-Österbotten 2014'
+  eng: 'Finland Swedish: Syd-Österbotten 2014'
 within:
   - label:
       eng: paragraph

@@ -49,7 +49,9 @@ struct_attributes:
         eng: title
         swe: titel
   - text_date: date
-title: Nysvenska lagar – Fornsvenska textbankens material
+title:
+  swe: 'Fornsvenska textbankens material: Nysvenska lagar'
+  eng: 'Fornsvenska textbankens material: Nysvenska lagar'
 within:
   - label:
       eng: sentence

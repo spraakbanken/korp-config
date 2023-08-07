@@ -42,7 +42,9 @@ struct_attributes:
       label:
         eng: archive code
         swe: arkivkod
-title: Frågebrevsvar 1900–1949
+title:
+  swe: 'Äldre finlandssvenska: Frågebrevsvar 1900–1949'
+  eng: 'Old Finland Swedish: Frågebrevsvar 1900–1949'
 within:
   - label:
       eng: sentence

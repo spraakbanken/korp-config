@@ -40,8 +40,8 @@ struct_attributes:
   - text_date: date
   - text_author: author
 title:
-  swe: Magma kolumner 2009–2012
-  eng: Magma columns 2009–2012
+  swe: 'Finlandssvenska: Magma kolumner 2009–2012'
+  eng: 'Finland Swedish: Magma columns 2009–2012'
 within:
   - label:
       eng: paragraph

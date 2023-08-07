@@ -36,7 +36,9 @@ struct_attributes:
         eng: edition
         swe: utgåva
   - page_n: page
-title: Suugaan (Turjuman)
+title:
+  swe: 'Somaliska: Suugaan (Turjuman)'
+  eng: 'Somali: Suugaan (Turjuman)'
 within:
   - label:
       eng: sentence

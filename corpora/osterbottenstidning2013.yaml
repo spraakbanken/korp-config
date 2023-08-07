@@ -37,8 +37,8 @@ pos_attributes:
 struct_attributes:
   - text_date: date
 title:
-  swe: Österbottens tidning 2013
-  eng: Österbottens tidning 2013
+  swe: 'Finlandssvenska: Österbottens tidning 2013'
+  eng: 'Finland Swedish: Österbottens tidning 2013'
 within:
   - label:
       eng: paragraph

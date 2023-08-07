@@ -42,8 +42,8 @@ struct_attributes:
         eng: page
         swe: sida
 title:
-  swe: Sakprosa 1700–1749
-  eng: Non-fiction 1700–1749
+  swe: 'Äldre finlandssvenska: Sakprosa 1700–1749'
+  eng: 'Old Finland Swedish: Non-fiction 1700–1749'
 within:
   - label:
       eng: sentence

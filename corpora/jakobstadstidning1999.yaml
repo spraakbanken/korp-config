@@ -36,7 +36,9 @@ pos_attributes:
   - suffix: suffix
 struct_attributes:
   - text_date: date
-title: Jakobstads tidning 1999
+title:
+  swe: 'Finlandssvenska: Jakobstads tidning 1999'
+  eng: 'Finland Swedish: Jakobstads tidning 1999'
 within:
   - label:
       eng: paragraph

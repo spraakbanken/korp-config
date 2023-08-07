@@ -40,7 +40,9 @@ struct_attributes:
       label:
         eng: issue
         swe: utgåva
-title: Pargas Kungörelser 2012
+title:
+  swe: 'Finlandssvenska: Pargas Kungörelser 2012'
+  eng: 'Finland Swedish: Pargas Kungörelser 2012'
 within:
   - label:
       eng: paragraph

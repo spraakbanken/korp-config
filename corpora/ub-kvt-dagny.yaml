@@ -52,7 +52,9 @@ struct_attributes:
         is: '='
         is_not: '!='
   - text_year: year
-title: Dagny
+title:
+  swe: 'Kvinnotidningar: Dagny'
+  eng: 'Kvinnotidningar: Dagny'
 within:
   - label:
       eng: sentence

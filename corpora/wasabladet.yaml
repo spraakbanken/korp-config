@@ -28,7 +28,9 @@ pos_attributes:
   - suffix: suffix-old
 struct_attributes:
   - text_date: date
-title: Wasabladet 1866–1896
+title:
+  swe: 'Äldre finlandssvenska: Wasabladet 1866–1896'
+  eng: 'Old Finland Swedish: Wasabladet 1866–1896'
 within:
   - label:
       eng: sentence

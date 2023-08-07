@@ -54,8 +54,8 @@ struct_attributes:
         eng: publisher
         swe: utgivare
 title:
-  swe: Finlandssvensk Ungdomslitteratur 1992–2012
-  eng: Finland Swedish Youth Literature 1992–2012
+  swe: 'Finlandssvenska: Ungdomslitteratur 1992–2012'
+  eng: 'Finland Swedish: Youth Literature 1992–2012'
 within:
   - label:
       eng: paragraph

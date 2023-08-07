@@ -29,7 +29,9 @@ pos_attributes:
 struct_attributes:
   - text_date: year
   - text_title: title
-title: Spanska Flugan 1839–1841
+title:
+  swe: 'Äldre finlandssvenska: Spanska Flugan 1839–1841'
+  eng: 'Old Finland Swedish: Spanska Flugan 1839–1841'
 within:
   - label:
       eng: sentence

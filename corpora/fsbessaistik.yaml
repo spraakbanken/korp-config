@@ -62,8 +62,8 @@ struct_attributes:
         eng: publisher
         swe: utgivare
 title:
-  swe: Essäistisk litteratur 1963–2013
-  eng: Essayistic literature 1963–2013
+  swe: 'Finlandssvenska: Essäistisk litteratur 1963–2013'
+  eng: 'Finland Swedish: Essayistic literature 1963–2013'
 within:
   - label:
       eng: paragraph

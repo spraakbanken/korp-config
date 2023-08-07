@@ -65,8 +65,8 @@ struct_attributes:
         eng: publisher
         swe: utgivare
 title:
-  swe: Finlandssvensk Myndighetsprosa 1990–2013
-  eng: Finlandssvensk Myndighetsprosa 1990–2013
+  swe: 'Finlandssvenska: Myndighetsprosa 1990–2013'
+  eng: 'Finland Swedish: Authority texts 1990–2013'
 within:
   - label:
       eng: paragraph

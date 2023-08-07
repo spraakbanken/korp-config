@@ -36,7 +36,9 @@ pos_attributes:
   - suffix: suffix
 struct_attributes:
   - text_date: date
-title: Västra Nyland 2012–2013
+title:
+  swe: 'Finlandssvenska: Västra Nyland 2012–2013'
+  eng: 'Finland Swedish: Västra Nyland 2012–2013'
 within:
   - label:
       eng: paragraph

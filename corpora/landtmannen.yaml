@@ -32,7 +32,9 @@ struct_attributes:
       label:
         eng: issue
         swe: utgåva
-title: Landtmannen 1877–1879
+title:
+  swe: 'Äldre finlandssvenska: Landtmannen 1877–1879'
+  eng: 'Old Finland Swedish: Landtmannen 1877–1879'
 within:
   - label:
       eng: sentence

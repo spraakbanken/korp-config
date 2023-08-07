@@ -37,7 +37,9 @@ pos_attributes:
 struct_attributes:
   - text_date: date
   - text_title: title
-title: FNB 1999
+title:
+  swe: 'Finlandssvenska: FNB 1999'
+  eng: 'Finland Swedish: FNB 1999'
 within:
   - label:
       eng: paragraph

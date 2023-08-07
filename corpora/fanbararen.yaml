@@ -41,7 +41,9 @@ struct_attributes:
       label:
         eng: issue
         swe: utgåva
-title: Fanbäraren 2011–2012
+title:
+  swe: 'Finlandssvenska: Fanbäraren 2011–2012'
+  eng: 'Finland Swedish: Fanbäraren 2011–2012'
 within:
   - label:
       eng: paragraph

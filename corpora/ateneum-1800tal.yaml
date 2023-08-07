@@ -33,7 +33,9 @@ struct_attributes:
       label:
         eng: issue
         swe: utgåva
-title: Ateneum 1898–1899
+title:
+  swe: 'Äldre finlandssvenska: Ateneum 1898–1899'
+  eng: 'Old Finland Swedish: Ateneum 1898–1899'
 within:
   - label:
       eng: sentence

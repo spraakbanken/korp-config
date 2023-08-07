@@ -28,7 +28,9 @@ pos_attributes:
   - suffix: suffix-old
 struct_attributes:
   - text_date: date
-title: Björneborgs Tidning 1897–1907
+title:
+  swe: 'Äldre finlandssvenska: Björneborgs Tidning 1897–1907'
+  eng: 'Old Finland Swedish: Björneborgs Tidning 1897–1907'
 within:
   - label:
       eng: sentence

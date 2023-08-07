@@ -184,7 +184,9 @@ struct_attributes:
         eng: title
         swe: titel
   - text_date: date
-title: Yngre religiös prosa – Fornsvenska textbankens material
+title:
+  swe: 'Fornsvenska textbankens material: Yngre religiös prosa'
+  eng: 'Fornsvenska textbankens material: Yngre religiös prosa'
 within:
   - label:
       eng: sentence

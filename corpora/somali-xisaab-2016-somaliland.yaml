@@ -24,7 +24,9 @@ struct_attributes:
         eng: edition
         swe: utgåva
   - page_n: page
-title: Xisaab 2016 Somaliland
+title:
+  swe: 'Somaliska: Xisaab 2016 Somaliland'
+  eng: 'Somali: Xisaab 2016 Somaliland'
 within:
   - label:
       eng: sentence

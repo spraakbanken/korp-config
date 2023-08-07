@@ -33,7 +33,9 @@ struct_attributes:
       label:
         eng: issue
         swe: utgåva
-title: Finsk Tidskrift 1878–1899
+title:
+  swe: 'Äldre finlandssvenska: Finsk Tidskrift 1878–1899'
+  eng: 'Old Finland Swedish: Finsk Tidskrift 1878–1899'
 within:
   - label:
       eng: sentence

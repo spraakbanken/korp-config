@@ -28,7 +28,9 @@ pos_attributes:
   - suffix: suffix-old
 struct_attributes:
   - text_date: date
-title: Borgåbladet 1885
+title:
+  swe: 'Äldre finlandssvenska: Borgåbladet 1885'
+  eng: 'Old Finland Swedish: Borgåbladet 1885'
 within:
   - label:
       eng: sentence

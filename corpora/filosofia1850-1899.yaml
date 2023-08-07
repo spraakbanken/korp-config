@@ -37,7 +37,9 @@ struct_attributes:
       label:
         eng: source
         swe: källa
-title: Filosofia.fi 1850–1899
+title:
+  swe: 'Äldre finlandssvenska: Filosofia.fi 1850–1899'
+  eng: 'Old Finland Swedish: Filosofia.fi 1850–1899'
 within:
   - label:
       eng: sentence

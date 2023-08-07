@@ -27,7 +27,9 @@ struct_attributes:
         eng: place
         swe: plats
   - text_date: date
-title: Raadiyaha Iswiidhan 2014
+title:
+  swe: 'Somaliska: Raadiyaha Iswiidhan 2014'
+  eng: 'Somali: Raadiyaha Iswiidhan 2014'
 within:
   - label:
       eng: paragraph

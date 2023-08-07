@@ -28,7 +28,9 @@ pos_attributes:
   - suffix: suffix-old
 struct_attributes:
   - text_date: date
-title: Fredrikshamns Tidning 1888–1908
+title:
+  swe: 'Äldre finlandssvenska: Fredrikshamns Tidning 1888–1908'
+  eng: 'Old Finland Swedish: Fredrikshamns Tidning 1888–1908'
 within:
   - label:
       eng: sentence

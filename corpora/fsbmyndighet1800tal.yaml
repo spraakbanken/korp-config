@@ -33,7 +33,9 @@ struct_attributes:
       label:
         eng: source
         swe: källa
-title: Protokoll vid lantdagen i Borgå år 1809
+title:
+  swe: 'Äldre finlandssvenska: Protokoll vid lantdagen i Borgå år 1809'
+  eng: 'Old Finland Swedish: Protokoll vid lantdagen i Borgå år 1809'
 within:
   - label:
       eng: sentence

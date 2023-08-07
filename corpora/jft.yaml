@@ -40,7 +40,9 @@ struct_attributes:
       label:
         eng: issue
         swe: utgåva
-title: JFT 2000–2013
+title:
+  swe: 'Finlandssvenska: JFT 2000–2013'
+  eng: 'Finland Swedish: JFT 2000–2013'
 within:
   - label:
       eng: paragraph

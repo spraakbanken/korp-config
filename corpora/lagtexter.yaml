@@ -116,7 +116,9 @@ pos_attributes:
   - compwf: compwf
   - prefix: prefix
   - suffix: suffix
-title: Lagtexter 1990–2000
+title:
+  swe: 'Finlandssvenska: Lagtexter 1990–2000'
+  eng: 'Finland Swedish: Lagtexter 1990–2000'
 within:
   - label:
       eng: paragraph

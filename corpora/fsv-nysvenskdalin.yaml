@@ -37,8 +37,8 @@ struct_attributes:
         swe: titel
   - text_date: date
 title:
-  swe: Dalins Then Swänska Argus 1732-1734
-  eng: Dalin's Then Swänska Argus 1732-1734
+  swe: 'Fornsvenska textbankens material: Dalins Then Swänska Argus 1732-1734'
+  eng: 'Fornsvenska textbankens material: Dalin''s Then Swänska Argus 1732-1734'
 within:
   - label:
       eng: sentence

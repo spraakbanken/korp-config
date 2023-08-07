@@ -34,7 +34,9 @@ struct_attributes:
         eng: edition
         swe: utgåva
   - page_n: page
-title: Maaddooyinka Kale 1972–79
+title:
+  swe: 'Somaliska: Maaddooyinka Kale 1972–79'
+  eng: 'Somali: Maaddooyinka Kale 1972–79'
 within:
   - label:
       eng: sentence

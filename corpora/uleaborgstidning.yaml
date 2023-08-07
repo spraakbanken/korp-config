@@ -28,7 +28,9 @@ pos_attributes:
   - suffix: suffix-old
 struct_attributes:
   - text_date: date
-title: Uleåborgs Tidning 1877–1887
+title:
+  swe: 'Äldre finlandssvenska: Uleåborgs Tidning 1877–1887'
+  eng: 'Old Finland Swedish: Uleåborgs Tidning 1877–1887'
 within:
   - label:
       eng: sentence

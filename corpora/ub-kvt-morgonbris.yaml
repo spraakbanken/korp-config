@@ -52,7 +52,9 @@ struct_attributes:
         is: '='
         is_not: '!='
   - text_year: year
-title: Morgonbris
+title:
+  swe: 'Kvinnotidningar: Morgonbris'
+  eng: 'Kvinnotidningar: Morgonbris'
 within:
   - label:
       eng: sentence

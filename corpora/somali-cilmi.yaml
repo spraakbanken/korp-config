@@ -41,7 +41,9 @@ struct_attributes:
         eng: edition
         swe: utgåva
   - page_n: page
-title: Cilmi-Afeed
+title:
+  swe: 'Somaliska: Cilmi-Afeed'
+  eng: 'Somali: Cilmi-Afeed'
 within:
   - label:
       eng: sentence

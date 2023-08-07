@@ -45,7 +45,9 @@ struct_attributes:
       label:
         eng: issue
         swe: utgåva
-title: Kommuners och städers informationstidningar 2001–2013
+title:
+  swe: 'Finlandssvenska: Kommuners och städers informationstidningar 2001–2013'
+  eng: 'Finland Swedish: Kommuners och städers informationstidningar 2001–2013'
 within:
   - label:
       eng: sentence

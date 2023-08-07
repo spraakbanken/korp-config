@@ -43,8 +43,8 @@ struct_attributes:
         eng: archive code
         swe: arkivkod
 title:
-  swe: Dagböcker 1800–1849
-  eng: Diaries 1800–1849
+  swe: 'Äldre finlandssvenska: Dagböcker 1800–1849'
+  eng: 'Old Finland Swedish: Diaries 1800–1849'
 within:
   - label:
       eng: sentence

@@ -51,7 +51,9 @@ struct_attributes:
         is: '='
         is_not: '!='
   - text_year: year
-title: Kvinnornas Tidning
+title:
+  swe: 'Kvinnotidningar: Kvinnornas Tidning'
+  eng: 'Kvinnotidningar: Kvinnornas Tidning'
 within:
   - label:
       eng: sentence

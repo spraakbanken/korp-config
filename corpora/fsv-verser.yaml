@@ -184,7 +184,9 @@ struct_attributes:
         eng: title
         swe: titel
   - text_date: date
-title: Verser – Fornsvenska textbankens material
+title:
+  swe: 'Fornsvenska textbankens material: Verser'
+  eng: 'Fornsvenska textbankens material: Verser'
 within:
   - label:
       eng: sentence

@@ -32,7 +32,9 @@ struct_attributes:
         eng: edition
         swe: utgåva
   - page_n: page
-title: Afka Hooyo 2010–19 Iswiidhan
+title:
+  swe: 'Somaliska: Afka Hooyo 2010–19 Iswiidhan'
+  eng: 'Somali: Afka Hooyo 2010–19 Iswiidhan'
 within:
   - label:
       eng: paragraph
