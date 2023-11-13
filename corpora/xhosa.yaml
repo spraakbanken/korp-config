@@ -6,7 +6,7 @@ mode:
     folder: protected
 title:
   swe: Xhosa
-  eng: Xhosa
+  eng: Corpus of spoken isiXhosa
 custom_attributes:
   - three_rows:
       custom_type: pos
@@ -42,6 +42,14 @@ struct_attributes:
       opts:
         is: '='
         is_not: '!='
+  - sentence_speaker:
+      label:
+        eng: speaker
+        swe: talare
+      extended_component: structServiceSelect
+      opts:
+        is: '='
+        is_not: '!='
   - sentence_translation:
       label:
         eng: translation
@@ -54,27 +62,7 @@ struct_attributes:
       label:
         eng: filename
         swe: filnamn
-  - sentence_speaker:
-      label:
-        eng: speaker
-        swe: talare
-      extended_component: structServiceSelect
-      opts:
-        is: '='
-        is_not: '!='
 pos_attributes:
-  - glossed:
-      label:
-        eng: glossing
-        swe: glossering
-  - pos:
-      extended_component: structServiceSelect
-      opts:
-        is: '='
-        is_not: '!='
-      label:
-        eng: part of speech
-        swe: ordklass
   - sense:
       extended_component: structServiceAutocomplete
       opts:
@@ -83,6 +71,22 @@ pos_attributes:
       label:
         eng: lexical sense
         swe: lexikal betydelse
+  - glossed:
+      label:
+        eng: glossing
+        swe: glossering
+  - segmented:
+      label:
+        eng: segmentation
+        swe: segmentering
+  - type:
+      extended_component: structServiceSelect
+      opts:
+        is: '='
+        is_not: '!='
+      label:
+        eng: type
+        swe: typ
   - microglosses:
       opts:
         is: contains
@@ -131,6 +135,7 @@ pos_attributes:
         IMP: imperative
         IND: indicative
         INF: infinitive
+        INJ: interjection
         INS: instrumental
         IPFV: imperfective
         IR: ironic negative
@@ -150,12 +155,12 @@ pos_attributes:
         PRT: participial
         PST: past
         Q: question particle/marker
-        RC: relative concord
         REC: recent past
         RECP: reciprocal
         REF: referential
         REFL: reflexive
         REL: relative
+        RV: relative vowel
         STAT: stative
         SBJV: subjunctive
         SM: subject marker
@@ -169,17 +174,13 @@ pos_attributes:
         eng: macrogloss
         swe: makrogloss
       extended_component: structServiceSelect
-  - segmented:
-      label:
-        eng: segmentation
-        swe: segmentering
-  - type:
+  - pos:
       extended_component: structServiceSelect
       opts:
         is: '='
         is_not: '!='
       label:
-        eng: type
-        swe: typ
+        eng: part of speech
+        swe: ordklass
 attribute_filters:
   - text_filename

@@ -1,3 +1,6 @@
+attribute_filters:
+  - text_author
+  - text_title
 context:
   - label:
       eng: 1 sentence

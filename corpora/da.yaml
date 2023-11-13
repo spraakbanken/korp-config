@@ -12,8 +12,8 @@ description:
     från nyhetsartiklarna på <a href="https://www.dagensarena.se/">dagensarena.se</a>.
     Korpusen uppdateras ca. två gånger per år.
 title:
-  swe: Dagens Arena 2007–2022
-  eng: Dagens Arena 2007–2022
+  swe: Dagens Arena
+  eng: Dagens Arena
 within:
   - value: sentence
     label:

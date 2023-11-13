@@ -59,6 +59,8 @@ folders:
       swe: Myndighetstexter
       eng: Governmental texts
     subfolders:
+      tvakammarriksdagen:
+        title: Tvåkammarriksdagen
       rd:
         title: Riksdagens öppna data
         description:
