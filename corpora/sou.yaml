@@ -5,6 +5,8 @@ description: Statens offentliga utredningar (SOU) i digitaliserat format från
 mode:
   - folder: governmental
     name: default
+  - name: saob
+    folder: modern.governmental
 context:
   - label:
       eng: 1 sentence

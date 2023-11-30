@@ -113,6 +113,8 @@ id: press95
 mode:
   - folder: newstexts.press
     name: default
+  - name: saob
+    folder: modern.newstexts.press
 pos_attributes:
   - lemma: lemma
   - pos: pos

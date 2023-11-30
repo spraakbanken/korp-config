@@ -3,6 +3,8 @@ id: lb-open
 lang: swe
 mode:
   - name: lb
+  - name: saob
+    folder: litteraturbanken
 description:
   eng: |-
     <b>E-texts and searchable facsimiles fron the Swedish Literature Bank (litteraturbanken.se)</b><br><br>The corpus contains all free e-texts and searchable facsimiles from <a href="https://litteraturbanken.se/">the Swedish

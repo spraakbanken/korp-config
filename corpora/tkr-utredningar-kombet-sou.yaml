@@ -4,12 +4,15 @@ lang: swe
 mode:
   - name: default
     folder: governmental.tvakammarriksdagen
+  - name: law
+    folder: tvakammarriksdagen
 description:
-  eng: Part of Tvåkammarriksdagen
+  eng: Part of the data set "Bicameral Riksdag"
   swe: Del av Tvåkammarriksdagen
 title:
   swe: 'Tvåkammarriksdagen: Utredningar, EU-förslag, betänkande, statens offentliga
     utredningar'
+  eng: 'Bicameral riksdag: Government official investigations'
 within:
   - value: sentence
     label:
@@ -26,6 +29,7 @@ struct_attributes:
   - text_lix: text_lix
   - text_ovix: text_ovix
   - text_nk: text_nk
+  - text_date: text_date
   - text_file_name:
       label:
         swe: filnamn
@@ -34,7 +38,6 @@ struct_attributes:
       label:
         swe: kategori
         eng: category
-  - text_date: text_date
 pos_attributes:
   - sense: sense
   - compwf: compwf

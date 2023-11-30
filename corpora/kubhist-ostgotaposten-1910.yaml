@@ -4,6 +4,8 @@ lang: swe
 mode:
   - name: kubhist
     folder: kubhist
+  - name: saob
+    folder: kubhist
 description:
   swe: Del av samlingen Kubhist
   eng: Part of the collection Kubhist

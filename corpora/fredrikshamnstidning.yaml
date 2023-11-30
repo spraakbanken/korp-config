@@ -14,6 +14,8 @@ id: fredrikshamnstidning
 mode:
   - folder: tidningar
     name: fisk1800
+  - name: saob
+    folder: fisk1800.tidningar
 morphology: saldom|dalinm|swedbergm
 pos_attributes:
   - lemma: lemma

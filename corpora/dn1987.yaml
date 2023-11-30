@@ -3,6 +3,8 @@ lang: swe
 mode:
   - name: default
     folder: newstexts
+  - name: saob
+    folder: modern.newstexts.press
 description:
   eng: Dagens Nyheter 1987
   swe: |-

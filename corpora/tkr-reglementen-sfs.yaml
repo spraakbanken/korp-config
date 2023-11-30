@@ -4,11 +4,14 @@ lang: swe
 mode:
   - name: default
     folder: governmental.tvakammarriksdagen
+  - name: law
+    folder: tvakammarriksdagen
 description:
+  eng: Part of the data set "Bicameral Riksdag"
   swe: Del av Tvåkammarriksdagen
-  eng: Part of Tvåkammarriksdagen
 title:
   swe: 'Tvåkammarriksdagen: Reglementen, svensk författningssamling'
+  eng: 'Bicameral riksdag: Regulations'
 within:
   - value: sentence
     label:

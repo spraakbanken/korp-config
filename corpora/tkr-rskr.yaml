@@ -4,11 +4,14 @@ lang: swe
 mode:
   - name: default
     folder: governmental.tvakammarriksdagen
+  - name: law
+    folder: tvakammarriksdagen
 description:
   swe: Del av Tvåkammarriksdagen
-  eng: Part of Tvåkammarriksdagen
+  eng: Part of the data set "Bicameral Riksdag"
 title:
   swe: 'Tvåkammarriksdagen: Riksdagsskrivelser'
+  eng: 'Bicameral riksdag: Letters of the Riksdag'
 within:
   - value: sentence
     label:
@@ -26,14 +29,14 @@ struct_attributes:
   - text_ovix: text_ovix
   - text_nk: text_nk
   - text_date: text_date
-  - text_file_name:
-      label:
-        swe: filnamn
-        eng: file name
   - text_category:
       label:
         swe: kategori
         eng: category
+  - text_file_name:
+      label:
+        swe: filnamn
+        eng: file name
 pos_attributes:
   - sense: sense
   - compwf: compwf

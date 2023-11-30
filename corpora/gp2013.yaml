@@ -14,6 +14,8 @@ id: gp2013
 mode:
   - folder: newstexts.gp
     name: default
+  - name: saob
+    folder: modern.newstexts.gp
 pos_attributes:
   - lemma: lemma
   - pos: pos

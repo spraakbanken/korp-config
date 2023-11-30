@@ -21,6 +21,8 @@ mode:
   - name: runeberg
   - folder: runeberg
     name: all_hist
+  - name: saob
+    folder: runeberg
 morphology: swedbergm|dalinm|saldom
 pos_attributes:
   - lemma: lemma
