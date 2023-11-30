@@ -3,6 +3,8 @@ lang: swe
 mode:
   - name: kubhist
     folder: kubhist2.ostgotaposten
+  - name: saob
+    folder: kubhist2.ostgotaposten
 description:
   swe: Del av samlingen Kubhist2
   eng: Part of the collection Kubhist2

@@ -8,6 +8,8 @@ description:
 mode:
   - name: kubhist
     folder: kubhist2.nlk
+  - name: saob
+    folder: kubhist2.nlk
 morphology: saldom|dalinm|swedbergm
 within:
   - value: sentence

@@ -9,6 +9,8 @@ lang: swe
 mode:
   - name: kubhist
     folder: kubhist2.goteborgsposten
+  - name: saob
+    folder: kubhist2.goteborgsposten
 morphology: saldom|dalinm|swedbergm
 within:
   - value: sentence

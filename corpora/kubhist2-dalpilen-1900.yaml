@@ -3,6 +3,8 @@ lang: swe
 mode:
   - name: kubhist
     folder: kubhist2.dalpilen
+  - name: saob
+    folder: kubhist2.dalpilen
 description:
   eng: Part of the collection Kubhist2
   swe: Del av samlingen Kubhist2
