@@ -3,7 +3,6 @@ id: xhosa
 lang: swe
 mode:
   - name: xhosa
-    folder: protected
 title:
   swe: Xhosa
   eng: Corpus of spoken isiXhosa
@@ -42,10 +41,6 @@ struct_attributes:
       opts:
         is: '='
         is_not: '!='
-  - sentence_translation:
-      label:
-        eng: translation
-        swe: översättning
   - sentence_speaker:
       label:
         eng: speaker
@@ -62,15 +57,11 @@ struct_attributes:
       label:
         eng: filename
         swe: filnamn
-pos_attributes:
-  - pos:
-      extended_component: structServiceSelect
-      opts:
-        is: '='
-        is_not: '!='
+  - sentence_translation:
       label:
-        eng: part of speech
-        swe: ordklass
+        eng: translation
+        swe: översättning
+pos_attributes:
   - microglosses:
       opts:
         is: contains
@@ -154,18 +145,6 @@ pos_attributes:
         SBJV: subjunctive
         SM: subject marker
         VEN: ventive
-  - segmented:
-      label:
-        eng: segmentation
-        swe: segmentering
-  - sense:
-      extended_component: structServiceAutocomplete
-      opts:
-        is: '='
-        is_not: '!='
-      label:
-        eng: lexical sense
-        swe: lexikal betydelse
   - type:
       extended_component: structServiceSelect
       opts:
@@ -174,10 +153,22 @@ pos_attributes:
       label:
         eng: type
         swe: typ
-  - glossed:
+  - pos:
+      extended_component: structServiceSelect
+      opts:
+        is: '='
+        is_not: '!='
       label:
-        eng: glossing
-        swe: glossering
+        eng: part of speech
+        swe: ordklass
+  - sense:
+      extended_component: structServiceAutocomplete
+      opts:
+        is: '='
+        is_not: '!='
+      label:
+        eng: lexical sense
+        swe: lexikal betydelse
   - macroglosses:
       opts:
         is: contains
@@ -187,5 +178,13 @@ pos_attributes:
         eng: macrogloss
         swe: makrogloss
       extended_component: structServiceSelect
+  - glossed:
+      label:
+        eng: glossing
+        swe: glossering
+  - segmented:
+      label:
+        eng: segmentation
+        swe: segmentering
 attribute_filters:
   - text_filename
