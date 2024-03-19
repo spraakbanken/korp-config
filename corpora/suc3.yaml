@@ -188,9 +188,20 @@ pos_attributes:
   - lemma: lemma
   - transformer-neighbour:
       label:
-        eng: transformer neighbour
-        swe: transformer-granne
+        eng: word prediction (KB-BERT)
+        swe: ordprediktion (KB-BERT)
       type: set
+      ranked: true
+      opts:
+        is_possible: rank_contains
+        is_not_possible: not_rank_contains
+        most_likely: highest_rank
+        not_most_likely: not_highest_rank
+      sidebar_component:
+        name: expandList
+        options:
+          internal_search: true
+          op: highest_rank
   - name_type:
       label:
         eng: SUC name type

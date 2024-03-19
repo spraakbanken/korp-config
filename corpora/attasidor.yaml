@@ -3,6 +3,7 @@ id: attasidor
 lang: swe
 mode:
   - name: default
+    folder: newstexts
 description:
   swe: |-
     <b>Nyhetsartiklar från 8 SIDOR.</b><br><br><p>8 Sidor är en nyhetstidning på lättläst svenska. Texterna i
