@@ -154,7 +154,7 @@ folders:
   sweac:
     title:
       swe: Akademiska texter
-      eng: Akademic texts
+      eng: Academic texts
 map_enabled: true
 preselected_corpora:
    - __newstexts.svtnews
