@@ -2,6 +2,10 @@ label:
   swe: Kubhist
   eng: Kubhist
 order: 50
+description:
+  swe: |
+    <p>I Kubhist (Kungliga bibliotekets historiska tidningar) kan du söka bland historiska dagstidningar. Datan innehåller två uppsättningar: Den första KubHist-versionen skapades inom <a href="https://riksarkivet.se/digidaily">DigiDaily-projektet</a> som involverade Kungliga biblioteket (KB), Riksarkivet och Mittuniversitetet. Den andra versionen som går under namnet Kubhist 2 är en omarbetad version av den första mängden med tillägg av flera dagstidningar som digitaliserade med en förbättrad OCR-process.</p>
+    <p>Språkbanken Text har inte varit inblandad i digitaliseringsprocessen. Materialet är OCR-bearbetat av den kommersiella ABBYY Finereader OCR-programvaran med programvarans inbyggda modeller. Dessa modeller, som ursprungligen tränades på svenskt material i början av 2000-talet, var inte tränade för att fånga specifika drag i tidningarna som layout och typografi. Följaktligen innehåller materialet en del OCR-fel.</p>
 folders:
   kubhist:
     title: Kubhist
