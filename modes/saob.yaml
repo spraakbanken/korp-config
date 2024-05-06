@@ -1,7 +1,7 @@
 label:
   swe: SAOB
   eng: SAOB
-description:
+mode_description:
   swe: |
     <p>Primärt i det här läget är <a href="https://spraakbanken.gu.se/resurser/saob-bocker" target="_blank">SAOB-korpusen</a>.</p>
     <p>Utöver SAOB-korpusen, så har vi lagt till material från andra Korp-lägen som är relevanta för för SAOB-redaktionens arbete.</p>

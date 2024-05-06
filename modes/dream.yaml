@@ -1,7 +1,7 @@
 label:
   swe: DReaM
   eng: DReaM
-description:
+mode_description:
   swe: Se <a href="https://spraakbanken.gu.se/projekt/dream">DReaM-projektet</a>.
   eng: See the <a href="https://spraakbanken.gu.se/en/projects/dream">DReaM research project</a>.
 autocomplete: false
