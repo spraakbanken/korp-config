@@ -4,6 +4,36 @@ lang: swe
 mode:
   - name: default
 description:
+  swe: |-
+    <b>De svenska partiernas partiprogram och valmanifest 1887–2022</b><br><br><p>Datan till den här korpusen är hämtad från <a
+    href="https://doi.org/10.5878/8az5-zd46">Svensk nationell
+    datatjänst</a>.</p>
+
+    <p>Dokumenten finns öppet tillgängliga via denna länk: <a
+    href="https://snd.gu.se/vivill">https://snd.gu.se/vivill</a>. Här går
+    också att söka i dokumenten.</p>
+
+    <p>Svenska partiprogram och valmanifest bygger på projektet "Vi vill....!
+    Hundra år av partipolitiska viljeyttringar" som genomfördes vid Svensk
+    samhällsvetenskaplig datatjänst (SSD) 2000-2002. Projektet syftade till
+    att sammanställa de partiprogram och manifest som de politiska
+    partierna producerat under 1900-talet. I dessa texter kan man spåra
+    partiernas utveckling, både vad gäller språkbruk, politik och ideologi.
+    De ger även en god överblick över de frågor som varit väsentliga för
+    vårt lands utveckling.</p>
+
+    <p>Samtliga partiprogram och valmanifest i databasen finns i .pdf och .txt
+    format. De finns även tillgängliga hos Språkbanken som en korpus vilket
+    medför ytterligare möjligheter för forskning på materialet.</p>
+
+    <p>Urvalet av valmanifest omfattade till en början endast riksdagspartier,
+    då det baserades på Sven-Olov Håkansson studie "Svenska valprogram
+    1902-1952" samt forskningsprojektet "Partiernas opinionspåverkan", POP,
+    av Peter Esaiasson och Nicklas Håkansson. Materialet har sedan
+    kompletterats och urvalet har breddats till att exempelvis omfatta
+    dokument för Europaparlamentet samt för partier utanför riksdagen.
+    Fortfarande saknas ett okänt antal dokument som skulle kunna ingå i
+    samlingen.</p>
   eng: |-
     <b>Swedish political party programs and election manifestos 1887–2022</b><br><br><p>The data for this corpus was retrieved from <a
     href="https://doi.org/10.5878/8az5-zd46">Svensk nationell
@@ -49,36 +79,6 @@ description:
     <p>The "Vi vill …" project was awarded financial support from the
     Riksbankens Jubileumsfond grant for support to research
     infrastructures.</p>
-  swe: |-
-    <b>De svenska partiernas partiprogram och valmanifest 1887–2022</b><br><br><p>Datan till den här korpusen är hämtad från <a
-    href="https://doi.org/10.5878/8az5-zd46">Svensk nationell
-    datatjänst</a>.</p>
-
-    <p>Dokumenten finns öppet tillgängliga via denna länk: <a
-    href="https://snd.gu.se/vivill">https://snd.gu.se/vivill</a>. Här går
-    också att söka i dokumenten.</p>
-
-    <p>Svenska partiprogram och valmanifest bygger på projektet "Vi vill....!
-    Hundra år av partipolitiska viljeyttringar" som genomfördes vid Svensk
-    samhällsvetenskaplig datatjänst (SSD) 2000-2002. Projektet syftade till
-    att sammanställa de partiprogram och manifest som de politiska
-    partierna producerat under 1900-talet. I dessa texter kan man spåra
-    partiernas utveckling, både vad gäller språkbruk, politik och ideologi.
-    De ger även en god överblick över de frågor som varit väsentliga för
-    vårt lands utveckling.</p>
-
-    <p>Samtliga partiprogram och valmanifest i databasen finns i .pdf och .txt
-    format. De finns även tillgängliga hos Språkbanken som en korpus vilket
-    medför ytterligare möjligheter för forskning på materialet.</p>
-
-    <p>Urvalet av valmanifest omfattade till en början endast riksdagspartier,
-    då det baserades på Sven-Olov Håkansson studie "Svenska valprogram
-    1902-1952" samt forskningsprojektet "Partiernas opinionspåverkan", POP,
-    av Peter Esaiasson och Nicklas Håkansson. Materialet har sedan
-    kompletterats och urvalet har breddats till att exempelvis omfatta
-    dokument för Europaparlamentet samt för partier utanför riksdagen.
-    Fortfarande saknas ett okänt antal dokument som skulle kunna ingå i
-    samlingen.</p>
 title:
   swe: Svenska partiprogram och valmanifest
   eng: Swedish party programs and election manifestos
@@ -125,8 +125,6 @@ struct_attributes:
       opts:
         is: '='
         is_not: '!='
-  - text_type_id:
-      display_type: hidden
   - text_type:
       extended_component: structServiceSelect
       opts:
@@ -141,6 +139,8 @@ struct_attributes:
         eng: source
       pattern: <a href='https://snd.se/vivill/party/<%= struct_attrs.text_party %>/<%=
         struct_attrs.text_type_id %>/<%= struct_attrs.text_year %>' target='_blank'>PDF</a>
+  - text_type_id:
+      display_type: hidden
 pos_attributes:
   - sense: sense
   - compwf: compwf

@@ -17,6 +17,8 @@ custom_attributes:
             - word
             - glossed
             - segmented
+            - sentence_translation
+            - text_filename
       sidebar_hide_label: true
 within:
   - value: sentence
@@ -41,6 +43,10 @@ struct_attributes:
       opts:
         is: '='
         is_not: '!='
+  - sentence_translation:
+      label:
+        eng: translation
+        swe: översättning
   - sentence_speaker:
       label:
         eng: speaker
@@ -57,11 +63,20 @@ struct_attributes:
       label:
         eng: filename
         swe: filnamn
-  - sentence_translation:
-      label:
-        eng: translation
-        swe: översättning
 pos_attributes:
+  - segmented:
+      label:
+        eng: segmentation
+        swe: segmentering
+  - macroglosses:
+      opts:
+        is: contains
+        is_not: not contains
+      type: set
+      label:
+        eng: macrogloss
+        swe: makrogloss
+      extended_component: structServiceSelect
   - microglosses:
       opts:
         is: contains
@@ -125,6 +140,7 @@ pos_attributes:
         NEG: negative
         NCP: noun class prefix
         OM: object marker
+        ONOM: onomastic
         PASS: passive
         PERS: persistive (-sa)
         POSS: possessive
@@ -145,22 +161,7 @@ pos_attributes:
         SBJV: subjunctive
         SM: subject marker
         VEN: ventive
-  - type:
-      extended_component: structServiceSelect
-      opts:
-        is: '='
-        is_not: '!='
-      label:
-        eng: type
-        swe: typ
-  - pos:
-      extended_component: structServiceSelect
-      opts:
-        is: '='
-        is_not: '!='
-      label:
-        eng: part of speech
-        swe: ordklass
+        VOC: vocative
   - sense:
       extended_component: structServiceAutocomplete
       opts:
@@ -169,22 +170,25 @@ pos_attributes:
       label:
         eng: lexical sense
         swe: lexikal betydelse
-  - macroglosses:
-      opts:
-        is: contains
-        is_not: not contains
-      type: set
-      label:
-        eng: macrogloss
-        swe: makrogloss
+  - pos:
       extended_component: structServiceSelect
+      opts:
+        is: '='
+        is_not: '!='
+      label:
+        eng: part of speech
+        swe: ordklass
   - glossed:
       label:
         eng: glossing
         swe: glossering
-  - segmented:
+  - type:
+      extended_component: structServiceSelect
+      opts:
+        is: '='
+        is_not: '!='
       label:
-        eng: segmentation
-        swe: segmentering
+        eng: type
+        swe: typ
 attribute_filters:
   - text_filename

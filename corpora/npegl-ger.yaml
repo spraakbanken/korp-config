@@ -7,12 +7,10 @@ custom_attributes:
   - karp_link:
       custom_type: pos
       label: Karp
-      pattern: <a href='http://spraakbanken.gu.se/karp/#?mode=npegl_ger&searchTab=extended&extended=and|DB_item_id|equals|<%=
-        pos_attrs.np_db_item_id %>&search=extended||and|DB_item_id|equals|<%= pos_attrs.np_db_item_id
-        %>' target='_blank'>go to entry</a>
+      pattern: <a href='https://spraakbanken.gu.se/karp/tng/?mode=npegl_old_high_german&lexicon=npegl_old_high_german&query=and(equals|DB_item_id|%22<%= pos_attrs.np_db_item_id %>%22)' target='_blank'>go to entry</a>
 description: ''
 id: npegl-ger
-limited_access: true
+limited_access: false
 mode:
   - name: npegl
 pos_attributes:
