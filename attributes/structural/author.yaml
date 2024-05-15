@@ -1,7 +1,10 @@
 label:
   eng: author
   swe: författare
-extended_component: structServiceAutocomplete
-opts:
-  is: '='
-  is_not: '!='
+search:
+  auto_values: true
+  autocomplete: autocomplete
+# extended_component: structServiceAutocomplete
+# opts:
+#   is: '='
+#   is_not: '!='

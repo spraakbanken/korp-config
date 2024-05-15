@@ -1,12 +1,36 @@
-extended_component: msd
+# extended_component: msd
 label: msd
-opts:
-  contains: _=
-  ends_with: '&='
-  is: '='
-  is_not: '!='
-  matches: '*='
-  matches_not: '!*='
-  starts_with: ^=
-pattern: <span class='msd_sidebar'><%=val%></span>
+search:
+  autocomplete: free_text_autocomplete
+  dataset:
+    - label: MAD
+      items:
+        - MID 
+        - MAD
+        - PAD
+    - label: AD
+      items:
+        - AD.LOL
+        - AD.LOL2
+    - NOGROUP
+translation:
+  MAD:
+    swe: interpunktion
+    eng: punctuation
+  AD:
+    swe: "adverb"
+    eng: "adverb"
+
+# opts:
+#   contains: _=
+#   ends_with: '&='
+#   is: '='
+#   is_not: '!='
+#   matches: '*='
+#   matches_not: '!*='
+#   starts_with: ^=
+# pattern: <span class='msd_sidebar'><%=val%></span>
+# .msd_sidebar {
+#   font-size: 0.8em;
+# }
 sidebar_info_url: markup/msdtags.html
