@@ -186,10 +186,10 @@ pos_attributes:
   - ne_subtype: ne_subtype
   - lex: lex
   - lemma: lemma
-  - transformer-neighbour:
+  - word-prediction--kb-bert:
       label:
-        eng: word prediction (KB-BERT)
-        swe: ordprediktion (KB-BERT)
+        eng: word prediction
+        swe: ord-prediktion
       type: set
       ranked: true
       opts:
@@ -207,5 +207,5 @@ pos_attributes:
         eng: SUC name type
         swe: SUC-namntyp
       is_struct_attr: true
-  - msd: msd
   - pos: pos
+  - msd: msd
