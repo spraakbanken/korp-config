@@ -1,3 +1,4 @@
-internal_search: true
+sidebar:
+  internal_search: true
 label: Blingbring
-type: set
+set: true

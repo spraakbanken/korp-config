@@ -1,2 +1,3 @@
-display_type: hidden
-label: dephead
+#display_type: hidden
+hidden: true
+#label: dephead

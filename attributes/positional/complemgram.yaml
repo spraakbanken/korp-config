@@ -1,16 +1,20 @@
-extended_component: complemgramExtended
-internal_search: true
+# extended_component: complemgramExtended
+search:
+  # söker just nu i complemgram via enkel sökning, men borde söka på hela sammansättningen
+  internal_search: true
 label:
   eng: compounds
   swe: sammansättningar
-opts:
-  compound_middle: incontains_contains
-  not_compound_middle: not_incontains_contains
-  not_prefix: not_starts_with_contains
-  not_suffix: not_ends_with_contains
-  prefix: starts_with_contains
-  suffix: ends_with_contains
+# opts:
+#   compound_middle: incontains_contains
+#   not_compound_middle: not_incontains_contains
+#   not_prefix: not_starts_with_contains
+#   not_suffix: not_ends_with_contains
+#   prefix: starts_with_contains
+#   suffix: ends_with_contains
+composition: true
 ranked: true
-sidebar_component: complemgram
-stringify: complemgram
-type: set
+# sidebar_component: complemgram
+# stringify: complemgram
+type: lemgram
+# type: set
