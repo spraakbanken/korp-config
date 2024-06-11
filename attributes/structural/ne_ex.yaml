@@ -1,12 +1,13 @@
-dataset:
-  - ENAMEX
-  - TIMEX
-  - NUMEX
-extended_component: datasetSelect
-opts:
-  is: "="
-  is_not: "!="
-is_struct_attr: true
+search:
+  dataset:
+    - ENAMEX
+    - TIMEX
+    - NUMEX
+# extended_component: datasetSelect
+# opts:
+#   is: "="
+#   is_not: "!="
+use_as_positional: true
 label:
   eng: type expression
   swe: typ av uttryck

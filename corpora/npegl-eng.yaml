@@ -94,16 +94,21 @@ pos_attributes:
       is_struct_attr: true
       label: animate
   - e_tags_def:
-      dataset:
-        ? ''
-        : undefined
-        .+: defined
-      escape: false
-      extended_component: datasetSelect
+      search:
+        condition:
+          true: .+
+          false: ''
+          label: defined
+      #   dataset:
+      #     '': undefined
+      #     .+: defined
+        escape: false
+      # extended_component: datasetSelect
       is_struct_attr: true
       label: definite
-      opts:
-        is: '='
+      # opts:
+      #   is: '='
+      type: bool
   - e_tags_noundrv:
       dataset:
         ? ''

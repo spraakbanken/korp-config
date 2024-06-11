@@ -1,0 +1,24 @@
+search:
+  dataset:
+    - AST
+    - GPL
+    - PPL
+    - FNC
+# extended_component: datasetSelect
+# opts:
+#   is: "="
+#   is_not: "!="
+use_as_positional: true
+label:
+  eng: name subtype
+  swe: namnundertyp
+translation:
+  AST:
+    eng: astronomical
+    swe: astronomisk
+  GPL:
+    eng: geographical/geological
+    swe: geografisk/geologisk
+  HPL:
+    eng: historical/political
+    swe: historisk/politisk

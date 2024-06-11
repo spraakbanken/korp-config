@@ -3,12 +3,12 @@ label: msd
 search:
   autocomplete: free_text_autocomplete
   dataset:
-    - label: MAD
+    - label_translation_key: MAD # men kan också vara label, som fungerar som alla andra labels
       items:
         - MID 
         - MAD
         - PAD
-    - label: AD
+    - label_translation_key: AD
       items:
         - AD.LOL
         - AD.LOL2

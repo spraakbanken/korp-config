@@ -42,14 +42,17 @@ struct_attributes:
         eng: date
         swe: datum
   - lesson_dummy:
-      dataset:
-        - '-'
-      extended_component: singleValue
-      hide_sidebar: true
+      search:
+        dataset:
+          - '-'
+      # extended_component: singleValue
+      sidebar:
+        hidden: true
       label: +lesson
-      opts:
-        is: '='
-        is_not: '!='
+      type: string
+      # opts:
+      #   is: '='
+      #   is_not: '!='
   - subheading_dummy:
       dataset:
         - '-'
