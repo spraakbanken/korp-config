@@ -1,4 +1,4 @@
-external_search: https://spraakbanken.gu.se/karp/#?mode=swefn&search=sense%7C%7Cswefn--<%= val %>
+external_search: https://spraakbanken.gu.se/karp/?mode=swefn&lexicon=swefn&query=and(equals|swefnID|"<%= val %>")
 is_struct_attr: true
 label:
   eng: Swedish FrameNet
