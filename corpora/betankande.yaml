@@ -31,8 +31,8 @@ pos_attributes:
           error_on_empty: true
           type: lemgram
           variant: dalin
-      external_search: https://spraakbanken.gu.se/karp/#?mode=DEFAULT&search=extended||and|lemgram|equals|<%=
-        val.replace(/:\d+/, '') %>
+      external_search: https://spraakbanken.gu.se/karp/?mode=saldom&lexicon=saldom&query=and(equals|lemgram|"<%=
+        val.replace(/:\d+/, '') %>")
       internal_search: true
       label: dalin-lemgram
       opts:

@@ -33,8 +33,8 @@ pos_attributes:
         options:
           error_on_empty: true
           type: lemgram
-      external_search: https://spraakbanken.gu.se/karp/#?mode=DEFAULT&search=extended||and|lemgram|equals|<%=
-        val.replace(/:\d+/, '') %>
+      external_search: https://spraakbanken.gu.se/karp/?mode=saldom&lexicon=saldom&query=and(equals|lemgram|"<%=
+        val.replace(/:\d+/, '') %>")
       internal_search: true
       label: lemgram
       opts:
