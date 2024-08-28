@@ -26,6 +26,10 @@ folders:
         (e.g. motions, protocols, registers, ect.) and have been annotated with
         various word and document level attributes. Each category is available
         for download as a zipped file.
+  standsriksdagen:
+    title:
+      swe: Ståndsriksdagen
+      eng: Riksdag of the Estates
 color_primary: '#E0F4F4'
 color_light: '#F2FFFF'
 word_picture: false

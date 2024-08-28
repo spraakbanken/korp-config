@@ -5,8 +5,8 @@ mode:
   - name: default
 description:
   swe: |-
-    <b>De svenska partiernas partiprogram och valmanifest 1887–2022</b><br><br><p>Datan till den här korpusen är hämtad från <a
-    href="https://doi.org/10.5878/8az5-zd46">Svensk nationell
+    <b>De svenska partiernas partiprogram och valmanifest 1887–2024</b><br><br><p>Datan till den här korpusen är hämtad från <a
+    href="https://doi.org/10.5878/kcsf-k293">Svensk nationell
     datatjänst</a>.</p>
 
     <p>Dokumenten finns öppet tillgängliga via denna länk: <a
@@ -35,8 +35,8 @@ description:
     Fortfarande saknas ett okänt antal dokument som skulle kunna ingå i
     samlingen.</p>
   eng: |-
-    <b>Swedish political party programs and election manifestos 1887–2022</b><br><br><p>The data for this corpus was retrieved from <a
-    href="https://doi.org/10.5878/8az5-zd46">Svensk nationell
+    <b>Swedish political party programs and election manifestos 1887–2024</b><br><br><p>The data for this corpus was retrieved from <a
+    href="https://doi.org/10.5878/kcsf-k293">Svensk nationell
     datatjänst</a>.</p>
 
     <p>All documents are also open a vailable at page: <a
@@ -119,12 +119,12 @@ struct_attributes:
   - text_title: title
   - text_party:
       display_type: hidden
-  - text_year:
-      preset: year
-      extended_component: structServiceSelect
-      opts:
-        is: '='
-        is_not: '!='
+  - text_källa:
+      label:
+        swe: källa
+        eng: source
+      pattern: <a href='https://snd.se/vivill/party/<%= struct_attrs.text_party %>/<%=
+        struct_attrs.text_type_id %>/<%= struct_attrs.text_year %>' target='_blank'>PDF</a>
   - text_type:
       extended_component: structServiceSelect
       opts:
@@ -133,14 +133,14 @@ struct_attributes:
       label:
         eng: type
         swe: typ
-  - text_källa:
-      label:
-        swe: källa
-        eng: source
-      pattern: <a href='https://snd.se/vivill/party/<%= struct_attrs.text_party %>/<%=
-        struct_attrs.text_type_id %>/<%= struct_attrs.text_year %>' target='_blank'>PDF</a>
   - text_type_id:
       display_type: hidden
+  - text_year:
+      preset: year
+      extended_component: structServiceSelect
+      opts:
+        is: '='
+        is_not: '!='
 pos_attributes:
   - sense: sense
   - compwf: compwf

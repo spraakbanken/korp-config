@@ -85,6 +85,10 @@ folders:
   runeberg:
     description: Tidskrifter från Projekt Runeberg
     title: Runeberg
+  standsriksdagen:
+    title:
+      swe: Ståndsriksdagen
+      eng: Riksdag of the Estates
   ubkvt:
     title: Kvinnotidningar
     description:

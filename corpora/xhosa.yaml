@@ -43,6 +43,14 @@ struct_attributes:
       opts:
         is: '='
         is_not: '!='
+  - text_filename:
+      extended_component: structServiceSelect
+      opts:
+        is: '='
+        is_not: '!='
+      label:
+        eng: filename
+        swe: filnamn
   - sentence_translation:
       label:
         eng: translation
@@ -55,19 +63,31 @@ struct_attributes:
       opts:
         is: '='
         is_not: '!='
-  - text_filename:
-      extended_component: structServiceSelect
-      opts:
-        is: '='
-        is_not: '!='
-      label:
-        eng: filename
-        swe: filnamn
 pos_attributes:
   - segmented:
       label:
         eng: segmentation
         swe: segmentering
+  - glossed:
+      label:
+        eng: glossing
+        swe: glossering
+  - sense:
+      extended_component: structServiceAutocomplete
+      opts:
+        is: '='
+        is_not: '!='
+      label:
+        eng: lexical sense
+        swe: lexikal betydelse
+  - type:
+      extended_component: structServiceSelect
+      opts:
+        is: '='
+        is_not: '!='
+      label:
+        eng: type
+        swe: typ
   - macroglosses:
       opts:
         is: contains
@@ -162,14 +182,6 @@ pos_attributes:
         SM: subject marker
         VEN: ventive
         VOC: vocative
-  - sense:
-      extended_component: structServiceAutocomplete
-      opts:
-        is: '='
-        is_not: '!='
-      label:
-        eng: lexical sense
-        swe: lexikal betydelse
   - pos:
       extended_component: structServiceSelect
       opts:
@@ -178,17 +190,5 @@ pos_attributes:
       label:
         eng: part of speech
         swe: ordklass
-  - glossed:
-      label:
-        eng: glossing
-        swe: glossering
-  - type:
-      extended_component: structServiceSelect
-      opts:
-        is: '='
-        is_not: '!='
-      label:
-        eng: type
-        swe: typ
 attribute_filters:
   - text_filename
