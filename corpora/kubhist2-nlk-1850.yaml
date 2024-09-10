@@ -39,11 +39,7 @@ struct_attributes:
       label:
         eng: source
         swe: källa
-      pattern: <div><div>Kungliga Biblioteket</div><div><a href='https://tidningar.kb.se/<%=
-        struct_attrs.text_libris %>/<%= struct_attrs.text_date %>/edition/<%= struct_attrs.text_edition
-        %>/part/1/page/<%= struct_attrs.Page_n %>/' target='_blank'><img src='https://tidningar.kb.se/<%=
-        struct_attrs.text_libris %>/<%= struct_attrs.text_date %>/edition/<%= struct_attrs.text_edition
-        %>/part/1/page/<%= struct_attrs.Page_n %>_thumb.jpg' width='100%'></img></a></div></div>
+      pattern: <a href="https://tidningar.kb.se/<%=struct_attrs.text_libris %>/<%= struct_attrs.text_date %>/edition/<%= struct_attrs.text_edition" target="_blank">Kungliga biblioteket</a>
   - Page_n: page
   - String_wordbreak:
       label:
