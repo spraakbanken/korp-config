@@ -4,9 +4,9 @@ lang: swe
 mode:
   - name: default
 description:
+  eng: Records from Isof archives
   swe: <b>Uppteckningar från Isofs arkiv</b><br><br>Testkorpus för att föra in material
     från Folke till Språkbanken Text.
-  eng: Records from Isof archives
 title:
   swe: Folkekorpus
   eng: Folke corpus
@@ -19,6 +19,8 @@ custom_attributes:
       pattern: <div><div><a href='https://sok.folke.isof.se/#/records/<%= struct_attrs.text_id
         %>' target='_blank'><img src='https://www4.isof.se/Folkminnen/Svenska_sagor_filer/<%=
         struct_attrs.text_image %>' width='100%'></img></a></div></div>
+reading_mode:
+  component: standardReadingMode
 within:
   - value: sentence
     label:
@@ -35,23 +37,36 @@ struct_attributes:
   - text_lix: text_lix
   - text_ovix: text_ovix
   - text_nk: text_nk
+  - text_image:
+      display_type: hidden
+  - text_persons:
+      type: set
+      label:
+        swe: personer
+        eng: persons
+      extended_component: structServiceAutocomplete
+      opts:
+        is: '='
+        is_not: '!='
   - text_id: id
   - text_places:
       type: set
       label:
         swe: platser
         eng: places
-      extended_component: structServiceSelect
-  - text_title: title
-  - text_image:
-      display_type: hidden
+      extended_component: structServiceAutocomplete
+      opts:
+        is: '='
+        is_not: '!='
   - text_date: text_date
-  - text_persons:
-      type: set
+  - text_title:
       label:
-        swe: personer
-        eng: persons
-      extended_component: structServiceSelect
+        swe: titel
+        eng: titel
+      extended_component: structServiceAutocomplete
+      opts:
+        is: '='
+        is_not: '!='
 pos_attributes:
   - sense: sense
   - compwf: compwf
@@ -71,3 +86,5 @@ pos_attributes:
   - lex: lex
   - msd: msd
   - pos: pos
+attribute_filters:
+  - text_places
