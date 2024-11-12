@@ -1,0 +1,9 @@
+label:
+  swe: Segregationens språk
+  eng: Language of Segregation
+folders:
+  riksdagen:
+    title: Dokument från sveriges riksdag
+color_primary: "#E0F4F4"
+color_light: "#F2FFFF"
+word_picture: false
