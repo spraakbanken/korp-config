@@ -1,9 +1,50 @@
 label:
-  swe: Segregationens språk
-  eng: Language of Segregation
+  swe: Segregationstexter
+  eng: Segregation texts
 folders:
-  riksdagen:
-    title: Dokument från sveriges riksdag
+  rd:
+    title:
+      swe: Riksdagens öppna data
+      eng: "Riksdag's open data"
+  media:
+    title: Media
+    subfolders:
+      national:
+        title:
+          swe: Riksmedia
+          eng: National media
+      regional:
+        title:
+          swe: Regionmedia
+          eng: Regional media
+      local:
+        title:
+          swe: Lokalmedia
+          eng: Local media
+      trade:
+        title:
+          swe: Branschmedia
+          eng: "Industry media/Trade press"
+      magazine:
+        title:
+          swe: "Magasin/Tidskrift"
+          eng: "Magazines/Periodicals"
+      news_agency:
+        title:
+          swe: Nyhetsbyrå
+          eng: News agency
+  gbg:
+    title:
+      swe: Göteborgs stad
+      eng: Gothenburg city texts
+  social_media:
+    title: Sociala medier
+    subfolders:
+      forums:
+        title:
+          swe: Diskussionsforum
+          eng: Internet forums
+
 color_primary: "#E0F4F4"
 color_light: "#F2FFFF"
 word_picture: false
