@@ -64,14 +64,14 @@ struct_attributes:
         is: '='
         is_not: '!='
 pos_attributes:
-  - segmented:
+  - pos:
+      extended_component: structServiceSelect
+      opts:
+        is: '='
+        is_not: '!='
       label:
-        eng: segmentation
-        swe: segmentering
-  - glossed:
-      label:
-        eng: glossing
-        swe: glossering
+        eng: part of speech
+        swe: ordklass
   - sense:
       extended_component: structServiceAutocomplete
       opts:
@@ -88,15 +88,10 @@ pos_attributes:
       label:
         eng: type
         swe: typ
-  - macroglosses:
-      opts:
-        is: contains
-        is_not: not contains
-      type: set
+  - glossed:
       label:
-        eng: macrogloss
-        swe: makrogloss
-      extended_component: structServiceSelect
+        eng: glossing
+        swe: glossering
   - microglosses:
       opts:
         is: contains
@@ -182,13 +177,22 @@ pos_attributes:
         SM: subject marker
         VEN: ventive
         VOC: vocative
-  - pos:
-      extended_component: structServiceSelect
-      opts:
-        is: '='
-        is_not: '!='
+  - segmented:
       label:
-        eng: part of speech
-        swe: ordklass
+        eng: segmentation
+        swe: segmentering
+  - macroglosses:
+      opts:
+        is: contains
+        is_not: not contains
+      type: set
+      label:
+        eng: macrogloss
+        swe: makrogloss
+      extended_component: structServiceSelect
+  - normalized:
+      label:
+        eng: normalized word form
+        swe: normaliserad ordform
 attribute_filters:
   - text_filename
