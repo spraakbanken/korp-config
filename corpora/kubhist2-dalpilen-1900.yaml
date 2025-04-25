@@ -47,7 +47,7 @@ struct_attributes:
       label:
         eng: source
         swe: källa
-      pattern: <a href="https://tidningar.kb.se/<%=struct_attrs.text_libris %>/<%= struct_attrs.text_date %>/edition/<%= struct_attrs.text_edition" target="_blank">Kungliga biblioteket</a>
+      pattern: <a href="https://tidningar.kb.se/<%=struct_attrs.text_libris %>/<%= struct_attrs.text_date %>/edition/<%= struct_attrs.text_edition %>/part/1/page/<%= struct_attrs.Page_n %>/" target="_blank">Kungliga biblioteket</a>
   - text_title:
       label:
         eng: title
