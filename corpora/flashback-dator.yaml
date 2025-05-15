@@ -5,8 +5,8 @@ mode:
   - name: default
     folder: socialmedia.forum.flashback
 description:
-  swe: Material från diskussionsforumet Flashback.
   eng: Material from the Flashback internet forum.
+  swe: Material från diskussionsforumet Flashback.
 title:
   swe: 'Flashback: Dator & IT'
   eng: 'Flashback: Computers & IT'
@@ -26,6 +26,21 @@ struct_attributes:
   - text_lix: text_lix
   - text_ovix: text_ovix
   - text_nk: text_nk
+  - text_date: date
+  - forum_url:
+      label:
+        eng: forum URL
+        swe: forum-URL
+      type: url
+  - thread_title:
+      label:
+        eng: thread
+        swe: tråd
+  - thread_url:
+      label:
+        eng: thread URL
+        swe: tråd-URL
+      type: url
   - forum_title:
       label: forum
       extended_component: structServiceSelect
@@ -33,33 +48,18 @@ struct_attributes:
       label:
         eng: number of posts in thread
         swe: antal inlägg i tråd
-  - text_url:
-      label:
-        eng: post URL
-        swe: inläggs-URL
-      type: url
   - thread_lastpost:
       label:
         eng: most recent post in thread
         swe: senaste inlägg i tråd
-  - forum_url:
-      label:
-        eng: forum URL
-        swe: forum-URL
-      type: url
   - text_username:
       label:
         eng: username
         swe: användarnamn
-  - thread_title:
+  - text_url:
       label:
-        eng: thread
-        swe: tråd
-  - text_date: date
-  - thread_url:
-      label:
-        eng: thread URL
-        swe: tråd-URL
+        eng: post URL
+        swe: inläggs-URL
       type: url
 pos_attributes:
   - sense: sense

@@ -12,8 +12,8 @@ description:
     Kubord och innehåller utöver ordfrekvenser även ordrelationer från moderna tidningstexter
     från Kungliga biblioteket.
 title:
-  eng: Kubord 2 - Word relations Sydsvenskan 2013
-  swe: Kubord 2 - Ordrelationer Sydsvenskan 2013
+  eng: Word relations Sydsvenskan 2013
+  swe: Ordrelationer Sydsvenskan 2013
 within:
   - label:
       eng: word

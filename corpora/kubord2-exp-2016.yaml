@@ -12,8 +12,8 @@ description:
     of Kubord and contains both token frequencies and word relations from modern newspaper
     texts from the The National Library of Sweden.
 title:
-  eng: Kubord 2 - Word relations Expressen 2016
-  swe: Kubord 2 - Ordrelationer Expressen 2016
+  eng: Word relations Expressen 2016
+  swe: Ordrelationer Expressen 2016
 within:
   - label:
       eng: word

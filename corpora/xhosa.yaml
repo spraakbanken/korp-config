@@ -3,8 +3,45 @@ id: xhosa
 lang: swe
 mode:
   - name: xhosa
+description:
+  eng: |-
+    <b>A corpus of transcribed and annotated recordings of spoken Xhosa.</b><br><br><p>
+      <b>The Corpus of Spoken isiXhosa</b>
+    </p>
+    <p>
+      The Corpus of Spoken isiXhosa consists of transcribed and annotated recordings of spoken Xhosa [xho]. The recordings have been made in the Eastern Cape in South Africa from 2015 onwards. The transcribed texts are annotated with morpheme-by-morpheme glosses, part-of-speech tags, and free English translations.
+    </p>
+    <p>
+      The recordings and the annotations of Xhosa data have been made as part of three different research projects led by senior lecturer Eva-Marie Bloom Ström at the University of Gothenburg. All projects, including the ongoing ‘How do words get in order? The role of speaker-hearer interaction in languages of southern Africa’, were founded by the Swedish Research Council.
+    </p>
+    <p>
+      The Corpus has been developed in collaboration with Språkbanken Text.
+    </p>
+    <p>
+      <b>For more on annotation, preparation of data, and acknowledgements see:</b>
+    </p>
+    <ul style="list-style: unset; padding: revert;">
+      <li>Bloom Ström, E.-M., Slater, O., Zahran, A., Berdicevskis, A., & Schumacher, A. (2023). Preparing a corpus of spoken Xhosa. <i>Proceedings of the 2023 CLASP Conference on Learning with Small Data (LSD)</i>, 62–67. <a href="https://aclanthology.org/2023.clasp-1.7">https://aclanthology.org/2023.clasp-1.7</a></li>
+    </ul>
+    <p>
+      <b>For questions about the corpus:</b><br>
+      Eva-Marie Bloom Ström <a href="mailto:eva-marie.strom@gu.se">eva-marie.strom@gu.se</a>
+    </p>
+    <p>
+      If you notice any errors or inconsistencies in annotations, please report them to this email address.
+    </p>
+    <p>
+      <b>Main contributors:</b>
+    </p>
+    <ul style="list-style: unset; padding: revert;">
+      <li>Eva-Marie Bloom Ström<br>
+      Senior Lecturer, University of Gothenburg</li>
+      <li>Onelisa Slater<br>
+      MA, Rhodes University</li>
+      <li>Aron Zahran<br>
+      PhD, Inalco/Llacan (CNRS) & Ghent University</li>
+    </ul>
 title:
-  swe: Xhosa
   eng: Corpus of spoken isiXhosa
 custom_attributes:
   - three_rows:
@@ -43,6 +80,10 @@ struct_attributes:
       opts:
         is: '='
         is_not: '!='
+  - sentence_translation:
+      label:
+        eng: translation
+        swe: översättning
   - text_filename:
       extended_component: structServiceSelect
       opts:
@@ -51,10 +92,6 @@ struct_attributes:
       label:
         eng: filename
         swe: filnamn
-  - sentence_translation:
-      label:
-        eng: translation
-        swe: översättning
   - sentence_speaker:
       label:
         eng: speaker
@@ -64,34 +101,6 @@ struct_attributes:
         is: '='
         is_not: '!='
 pos_attributes:
-  - pos:
-      extended_component: structServiceSelect
-      opts:
-        is: '='
-        is_not: '!='
-      label:
-        eng: part of speech
-        swe: ordklass
-  - sense:
-      extended_component: structServiceAutocomplete
-      opts:
-        is: '='
-        is_not: '!='
-      label:
-        eng: lexical sense
-        swe: lexikal betydelse
-  - type:
-      extended_component: structServiceSelect
-      opts:
-        is: '='
-        is_not: '!='
-      label:
-        eng: type
-        swe: typ
-  - glossed:
-      label:
-        eng: glossing
-        swe: glossering
   - microglosses:
       opts:
         is: contains
@@ -177,10 +186,6 @@ pos_attributes:
         SM: subject marker
         VEN: ventive
         VOC: vocative
-  - segmented:
-      label:
-        eng: segmentation
-        swe: segmentering
   - macroglosses:
       opts:
         is: contains
@@ -190,6 +195,38 @@ pos_attributes:
         eng: macrogloss
         swe: makrogloss
       extended_component: structServiceSelect
+  - pos:
+      extended_component: structServiceSelect
+      opts:
+        is: '='
+        is_not: '!='
+      label:
+        eng: part of speech
+        swe: ordklass
+  - type:
+      extended_component: structServiceSelect
+      opts:
+        is: '='
+        is_not: '!='
+      label:
+        eng: type
+        swe: typ
+  - glossed:
+      label:
+        eng: glossing
+        swe: glossering
+  - segmented:
+      label:
+        eng: segmentation
+        swe: segmentering
+  - sense:
+      extended_component: structServiceAutocomplete
+      opts:
+        is: '='
+        is_not: '!='
+      label:
+        eng: lexical sense
+        swe: lexikal betydelse
   - normalized:
       label:
         eng: normalized word form

@@ -12,8 +12,8 @@ description:
     of Kubord and contains both token frequencies and word relations from modern newspaper
     texts from the The National Library of Sweden.
 title:
-  eng: Kubord 2 - Word relations Sydsvenskan 2022
-  swe: Kubord 2 - Ordrelationer Sydsvenskan 2022
+  eng: Word relations Sydsvenskan 2022
+  swe: Ordrelationer Sydsvenskan 2022
 within:
   - label:
       eng: word

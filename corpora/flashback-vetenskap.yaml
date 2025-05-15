@@ -5,8 +5,8 @@ mode:
   - name: default
     folder: socialmedia.forum.flashback
 description:
-  eng: Material from the Flashback internet forum.
   swe: Material från diskussionsforumet Flashback.
+  eng: Material from the Flashback internet forum.
 title:
   swe: 'Flashback: Vetenskap & humaniora'
   eng: 'Flashback: Science & Humanities'
@@ -26,41 +26,41 @@ struct_attributes:
   - text_lix: text_lix
   - text_ovix: text_ovix
   - text_nk: text_nk
+  - text_username:
+      label:
+        eng: username
+        swe: användarnamn
+  - thread_title:
+      label:
+        eng: thread
+        swe: tråd
   - forum_url:
       label:
         eng: forum URL
         swe: forum-URL
       type: url
-  - thread_postcount:
+  - thread_lastpost:
       label:
-        eng: number of posts in thread
-        swe: antal inlägg i tråd
-  - text_date: date
-  - text_url:
-      label:
-        eng: post URL
-        swe: inläggs-URL
-      type: url
+        eng: most recent post in thread
+        swe: senaste inlägg i tråd
   - forum_title:
       label: forum
       extended_component: structServiceSelect
+  - text_date: date
   - thread_url:
       label:
         eng: thread URL
         swe: tråd-URL
       type: url
-  - thread_title:
+  - text_url:
       label:
-        eng: thread
-        swe: tråd
-  - text_username:
+        eng: post URL
+        swe: inläggs-URL
+      type: url
+  - thread_postcount:
       label:
-        eng: username
-        swe: användarnamn
-  - thread_lastpost:
-      label:
-        eng: most recent post in thread
-        swe: senaste inlägg i tråd
+        eng: number of posts in thread
+        swe: antal inlägg i tråd
 pos_attributes:
   - sense: sense
   - compwf: compwf

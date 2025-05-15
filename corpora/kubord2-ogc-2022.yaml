@@ -12,8 +12,8 @@ description:
     Kubord och innehåller utöver ordfrekvenser även ordrelationer från moderna tidningstexter
     från Kungliga biblioteket.
 title:
-  eng: Kubord 2 - Word relations Östgöta Correspondenten 2022
-  swe: Kubord 2 - Ordrelationer Östgöta Correspondenten 2022
+  eng: Word relations Östgöta Correspondenten 2022
+  swe: Ordrelationer Östgöta Correspondenten 2022
 within:
   - label:
       eng: word

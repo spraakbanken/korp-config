@@ -12,8 +12,8 @@ description:
     of Kubord and contains both token frequencies and word relations from modern newspaper
     texts from the The National Library of Sweden.
 title:
-  eng: Kubord 2 - Word relations Östgöta Correspondenten 2020
-  swe: Kubord 2 - Ordrelationer Östgöta Correspondenten 2020
+  eng: Word relations Östgöta Correspondenten 2020
+  swe: Ordrelationer Östgöta Correspondenten 2020
 within:
   - label:
       eng: word

@@ -26,18 +26,11 @@ struct_attributes:
   - text_lix: text_lix
   - text_ovix: text_ovix
   - text_nk: text_nk
-  - forum_title:
-      label: forum
-      extended_component: structServiceSelect
-  - forum_url:
+  - thread_lastpost:
       label:
-        eng: forum URL
-        swe: forum-URL
-      type: url
-  - text_username:
-      label:
-        eng: username
-        swe: användarnamn
+        eng: most recent post in thread
+        swe: senaste inlägg i tråd
+  - text_date: date
   - thread_title:
       label:
         eng: thread
@@ -47,6 +40,18 @@ struct_attributes:
         eng: post URL
         swe: inläggs-URL
       type: url
+  - text_username:
+      label:
+        eng: username
+        swe: användarnamn
+  - forum_url:
+      label:
+        eng: forum URL
+        swe: forum-URL
+      type: url
+  - forum_title:
+      label: forum
+      extended_component: structServiceSelect
   - thread_postcount:
       label:
         eng: number of posts in thread
@@ -56,11 +61,6 @@ struct_attributes:
         eng: thread URL
         swe: tråd-URL
       type: url
-  - text_date: date
-  - thread_lastpost:
-      label:
-        eng: most recent post in thread
-        swe: senaste inlägg i tråd
 pos_attributes:
   - sense: sense
   - compwf: compwf

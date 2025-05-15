@@ -12,8 +12,8 @@ description:
     of Kubord and contains both token frequencies and word relations from modern newspaper
     texts from the The National Library of Sweden.
 title:
-  eng: Kubord 2 - Word relations Aftonbladet 2021
-  swe: Kubord 2 - Ordrelationer Aftonbladet 2021
+  eng: Word relations Aftonbladet 2021
+  swe: Ordrelationer Aftonbladet 2021
 within:
   - label:
       eng: word

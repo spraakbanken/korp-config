@@ -4,8 +4,8 @@ label:
 folders:
   rd:
     title:
-      swe: Riksdagens öppna data
-      eng: "Riksdag's open data"
+      swe: "Segregationstexter: Riksdagens öppna data"
+      eng: "Segregation texts: Riksdag's open data"
   media:
     title: Media
     subfolders:
@@ -35,8 +35,8 @@ folders:
           eng: News agency
   gbg:
     title:
-      swe: Göteborgs stad
-      eng: Gothenburg city texts
+      swe: "Segregationstexter: Göteborgs stad"
+      eng: "Segregation texts: Gothenburg city"
   social_media:
     title: Sociala medier
     subfolders:

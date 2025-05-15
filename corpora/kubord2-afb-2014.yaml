@@ -12,8 +12,8 @@ description:
     Kubord och innehåller utöver ordfrekvenser även ordrelationer från moderna tidningstexter
     från Kungliga biblioteket.
 title:
-  eng: Kubord 2 - Word relations Aftonbladet 2014
-  swe: Kubord 2 - Ordrelationer Aftonbladet 2014
+  eng: Word relations Aftonbladet 2014
+  swe: Ordrelationer Aftonbladet 2014
 within:
   - label:
       eng: word

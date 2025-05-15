@@ -12,8 +12,8 @@ description:
     Kubord och innehåller utöver ordfrekvenser även ordrelationer från moderna tidningstexter
     från Kungliga biblioteket.
 title:
-  eng: Kubord 2 - Word relations Expressen 2019
-  swe: Kubord 2 - Ordrelationer Expressen 2019
+  eng: Word relations Expressen 2019
+  swe: Ordrelationer Expressen 2019
 within:
   - label:
       eng: word

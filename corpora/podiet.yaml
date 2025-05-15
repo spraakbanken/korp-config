@@ -5,8 +5,12 @@ mode:
   - name: default
     folder: magazines
 description:
-  swe: Artiklar från Konsertmagasinet Podiet
   eng: Articles from the consert magazine Podiet
+  swe: |-
+    <b>Artiklar från Konsertmagasinet Podiet</b><br><br>Magasinet <a href="https://podiet.prenly.com/">Podiet</a> innehåller
+    artiklar och reportage om aktuella konserter, intervjuer med
+    musiker och verkkommentarer till de klassiska konserter som spelas
+    i Göteborgs Konserthus. Korpusen uppdateras regelbundet.
 title:
   eng: Podiet
   swe: Podiet
@@ -44,24 +48,20 @@ struct_attributes:
       opts:
         is: '='
         is_not: '!='
-  - text_url:
+  - paragraph_type:
       label:
-        swe: artikelns URL
-        eng: article URL
-      type: url
-  - issue_title:
-      label:
-        swe: utgåvans titel
-        eng: issue title
-      extended_component: structServiceSelect
+        swe: styckestyp
+        eng: paragraph type
+      extended_component: datasetSelect
       opts:
         is: '='
         is_not: '!='
-  - issue_url:
-      label:
-        swe: utgåvans URL
-        eng: issue URL
-      type: url
+      dataset:
+        - title
+      translation:
+        title:
+          swe: titel
+          eng: title
   - text_id:
       label:
         swe: artikelns ID
@@ -78,6 +78,25 @@ struct_attributes:
       opts:
         is: '='
         is_not: '!='
+  - text_url:
+      label:
+        swe: artikelns URL
+        eng: article URL
+      type: url
+  - issue_url:
+      label:
+        swe: utgåvans URL
+        eng: issue URL
+      type: url
+  - text_date: date
+  - issue_title:
+      label:
+        swe: utgåvans titel
+        eng: issue title
+      extended_component: structServiceSelect
+      opts:
+        is: '='
+        is_not: '!='
   - issue_data_collected:
       label:
         swe: insamlingsdatum
@@ -86,21 +105,6 @@ struct_attributes:
       opts:
         is: '='
         is_not: '!='
-  - paragraph_type:
-      label:
-        swe: styckestyp
-        eng: paragraph type
-      extended_component: datasetSelect
-      opts:
-        is: '='
-        is_not: '!='
-      dataset:
-        - title
-      translation:
-        title:
-          swe: titel
-          eng: title
-  - text_date: date
 pos_attributes:
   - sense: sense
   - compwf: compwf

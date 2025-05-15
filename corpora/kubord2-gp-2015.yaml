@@ -12,8 +12,8 @@ description:
     of Kubord and contains both token frequencies and word relations from modern newspaper
     texts from the The National Library of Sweden.
 title:
-  eng: Kubord 2 - Word relations Göteborgsposten 2015
-  swe: Kubord 2 - Ordrelationer Göteborgsposten 2015
+  eng: Word relations Göteborgsposten 2015
+  swe: Ordrelationer Göteborgsposten 2015
 within:
   - label:
       eng: word
