@@ -1,4 +1,4 @@
-extended_template: <input ng-model='input' escaper>
+extended_template: <input ng-model='input'>
 label:
   eng: baseform
   swe: grundform
