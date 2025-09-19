@@ -34,7 +34,7 @@ struct_attributes:
   - text_nk: text_nk
   - page_n: page
   - page_url:
-      title:
+      label:
         swe: sidlänk
         eng: page link
       type: url
