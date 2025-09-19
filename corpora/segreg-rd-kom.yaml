@@ -5,13 +5,11 @@ mode:
   - name: segreg
     folder: rd
 description:
-  swe: <b>EU-kommissionens förslag och redogörelser, så kallade KOM-dokument</b><br><br>Texter
-    som nämner segregation
-  eng: <b>EU initiatives are documents from the European Commission, “COM documents”.
-    </b><br><br>Texts that treat segregation
+  swe: EU-kommissionens förslag och redogörelser, så kallade KOM-dokument
+  eng: 'EU initiatives are documents from the European Commission, “COM documents”. '
 title:
-  swe: 'Riksdagens öppna data: KOM'
-  eng: 'Riksdag''s open data: EU initiatives'
+  swe: 'Segregationstexter: Riksdagens öppna data: KOM'
+  eng: 'Segregation texts: Riksdag''s open data: EU initiatives'
 reading_mode:
   component: standardReadingMode
 within:

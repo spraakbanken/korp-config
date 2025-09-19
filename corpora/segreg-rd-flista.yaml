@@ -5,12 +5,10 @@ mode:
   - name: segreg
     folder: rd
 description:
-  eng: Texts that treat segregation
-  swe: <b>Föredragningslistor för kammarens sammanträden</b><br><br>Texter som nämner
-    segregation
+  swe: Föredragningslistor för kammarens sammanträden
 title:
-  eng: 'Riksdag''s open data: Order papers'
-  swe: 'Riksdagens öppna data: Föredragningslista'
+  eng: 'Segregation texts: Riksdag''s open data: Order papers'
+  swe: 'Segregationstexter: Riksdagens öppna data: Föredragningslista'
 reading_mode:
   component: standardReadingMode
 within:

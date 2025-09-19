@@ -5,13 +5,12 @@ mode:
   - name: segreg
     folder: rd
 description:
-  swe: <b>Skriftliga frågor från ledamöterna till regeringen och svaren på dessa</b><br><br>Texter
-    som nämner segregation
-  eng: <b>Written questions from members of the Riksdag to the Government and the
-    answer to these</b><br><br>Texts that treat segregation
+  swe: Skriftliga frågor från ledamöterna till regeringen och svaren på dessa
+  eng: Written questions from members of the Riksdag to the Government and the answer
+    to these
 title:
-  swe: 'Riksdagens öppna data: Skriftliga frågor'
-  eng: 'Riksdag''s open data: Written questions'
+  swe: 'Segregationstexter: Riksdagens öppna data: Skriftliga frågor'
+  eng: 'Segregation texts: Riksdag''s open data: Written questions'
 reading_mode:
   component: standardReadingMode
 within:
@@ -93,6 +92,28 @@ struct_attributes:
       label:
         eng: name
         swe: beteckning
+  - text_intressent_namn_parti:
+      label:
+        eng: interested member
+        swe: intressent (namn, parti)
+      type: set
+      opts:
+        is: contains
+        is_not: not contains
+        contains: incontains_contains
+        matches: regexp_contains
+        matches_not: not_regexp_contains
+  - text_intressent_parti:
+      label:
+        eng: interested party
+        swe: intressent (parti)
+      type: set
+      opts:
+        is: contains
+        is_not: not contains
+        contains: incontains_contains
+        matches: regexp_contains
+        matches_not: not_regexp_contains
   - text_nummer:
       label:
         eng: number

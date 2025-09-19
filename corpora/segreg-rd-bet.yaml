@@ -5,12 +5,11 @@ mode:
   - name: segreg
     folder: rd
 description:
-  eng: Texts that treat segregation
-  swe: <b>Utskottens betänkanden och utlåtanden, inklusive riksdagens beslut, en sammanfattning
-    av voteringsresultaten och Beslut i korthet</b><br><br>Texter som nämner segregation
+  swe: Utskottens betänkanden och utlåtanden, inklusive riksdagens beslut, en sammanfattning
+    av voteringsresultaten och Beslut i korthet
 title:
-  eng: 'Riksdag''s open data: Committee reports and statements'
-  swe: 'Riksdagens öppna data: Betänkande'
+  eng: 'Segregation texts: Riksdag''s open data: Committee reports and statements'
+  swe: 'Segregationstexter: Riksdagens öppna data: Betänkande'
 reading_mode:
   component: standardReadingMode
 within:
@@ -84,6 +83,30 @@ struct_attributes:
       label:
         eng: subtype
         swe: subtyp
+  - text_parti:
+      extended_component: structServiceSelect
+      opts:
+        is: '='
+        is_not: '!='
+      label:
+        eng: party
+        swe: parti
+  - text_talare:
+      extended_component: structServiceSelect
+      opts:
+        is: '='
+        is_not: '!='
+      label:
+        eng: speaker
+        swe: talare
+  - text_kon:
+      extended_component: structServiceSelect
+      opts:
+        is: '='
+        is_not: '!='
+      label:
+        eng: speaker gender
+        swe: talarkön
   - text_hangar_id:
       label:
         eng: hangar ID
@@ -96,10 +119,22 @@ struct_attributes:
       label:
         eng: name
         swe: beteckning
+  - text_beslutstyp:
+      label:
+        eng: decision type
+        swe: beslutstyp
   - text_bet:
       label:
         eng: bet
         swe: bet
+  - text_motforslag_nummer:
+      label:
+        eng: counterproposal number
+        swe: motförslagsnummer
+  - text_motforslag_partier:
+      label:
+        eng: counterproposal parties
+        swe: motförslagspartier
   - text_nummer:
       label:
         eng: number
@@ -112,10 +147,27 @@ struct_attributes:
       label:
         eng: body
         swe: organ
+  - text_punkt:
+      label:
+        eng: point
+        swe: punkt
   - text_rm:
       label: rm
   - text_status:
       label: status
+  - text_vinnare:
+      label:
+        eng: winner
+        swe: vinnare
+  - text_votering_ledamot_url_xml:
+      label:
+        eng: voting member URL (XML)
+        swe: votering ledamot-URL (XML)
+      type: url
+  - text_klockslag:
+      label:
+        eng: speech time
+        swe: klockslag anförande
   - page_id:
       label:
         eng: page number

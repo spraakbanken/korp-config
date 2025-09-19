@@ -4,12 +4,9 @@ lang: swe
 mode:
   - name: segreg
     folder: rd
-description:
-  eng: Texts that treat segregation
-  swe: Texter som nämner segregation
 title:
-  eng: 'Riksdag''s open data: Activities in the Chamber'
-  swe: 'Riksdagens öppna data: Kammaraktiviteter'
+  eng: 'Segregation texts: Riksdag''s open data: Activities in the Chamber'
+  swe: 'Segregationstexter: Riksdagens öppna data: Kammaraktiviteter'
 reading_mode:
   component: standardReadingMode
 within:
@@ -79,6 +76,30 @@ struct_attributes:
       label:
         eng: subtype
         swe: subtyp
+  - text_parti:
+      extended_component: structServiceSelect
+      opts:
+        is: '='
+        is_not: '!='
+      label:
+        eng: party
+        swe: parti
+  - text_talare:
+      extended_component: structServiceSelect
+      opts:
+        is: '='
+        is_not: '!='
+      label:
+        eng: speaker
+        swe: talare
+  - text_kon:
+      extended_component: structServiceSelect
+      opts:
+        is: '='
+        is_not: '!='
+      label:
+        eng: speaker gender
+        swe: talarkön
   - text_hangar_id:
       label:
         eng: hangar ID
@@ -107,6 +128,10 @@ struct_attributes:
       label: rm
   - text_status:
       label: status
+  - text_klockslag:
+      label:
+        eng: speech time
+        swe: klockslag anförande
 pos_attributes:
   - sense: sense
   - compwf: compwf

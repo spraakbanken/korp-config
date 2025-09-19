@@ -5,12 +5,10 @@ mode:
   - name: segreg
     folder: rd
 description:
-  swe: <b>Framställningar och redogörelser från organ som utsetts av riksdagen</b><br><br>Texter
-    som nämner segregation
-  eng: Texts that treat segregation
+  swe: Framställningar och redogörelser från organ som utsetts av riksdagen
 title:
-  eng: 'Riksdag''s open data: Reports'
-  swe: 'Riksdagens öppna data: Framställning/redogörelse'
+  eng: 'Segregation texts: Riksdag''s open data: Reports'
+  swe: 'Segregationstexter: Riksdagens öppna data: Framställning/redogörelse'
 reading_mode:
   component: standardReadingMode
 within:
@@ -92,6 +90,26 @@ struct_attributes:
       label:
         eng: name
         swe: beteckning
+  - text_avsnitt:
+      label:
+        eng: section
+        swe: avsnitt
+  - text_behandlas_i:
+      label:
+        eng: treated in
+        swe: behandlas i
+  - text_intressent:
+      label:
+        eng: interested
+        swe: intressent
+  - text_kammarbeslutstyp:
+      label:
+        eng: chamber decision type
+        swe: kammarbeslutstyp
+  - text_kammaren:
+      label:
+        eng: chamber
+        swe: kammaren
   - text_nummer:
       label:
         eng: number
@@ -108,6 +126,10 @@ struct_attributes:
       label: rm
   - text_status:
       label: status
+  - text_utskottet:
+      label:
+        eng: committee
+        swe: utskottet
   - page_id:
       label:
         eng: page number

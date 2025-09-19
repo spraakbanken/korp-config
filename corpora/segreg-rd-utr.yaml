@@ -5,11 +5,9 @@ mode:
   - name: segreg
     folder: rd
 description:
-  eng: Texts that treat segregation
-  swe: <b>Kommittédirektiv och kommittéberättelser för utredningar som regeringen
-    tillsätter</b><br><br>Texter som nämner segregation
+  swe: Kommittédirektiv och kommittéberättelser för utredningar som regeringen tillsätter
 title:
-  swe: 'Riksdagens öppna data: Utredningar'
+  swe: 'Segregationstexter: Riksdagens öppna data: Utredningar'
 reading_mode:
   component: standardReadingMode
 within:

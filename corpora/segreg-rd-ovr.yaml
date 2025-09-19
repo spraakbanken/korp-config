@@ -5,14 +5,12 @@ mode:
   - name: segreg
     folder: rd
 description:
-  swe: <b>Dokumentserierna Riksrevisionens granskningsrapporter, Utredningar från
-    Riksdagsförvaltningen och Rapporter från riksdagen samt planeringsdokument, bilagor
-    till dokument och uttag ur riksdagens databaser och de gamla dokumentserierna
-    Utredningar från riksdag</b><br><br>Texter som nämner segregation
-  eng: Texts that treat segregation
+  swe: Dokumentserierna Riksrevisionens granskningsrapporter, Utredningar från Riksdagsförvaltningen
+    och Rapporter från riksdagen samt planeringsdokument, bilagor till dokument och
+    uttag ur riksdagens databaser och de gamla dokumentserierna Utredningar från riksdag
 title:
-  eng: 'Riksdag''s open data: Other documents'
-  swe: 'Riksdagens öppna data: Övrigt'
+  eng: 'Segregation texts: Riksdag''s open data: Other documents'
+  swe: 'Segregationstexter: Riksdagens öppna data: Övrigt'
 reading_mode:
   component: standardReadingMode
 within:

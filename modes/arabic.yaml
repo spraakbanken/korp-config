@@ -1,0 +1,8 @@
+label:
+  swe: Arabiska
+  eng: Arabic
+dir: rtl
+order: 100
+map_enabled: false
+color_primary: '#eecccc'
+color_light: '#eee2e2'

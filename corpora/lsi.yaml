@@ -19,6 +19,7 @@ description:
 id: lsi
 mode:
   - name: lsi
+  - name: english
 pos_attributes:
   - msd: msd
   - dephead: dephead

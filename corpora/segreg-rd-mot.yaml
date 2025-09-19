@@ -5,11 +5,11 @@ mode:
   - name: segreg
     folder: rd
 description:
-  swe: <b>Motioner från riksdagens ledamöter</b><br><br>Texter som nämner segregation
-  eng: <b>Motions from the members of the Riksdag</b><br><br>Texts that treat segregation
+  swe: Motioner från riksdagens ledamöter
+  eng: Motions from the members of the Riksdag
 title:
-  swe: 'Riksdagens öppna data: Motion'
-  eng: 'Riksdag''s open data: Motions'
+  swe: 'Segregationstexter: Riksdagens öppna data: Motion'
+  eng: 'Segregation texts: Riksdag''s open data: Motions'
 reading_mode:
   component: standardReadingMode
 within:
@@ -91,6 +91,48 @@ struct_attributes:
       label:
         eng: name
         swe: beteckning
+  - text_avsnitt:
+      label:
+        eng: section
+        swe: avsnitt
+  - text_behandlas_i:
+      label:
+        eng: treated in
+        swe: behandlas i
+  - text_intressent:
+      label:
+        eng: interested
+        swe: intressent
+  - text_intressent_namn_parti:
+      label:
+        eng: interested member
+        swe: intressent (namn, parti)
+      type: set
+      opts:
+        is: contains
+        is_not: not contains
+        contains: incontains_contains
+        matches: regexp_contains
+        matches_not: not_regexp_contains
+  - text_intressent_parti:
+      label:
+        eng: interested party
+        swe: intressent (parti)
+      type: set
+      opts:
+        is: contains
+        is_not: not contains
+        contains: incontains_contains
+        matches: regexp_contains
+        matches_not: not_regexp_contains
+  - text_kammarbeslutstyp:
+      label:
+        eng: chamber decision type
+        swe: kammarbeslutstyp
+  - text_kammaren:
+      label:
+        eng: chamber
+        swe: kammaren
   - text_nummer:
       label:
         eng: number
@@ -107,6 +149,10 @@ struct_attributes:
       label: rm
   - text_status:
       label: status
+  - text_utskottet:
+      label:
+        eng: committee
+        swe: utskottet
   - page_id:
       label:
         eng: page number

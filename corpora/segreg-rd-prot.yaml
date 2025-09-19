@@ -5,11 +5,11 @@ mode:
   - name: segreg
     folder: rd
 description:
-  swe: <b>Protokoll från kammarens sammanträden</b><br><br>Texter som nämner segregation
-  eng: <b>Records of proceedings in the Chamber</b><br><br>Texts that treat segregation
+  swe: Protokoll från kammarens sammanträden
+  eng: Records of proceedings in the Chamber
 title:
-  eng: 'Riksdag''s open data: Records of proceedings in the Chamber'
-  swe: 'Riksdagens öppna data: Protokoll'
+  eng: 'Segregation texts: Riksdag''s open data: Records of proceedings in the Chamber'
+  swe: 'Segregationstexter: Riksdagens öppna data: Protokoll'
 reading_mode:
   component: standardReadingMode
 within:

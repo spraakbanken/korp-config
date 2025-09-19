@@ -5,11 +5,10 @@ mode:
   - name: segreg
     folder: rd
 description:
-  swe: <b>Utredningar från regeringens departement</b><br><br>Texter som nämner segregation
-  eng: Texts that treat segregation
+  swe: Utredningar från regeringens departement
 title:
-  eng: 'Riksdag''s open data: Ministry Publications Series'
-  swe: 'Riksdagens öppna data: Departementsserien'
+  eng: 'Segregation texts: Riksdag''s open data: Ministry Publications Series'
+  swe: 'Segregationstexter: Riksdagens öppna data: Departementsserien'
 reading_mode:
   component: standardReadingMode
 within:

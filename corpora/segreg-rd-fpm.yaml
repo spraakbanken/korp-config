@@ -5,12 +5,10 @@ mode:
   - name: segreg
     folder: rd
 description:
-  swe: <b>Regeringens faktapromemorior om EU-kommissionens förslag</b><br><br>Texter
-    som nämner segregation
-  eng: Texts that treat segregation
+  swe: Regeringens faktapromemorior om EU-kommissionens förslag
 title:
-  eng: 'Riksdag''s open data: Explanatory memorandums on EU proposals'
-  swe: 'Riksdagens öppna data: Faktapromemoria'
+  eng: 'Segregation texts: Riksdag''s open data: Explanatory memorandums on EU proposals'
+  swe: 'Segregationstexter: Riksdagens öppna data: Faktapromemoria'
 reading_mode:
   component: standardReadingMode
 within:

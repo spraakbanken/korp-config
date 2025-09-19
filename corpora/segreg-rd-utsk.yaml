@@ -5,13 +5,11 @@ mode:
   - name: segreg
     folder: rd
 description:
-  eng: Texts that treat segregation
-  swe: <b>Dokument från utskotten, bland annat KU-anmälningar, protokoll, verksamhetsberättelser
-    och den gamla dokumentserien Utredningar från riksdagen</b><br><br>Texter som
-    nämner segregation
+  swe: Dokument från utskotten, bland annat KU-anmälningar, protokoll, verksamhetsberättelser
+    och den gamla dokumentserien Utredningar från riksdagen
 title:
-  eng: 'Riksdag''s open data: Documents from Committees'
-  swe: 'Riksdagens öppna data: Utskottsdokument'
+  eng: 'Segregation texts: Riksdag''s open data: Documents from Committees'
+  swe: 'Segregationstexter: Riksdagens öppna data: Utskottsdokument'
 reading_mode:
   component: standardReadingMode
 within:

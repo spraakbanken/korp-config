@@ -5,13 +5,11 @@ mode:
   - name: segreg
     folder: rd
 description:
-  eng: <b>Interpellations from members of the Riksdag to the government</b><br><br>Texts
-    that treat segregation
-  swe: <b>Interpellationer från ledamöterna till regeringen</b><br><br>Texter som
-    nämner segregation
+  eng: Interpellations from members of the Riksdag to the government
+  swe: Interpellationer från ledamöterna till regeringen
 title:
-  swe: 'Riksdagens öppna data: Interpellation'
-  eng: 'Riksdag''s open data: Interpellations'
+  swe: 'Segregationstexter: Riksdagens öppna data: Interpellation'
+  eng: 'Segregation texts: Riksdag''s open data: Interpellations'
 reading_mode:
   component: standardReadingMode
 within:
@@ -81,6 +79,30 @@ struct_attributes:
       label:
         eng: subtype
         swe: subtyp
+  - text_parti:
+      extended_component: structServiceSelect
+      opts:
+        is: '='
+        is_not: '!='
+      label:
+        eng: party
+        swe: parti
+  - text_talare:
+      extended_component: structServiceSelect
+      opts:
+        is: '='
+        is_not: '!='
+      label:
+        eng: speaker
+        swe: talare
+  - text_kon:
+      extended_component: structServiceSelect
+      opts:
+        is: '='
+        is_not: '!='
+      label:
+        eng: speaker gender
+        swe: talarkön
   - text_hangar_id:
       label:
         eng: hangar ID
@@ -93,6 +115,28 @@ struct_attributes:
       label:
         eng: name
         swe: beteckning
+  - text_intressent_namn_parti:
+      label:
+        eng: interested member
+        swe: intressent (namn, parti)
+      type: set
+      opts:
+        is: contains
+        is_not: not contains
+        contains: incontains_contains
+        matches: regexp_contains
+        matches_not: not_regexp_contains
+  - text_intressent_parti:
+      label:
+        eng: interested party
+        swe: intressent (parti)
+      type: set
+      opts:
+        is: contains
+        is_not: not contains
+        contains: incontains_contains
+        matches: regexp_contains
+        matches_not: not_regexp_contains
   - text_nummer:
       label:
         eng: number
@@ -109,6 +153,10 @@ struct_attributes:
       label: rm
   - text_status:
       label: status
+  - text_klockslag:
+      label:
+        eng: speech time
+        swe: klockslag anförande
 pos_attributes:
   - sense: sense
   - compwf: compwf

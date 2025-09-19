@@ -5,12 +5,12 @@ mode:
   - name: segreg
     folder: rd
 description:
-  swe: <b>Dokument från EU-nämnden, bland annat möteskallelser, föredragningslistor,
-    protokoll och skriftliga samråd med regeringen</b><br><br>Texter som nämner segregation
-  eng: <b>Documents from the Committee on EU Affairs</b><br><br>Texts that treat segregation
+  eng: Documents from the Committee on EU Affairs
+  swe: Dokument från EU-nämnden, bland annat möteskallelser, föredragningslistor,
+    protokoll och skriftliga samråd med regeringen
 title:
-  swe: 'Riksdagens öppna data: EUN'
-  eng: 'Riksdag''s open data: Committee on EU Affairs'
+  swe: 'Segregationstexter: Riksdagens öppna data: EUN'
+  eng: 'Segregation texts: Riksdag''s open data: Committee on EU Affairs'
 reading_mode:
   component: standardReadingMode
 within:

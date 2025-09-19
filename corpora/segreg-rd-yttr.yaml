@@ -5,11 +5,10 @@ mode:
   - name: segreg
     folder: rd
 description:
-  swe: <b>Utskottens yttranden</b><br><br>Texter som nämner segregation
-  eng: Texts that treat segregation
+  swe: Utskottens yttranden
 title:
-  swe: 'Riksdagens öppna data: Yttrande'
-  eng: 'Riksdag''s open data: Statements of opinion'
+  swe: 'Segregationstexter: Riksdagens öppna data: Yttrande'
+  eng: 'Segregation texts: Riksdag''s open data: Statements of opinion'
 reading_mode:
   component: standardReadingMode
 within:

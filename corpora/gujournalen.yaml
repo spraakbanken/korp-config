@@ -5,18 +5,18 @@ mode:
   - name: default
     folder: magazines
 description:
-  swe: |-
-    <b>Texter från GU Journalen</b><br><br>GU Journalen är Göteborgs universitets tidning för anställda och studenter. Den fungerar som en intern
-    publikation som rapporterar om nyheter, forskning och händelser inom universitetet.
-
-    Utöver artiklar från GU Journalen innehåller korpusen även nyhetsbrev från 1995-1997 som är en föregångare till GU
-    Journalen.
   eng: |-
     <b>Texts from GU Journalen</b><br><br>GU Journalen is the University of Gothenburg's newspaper for employees and students. It serves as an internal
     publication that reports on news, research, and events within the university.
 
     In addition to articles from GU Journalen, the corpus also includes newsletters from 1995-1997, which are a
     predecessor to GU Journalen.
+  swe: |-
+    <b>Texter från GU Journalen</b><br><br>GU Journalen är Göteborgs universitets tidning för anställda och studenter. Den fungerar som en intern
+    publikation som rapporterar om nyheter, forskning och händelser inom universitetet.
+
+    Utöver artiklar från GU Journalen innehåller korpusen även nyhetsbrev från 1995-1997 som är en föregångare till GU
+    Journalen.
 title:
   swe: GU Journalen
   eng: GU-Journal

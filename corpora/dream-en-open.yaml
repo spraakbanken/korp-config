@@ -11,6 +11,7 @@ description: ''
 id: dream-en-open
 mode:
   - name: dream
+  - name: english
 pos_attributes:
   - msd: msd
   - dephead: dephead
