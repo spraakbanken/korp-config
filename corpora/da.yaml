@@ -5,12 +5,12 @@ mode:
   - name: default
     folder: newstexts
 description:
-  eng: <b>News texts from dagensarena.se</b><br><br>The texts in this corpus are downloaded
-    from the news articles on <a href="https://www.dagensarena.se/">dagensarena.se</a>.
-    The corpus is updated about twice a year.
-  swe: <b>Nyhetstexter från dagensarena.se</b><br><br>Texterna i korpusen är hämtade
+  swe: <b>Nyhetstexter från dagensarena.se</b><br><br><p>Texterna i korpusen är hämtade
     från nyhetsartiklarna på <a href="https://www.dagensarena.se/">dagensarena.se</a>.
-    Korpusen uppdateras ca. två gånger per år.
+    Korpusen uppdateras ca. två gånger per år.</p>
+  eng: <b>News texts from dagensarena.se</b><br><br><p>The texts in this corpus are
+    downloaded from the news articles on <a href="https://www.dagensarena.se/">dagensarena.se</a>.
+    The corpus is updated about twice a year.</p>
 title:
   swe: Dagens Arena
   eng: Dagens Arena

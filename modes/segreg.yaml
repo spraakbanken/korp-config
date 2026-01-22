@@ -7,7 +7,9 @@ folders:
       swe: "Segregationstexter: Riksdagens öppna data"
       eng: "Segregation texts: Riksdag's open data"
   media:
-    title: Media
+    title:
+      swe: "Segregationstexter: Media"
+      eng: "Segregation texts: Media"
     subfolders:
       national:
         title:

@@ -31,18 +31,18 @@ struct_attributes:
   - text_lix: text_lix
   - text_ovix: text_ovix
   - text_nk: text_nk
+  - text_date: date
+  - text_filename:
+      label:
+        eng: filename
+        swe: filnamn
+  - text_title: title
   - text_source:
       label:
         eng: source
         swe: källa
       type: url
-  - text_title: title
-  - text_date: date
   - text_author: author
-  - text_filename:
-      label:
-        eng: filename
-        swe: filnamn
 pos_attributes:
   - sense: sense
   - compwf: compwf

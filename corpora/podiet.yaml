@@ -7,13 +7,13 @@ mode:
 description:
   eng: Articles from the consert magazine Podiet
   swe: |-
-    <b>Artiklar från Konsertmagasinet Podiet</b><br><br>Magasinet <a href="https://podiet.prenly.com/">Podiet</a> innehåller
+    <b>Artiklar från Konsertmagasinet Podiet</b><br><br><p>Magasinet <a href="https://podiet.prenly.com/">Podiet</a> innehåller
     artiklar och reportage om aktuella konserter, intervjuer med
     musiker och verkkommentarer till de klassiska konserter som spelas
-    i Göteborgs Konserthus. Korpusen uppdateras regelbundet.
+    i Göteborgs Konserthus. Korpusen uppdateras regelbundet.</p>
 title:
-  eng: Podiet
   swe: Podiet
+  eng: Podiet
 reading_mode:
   component: standardReadingMode
 within:
@@ -40,14 +40,15 @@ struct_attributes:
   - text_lix: text_lix
   - text_ovix: text_ovix
   - text_nk: text_nk
-  - text_title:
+  - issue_data_collected:
       label:
-        swe: artikelns titel
-        eng: article title
+        swe: insamlingsdatum
+        eng: date of data collection
       extended_component: structServiceSelect
       opts:
         is: '='
         is_not: '!='
+  - text_date: date
   - paragraph_type:
       label:
         swe: styckestyp
@@ -62,6 +63,14 @@ struct_attributes:
         title:
           swe: titel
           eng: title
+  - issue_title:
+      label:
+        swe: utgåvans titel
+        eng: issue title
+      extended_component: structServiceSelect
+      opts:
+        is: '='
+        is_not: '!='
   - text_id:
       label:
         swe: artikelns ID
@@ -78,6 +87,14 @@ struct_attributes:
       opts:
         is: '='
         is_not: '!='
+  - text_title:
+      label:
+        swe: artikelns titel
+        eng: article title
+      extended_component: structServiceSelect
+      opts:
+        is: '='
+        is_not: '!='
   - text_url:
       label:
         swe: artikelns URL
@@ -88,23 +105,6 @@ struct_attributes:
         swe: utgåvans URL
         eng: issue URL
       type: url
-  - text_date: date
-  - issue_title:
-      label:
-        swe: utgåvans titel
-        eng: issue title
-      extended_component: structServiceSelect
-      opts:
-        is: '='
-        is_not: '!='
-  - issue_data_collected:
-      label:
-        swe: insamlingsdatum
-        eng: date of data collection
-      extended_component: structServiceSelect
-      opts:
-        is: '='
-        is_not: '!='
 pos_attributes:
   - sense: sense
   - compwf: compwf
