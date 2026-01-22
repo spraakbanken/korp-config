@@ -1,4 +1,6 @@
-label: Blingbring
+label:
+  eng: Thematic keywords (Blingbring)
+  swe: Tematiska nyckelord (Blingbring)
 opts:
   contains: rank_contains
   contains_not: not_rank_contains

@@ -1,6 +1,6 @@
 external_search: https://spraakbanken.gu.se/karp/?mode=swefn&lexicon=swefn&query=and(equals|swefnID|"<%= val %>")
 internal_search: true
 label:
-  eng: Swedish FrameNet
-  swe: Svenskt FrasNät
+  eng: Thematic keywords (Swedish FrameNet)
+  swe: Tematiska nyckelord (Svenskt frasnät)
 type: set

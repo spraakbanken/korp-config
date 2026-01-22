@@ -69,7 +69,7 @@ struct_attributes:
         swe: semantisk typ
 title:
   swe: Svenskt frasnät (SweFN)
-  eng: Swedish framenet (SweFN)
+  eng: Swedish FrameNet (SweFN)
 within:
   - label:
       eng: sentence
