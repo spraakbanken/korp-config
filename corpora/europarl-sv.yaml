@@ -19,7 +19,6 @@ linked_to:
   - europarl-pt
 mode:
   - name: parallel
-pivot: true
 pos_attributes:
   - lemma: lemma
   - pos: pos
