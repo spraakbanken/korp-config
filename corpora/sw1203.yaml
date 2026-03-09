@@ -24,7 +24,6 @@ description:
     access please contact <a href="mailto:ingegerd.enstroem@svenska.gu.se">Ingegerd
     Enström</a>.
 id: sw1203
-limited_access: true
 mode:
   - folder: protected
     name: default

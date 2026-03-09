@@ -20,7 +20,6 @@ custom_attributes:
         target='_blank'>Metadata explanation</a>
 description: ''
 id: tisusv1
-limited_access: true
 mode:
   - folder: l2
     name: default

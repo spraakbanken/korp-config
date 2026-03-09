@@ -9,7 +9,6 @@ context:
     value: 1 text
 description: ''
 id: platsannonser
-limited_access: true
 mode:
   - folder: protected
     name: default

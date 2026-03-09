@@ -5,7 +5,6 @@ context:
     value: 1 sentence
 description: ''
 id: lawfn
-limited_access: true
 mode:
   - name: lawfn
 pos_attributes:

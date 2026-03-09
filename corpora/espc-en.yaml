@@ -30,7 +30,6 @@ context:
     value: 1 link
 hide: true
 lang: eng
-limited_access: true
 linked_to:
   - espc-sv
 mode:

@@ -12,7 +12,6 @@ context:
     value: 1 sentence
 description: ''
 id: spin-source
-limited_access: true
 mode:
   - folder: protected
     name: default

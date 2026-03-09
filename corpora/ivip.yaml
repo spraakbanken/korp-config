@@ -13,7 +13,6 @@ lang: swe
 mode:
   - name: default
     folder: protected
-limited_access: true
 custom_attributes:
   - text_speaker_custom:
       custom_type: struct

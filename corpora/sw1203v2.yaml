@@ -12,7 +12,6 @@ context:
     value: 1 sentence
 description: ''
 id: sw1203v2
-limited_access: true
 mode:
   - folder: protected
     name: default

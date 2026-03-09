@@ -10,7 +10,6 @@ context:
 description: För åtkomst kontakta <a href="mailto:anna_w.gustafsson@nordlund.lu.se">Anna
   W Gustafsson</a>.
 id: mepac-i
-limited_access: true
 mode:
   - folder: protected
     name: default

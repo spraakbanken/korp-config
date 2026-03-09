@@ -19,7 +19,6 @@ custom_attributes:
         target='_blank'>Metadata explanation</a>
 description: ''
 id: swell-original
-limited_access: true
 mode:
   - folder: protected
     name: default

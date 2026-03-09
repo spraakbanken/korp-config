@@ -9,7 +9,6 @@ context:
     value: 7 sentence
 description: ''
 id: dream-de-restricted
-limited_access: true
 mode:
   - folder: protected
     name: dream

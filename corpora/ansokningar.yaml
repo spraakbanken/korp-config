@@ -9,7 +9,6 @@ description:
   eng: Anonymised job applications. The corpus is protected, contact Lena Rogström
     (lena.rogstroem@svenska.gu.se) for more information and access.
 id: ansokningar
-limited_access: true
 mode:
   - folder: protected
     name: default

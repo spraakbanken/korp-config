@@ -24,7 +24,6 @@ description:
   eng: 256 essays collected from Language Introduction course (mid-term exams) for
     newly arrived refugees. Some of the students are recurrent.
 id: spinv1
-limited_access: true
 mode:
   - folder: l2
     name: default

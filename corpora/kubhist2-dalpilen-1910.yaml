@@ -13,7 +13,6 @@ description: <a href="http://feedback.blogg.kb.se/forums/topic/digidailyprojekte
   för massdigitalisering och texttolkning av dagstidningar. Projektet löpte mellan
   2010 och 2014.
 id: kubhist2-dalpilen-1910
-limited_access: true
 mode:
   - folder: kubhist2.dalpilen
     lab_only: true

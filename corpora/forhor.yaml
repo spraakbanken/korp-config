@@ -13,7 +13,6 @@ description:
   eng: The corpus is protected, contact Ylva Burman (ylva.byrman@svenska.gu.se) for
     more information and access.
 id: forhor
-limited_access: true
 mode:
   - folder: protected
     name: default

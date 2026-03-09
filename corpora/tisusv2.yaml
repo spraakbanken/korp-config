@@ -24,7 +24,6 @@ custom_attributes:
 description: För åtkomst kontakta <a href="mailto:elena.volodina@svenska.gu.se">Elena
   Volodina</a>.
 id: tisusv2
-limited_access: true
 mode:
   - folder: protected
     name: default

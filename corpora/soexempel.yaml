@@ -12,7 +12,6 @@ description: De drygt 94 000 språkexemplen är hämtade ur Svensk ordbok utgive
   och att ge information om uppslagsordens fraseologi. <br><br>För åtkomst kontakta
   <a href="mailto:emma.skoldberg@svenska.gu.se">Emma Sköldberg</a>.
 id: soexempel
-limited_access: true
 mode:
   - folder: protected
     name: default

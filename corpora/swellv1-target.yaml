@@ -22,7 +22,6 @@ custom_attributes:
         target='_blank'>Metadata explanation</a>
 description: ''
 id: swellv1-target
-limited_access: true
 mode:
   - folder: l2
     name: default

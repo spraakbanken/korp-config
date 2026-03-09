@@ -19,7 +19,6 @@ description:
   eng: <b>Essays written by L2 Swedish learners as part of a TISUS exam</b><br><br>For
     access please contact <a href="mailto:elena.volodina@svenska.gu.se">Elena Volodina</a>.
 id: tisus
-limited_access: true
 mode:
   - folder: protected
     name: default

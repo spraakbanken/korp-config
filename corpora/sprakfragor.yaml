@@ -14,7 +14,6 @@ description:
     please contact <a href="mailto:per-anders.jande@sprakochfolkminnen.se">Per-Anders
     Jande</a>.
 id: sprakfragor
-limited_access: true
 mode:
   - folder: protected
     name: default

@@ -29,7 +29,6 @@ context:
       swe: 1 meningspar
     value: 1 link
 lang: swe
-limited_access: true
 linked_to:
   - espc-en
 mode:

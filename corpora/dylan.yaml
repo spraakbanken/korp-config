@@ -9,7 +9,6 @@ context:
     value: 1 sentence
 description: ''
 id: dylan
-limited_access: true
 mode:
   - name: dylan
 struct_attributes:

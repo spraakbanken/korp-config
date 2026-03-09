@@ -22,7 +22,6 @@ description:
     The corpus consist of both audio (50%) and audio/video (50%) recordings of
     naturalistically occurring interactions.<br><br>
     For access please contact <a href="mailto:data@flov.gu.se">data@flov.gu.se</a>.
-limited_access: true
 context:
   - label:
       eng: 1 sentence

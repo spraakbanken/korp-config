@@ -22,7 +22,6 @@ custom_attributes:
         target='_blank'>Metadata explanation</a>
 description: ''
 id: sw1203v1
-limited_access: true
 mode:
   - folder: l2
     name: default
