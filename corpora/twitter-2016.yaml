@@ -41,7 +41,6 @@ pos_attributes:
   - suffix: suffix
   - blingbring: blingbring
   - swefn: swefn
-  - sentiment: sentiment
 struct_attributes:
   - text_blingbring: text_blingbring
   - text_swefn: text_swefn

@@ -9,6 +9,8 @@ folders:
     title: Warar
   wb:
     title: Warbixin bulsheed
+  xeerarka:
+    title: Xeerarka Soomaaliya
 input_case_insensitive_default: true
 color_primary: '#FFE7D2'
 color_light: '#FFF4EB'

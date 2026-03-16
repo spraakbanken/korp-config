@@ -49,6 +49,7 @@ description:
     </ul>
 title:
   eng: Corpus of spoken isiXhosa
+  swe: Corpus of spoken isiXhosa
 custom_attributes:
   - three_rows:
       custom_type: pos
@@ -86,18 +87,6 @@ struct_attributes:
       opts:
         is: '='
         is_not: '!='
-  - sentence_speaker:
-      label:
-        eng: speaker
-        swe: talare
-      extended_component: structServiceSelect
-      opts:
-        is: '='
-        is_not: '!='
-  - sentence_translation:
-      label:
-        eng: translation
-        swe: översättning
   - text_filename:
       extended_component: structServiceSelect
       opts:
@@ -106,11 +95,23 @@ struct_attributes:
       label:
         eng: filename
         swe: filnamn
-pos_attributes:
-  - segmented:
+  - sentence_translation:
       label:
-        eng: segmentation
-        swe: segmentering
+        eng: translation
+        swe: översättning
+  - sentence_speaker:
+      label:
+        eng: speaker
+        swe: talare
+      extended_component: structServiceSelect
+      opts:
+        is: '='
+        is_not: '!='
+pos_attributes:
+  - normalized:
+      label:
+        eng: normalized word form
+        swe: normaliserad ordform
   - sense:
       extended_component: structServiceAutocomplete
       opts:
@@ -212,22 +213,14 @@ pos_attributes:
         SM: subject marker
         VEN: ventive
         VOC: vocative
+  - segmented:
+      label:
+        eng: segmentation
+        swe: segmentering
   - glossed:
       label:
         eng: glossing
         swe: glossering
-  - pos:
-      extended_component: structServiceSelect
-      opts:
-        is: '='
-        is_not: '!='
-      label:
-        eng: part of speech
-        swe: ordklass
-  - normalized:
-      label:
-        eng: normalized word form
-        swe: normaliserad ordform
   - macroglosses:
       opts:
         is: contains
@@ -237,5 +230,13 @@ pos_attributes:
         eng: macrogloss
         swe: makrogloss
       extended_component: structServiceSelect
+  - pos:
+      extended_component: structServiceSelect
+      opts:
+        is: '='
+        is_not: '!='
+      label:
+        eng: part of speech
+        swe: ordklass
 attribute_filters:
   - text_filename

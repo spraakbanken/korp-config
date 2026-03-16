@@ -47,7 +47,6 @@ pos_attributes:
   - ne_subtype: ne_subtype
   - blingbring: blingbring
   - swefn: swefn
-  - sentiment: sentiment
 struct_attributes:
   - text_title:
       label:

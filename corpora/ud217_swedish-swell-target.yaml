@@ -24,6 +24,12 @@ description:
 title:
   swe: UD2.17_Swedish-SweLL (korrigerad)
   eng: UD2.17_Swedish-SweLL (corrected)
+deptree:
+  attrs:
+    ref: uref
+    pos: upos
+    head: udephead
+    rel: udeprel
 within:
   - value: sentence
     label:
@@ -57,18 +63,18 @@ struct_attributes:
       opts:
         is: '='
         is_not: '!='
-  - sentence_writing_language:
-      label:
-        swe: bästa skriftspråk
-        eng: best writing language
-      extended_component: structServiceSelect
-      opts:
-        is: '='
-        is_not: '!='
   - sentence_approximate_level:
       label:
         swe: ungefärlig nivå
         eng: approximate level
+      extended_component: structServiceSelect
+      opts:
+        is: '='
+        is_not: '!='
+  - sentence_writing_language:
+      label:
+        swe: bästa skriftspråk
+        eng: best writing language
       extended_component: structServiceSelect
       opts:
         is: '='
@@ -95,16 +101,9 @@ pos_attributes:
   - msd: msd
   - ufeats: ufeats
   - upos: upos
-  - udephead:
-      label:
-        swe: UD-huvud
-        eng: UD head
-      hide_extended: true
+  - udephead: udephead
   - udeprel: udeprel
-  - uref:
-      label:
-        swe: token-ID
-        eng: token ID
+  - uref: uref
   - misc_ud:
       label:
         swe: UD-MISC (övrigt)

@@ -5,13 +5,6 @@ mode:
   - name: default
     folder: l2
 description:
-  eng: |-
-    <b>A parallel Universal Dependencies treebank based on SweLL, the Swedish Learner Language corpus.</b><br><br><p>UD_Swedish-SweLL is a parallel Universal Dependencies treebank based on
-    <a href="https://spraakbanken.gu.se/resurser/swell">SweLL</a>, the Swedish Learner Language corpus. Its first version,
-    released as part of UD 2.17, consists of 510 randomly selected sentence-correction pairs from
-    <a href="https://spraakbanken.gu.se/en/resources/swell-gold">SweLL-gold</a>, a corpus of essays written by adult learners of
-    Swedish as a second language (L2). For more information about the treebank, see <a href="https://github.com/UniversalDependencies/UD_Swedish-SweLL/blob/master/README.md">the official README
-    file</a>.</p>
   swe: |-
     <b>En parallell Universal Dependencies-trädbank baserad på SweLL (Swedish Learner Language-korpusen).</b><br><br><p>UD_Swedish-SweLL är en parallell Universal Dependencies-trädbank baserad på
     <a href="https://spraakbanken.gu.se/resources/swell">SweLL</a> (Swedish Learner Language-korpusen). Den första versionen, som
@@ -19,9 +12,22 @@ description:
     slumpmässigt utvalda från <a href="https://spraakbanken.gu.se/resurser/swell-gold">SweLL-gold</a>, en samling uppsatser
     skrivna av vuxna inlärare av svenska som andraspråk. För mer information om trädbanken, se <a href="https://github.com/UniversalDependencies/UD_Swedish-SweLL/blob/master/README.md">den officiella
     README-filen</a>.</p>
+  eng: |-
+    <b>A parallel Universal Dependencies treebank based on SweLL, the Swedish Learner Language corpus.</b><br><br><p>UD_Swedish-SweLL is a parallel Universal Dependencies treebank based on
+    <a href="https://spraakbanken.gu.se/resurser/swell">SweLL</a>, the Swedish Learner Language corpus. Its first version,
+    released as part of UD 2.17, consists of 510 randomly selected sentence-correction pairs from
+    <a href="https://spraakbanken.gu.se/en/resources/swell-gold">SweLL-gold</a>, a corpus of essays written by adult learners of
+    Swedish as a second language (L2). For more information about the treebank, see <a href="https://github.com/UniversalDependencies/UD_Swedish-SweLL/blob/master/README.md">the official README
+    file</a>.</p>
 title:
   swe: UD2.17_Swedish-SweLL (original)
   eng: UD2.17_Swedish-SweLL (original)
+deptree:
+  attrs:
+    ref: uref
+    pos: upos
+    head: udephead
+    rel: udeprel
 within:
   - value: sentence
     label:
@@ -47,18 +53,18 @@ struct_attributes:
   - text_blingbring: text_blingbring
   - text_swefn: text_swefn
   - sentence_id: sentence_id
-  - sentence_writing_language:
-      label:
-        swe: bästa skriftspråk
-        eng: best writing language
-      extended_component: structServiceSelect
-      opts:
-        is: '='
-        is_not: '!='
   - sentence_approximate_level:
       label:
         swe: ungefärlig nivå
         eng: approximate level
+      extended_component: structServiceSelect
+      opts:
+        is: '='
+        is_not: '!='
+  - sentence_writing_language:
+      label:
+        swe: bästa skriftspråk
+        eng: best writing language
       extended_component: structServiceSelect
       opts:
         is: '='
@@ -93,23 +99,16 @@ pos_attributes:
   - msd: msd
   - ufeats: ufeats
   - upos: upos
-  - udephead:
-      label:
-        swe: UD-huvud
-        eng: UD head
-      hide_extended: true
+  - udephead: udephead
   - udeprel: udeprel
-  - uref:
-      label:
-        swe: token-ID
-        eng: token ID
-  - baseform_ud:
-      label:
-        swe: UD-grundform
-        eng: UD baseform
+  - uref: uref
   - misc_ud:
       label:
         swe: UD-MISC (övrigt)
         eng: UD MISC
       type: set
       extended_component: structServiceSelect
+  - baseform_ud:
+      label:
+        swe: UD-grundform
+        eng: UD baseform
