@@ -9,4 +9,4 @@ opts:
   matches_not: '!*='
   starts_with: ^=
 pattern: <span class='msd_sidebar'><%=val%></span>
-sidebar_info_url: markup/msdtags.html
+sidebar_info_url: https://spraakbanken.gu.se/verktyg/korp/msdtags
