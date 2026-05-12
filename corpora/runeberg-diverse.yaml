@@ -91,44 +91,44 @@ pos_attributes:
         is_not: '!='
       translation:
         antikva:
-          en: antiqua
-          sv: antikva
+          eng: antiqua
+          swe: antikva
         bold:
-          en: bold text
-          sv: fetstilt
+          eng: bold text
+          swe: fetstilt
         emphasis:
-          en: emphasised text
-          sv: emfas
+          eng: emphasised text
+          swe: emfas
         footnote:
-          en: footnote
-          sv: fotnot
+          eng: footnote
+          swe: fotnot
         gap:
-          en: missing text
-          sv: saknad text
+          eng: missing text
+          swe: saknad text
         headline:
-          en: header
-          sv: rubrik
+          eng: header
+          swe: rubrik
         info:
-          en: reference
-          sv: hänvisning
+          eng: reference
+          swe: hänvisning
         italic:
-          en: italics
-          sv: kursivt
+          eng: italics
+          swe: kursivt
         kustod:
-          en: catchword
-          sv: kustod
+          eng: catchword
+          swe: kustod
         marginal:
-          en: margin notes
-          sv: marginalnoter
+          eng: margin notes
+          swe: marginalnoter
         smallcaps:
-          en: small caps
-          sv: kapitäler
+          eng: small caps
+          swe: kapitäler
         texttype:
-          en: text type
-          sv: texttyp
+          eng: text type
+          swe: texttyp
         unclear:
-          en: unreadable
-          sv: oläsligt
+          eng: unreadable
+          swe: oläsligt
       type: set
 struct_attributes:
   - text_date: date

@@ -56,89 +56,89 @@ pos_attributes:
         is_not: not contains
       translation:
         AB:
-          en: adverb
-          sv: adverb
+          eng: adverb
+          swe: adverb
         DL:
-          en: punctuation
-          sv: interpunktion
+          eng: punctuation
+          swe: interpunktion
         DT:
-          en: determiner
-          sv: determinerare
+          eng: determiner
+          swe: determinerare
         E:
-          en: e
-          sv: e
+          eng: e
+          swe: e
         HA:
-          en: interrogative/relative adverb
-          sv: frågande/relativt adverb
+          eng: interrogative/relative adverb
+          swe: frågande/relativt adverb
         HD:
-          en: interrogative/relative determiner
-          sv: frågande/relativ determinerare
+          eng: interrogative/relative determiner
+          swe: frågande/relativ determinerare
         HP:
-          en: interrogative/relative pronoun
-          sv: frågande/relativt pronomen
+          eng: interrogative/relative pronoun
+          swe: frågande/relativt pronomen
         HS:
-          en: interrogative/relative possessive
-          sv: frågande/relativt possesivt pronomen
+          eng: interrogative/relative possessive
+          swe: frågande/relativt possesivt pronomen
         IE:
-          en: infinitive marker
-          sv: infinitivmärke
+          eng: infinitive marker
+          swe: infinitivmärke
         IN:
-          en: interjection
-          sv: interjektion
+          eng: interjection
+          swe: interjektion
         JJ:
-          en: adjective
-          sv: adjektiv
+          eng: adjective
+          swe: adjektiv
         KN:
-          en: conjunction
-          sv: konjunktion
+          eng: conjunction
+          swe: konjunktion
         MAD:
-          en: punctuation
-          sv: interpunktion
+          eng: punctuation
+          swe: interpunktion
         MID:
-          en: punctuation
-          sv: interpunktion
+          eng: punctuation
+          swe: interpunktion
         MID|MAD|PAD:
-          en: punctuation
-          sv: interpunktion
+          eng: punctuation
+          swe: interpunktion
         NN:
-          en: noun
-          sv: substantiv
+          eng: noun
+          swe: substantiv
         PAD:
-          en: punctuation
-          sv: interpunktion
+          eng: punctuation
+          swe: interpunktion
         PC:
-          en: participle
-          sv: particip
+          eng: participle
+          swe: particip
         PL:
-          en: particle
-          sv: partikel
+          eng: particle
+          swe: partikel
         PM:
-          en: proper noun
-          sv: egennamn
+          eng: proper noun
+          swe: egennamn
         PN:
-          en: pronoun
-          sv: pronomen
+          eng: pronoun
+          swe: pronomen
         PP:
-          en: preposition
-          sv: preposition
+          eng: preposition
+          swe: preposition
         PS:
-          en: possessive
-          sv: possessivt pronomen
+          eng: possessive
+          swe: possessivt pronomen
         RG:
-          en: cardinal number
-          sv: grundtal
+          eng: cardinal number
+          swe: grundtal
         RO:
-          en: ordinal number
-          sv: ordningstal
+          eng: ordinal number
+          swe: ordningstal
         SN:
-          en: subjunction
-          sv: subjunktion
+          eng: subjunction
+          swe: subjunktion
         UO:
-          en: foreign word
-          sv: utländskt ord
+          eng: foreign word
+          swe: utländskt ord
         VB:
-          en: verb
-          sv: verb
+          eng: verb
+          swe: verb
       type: set
   - lemma: lemma
   - lex: lex

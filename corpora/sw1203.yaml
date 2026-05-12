@@ -93,287 +93,287 @@ struct_attributes:
         is_not: not contains
       translation:
         afr:
-          en: Afrikaans
-          sv: Afrikaans
+          eng: Afrikaans
+          swe: Afrikaans
         aii:
-          en: Assyrian Neo-Aramaic
-          sv: Nyöstsyriska
+          eng: Assyrian Neo-Aramaic
+          swe: Nyöstsyriska
         amh:
-          en: Amharic
-          sv: Amhariska
+          eng: Amharic
+          swe: Amhariska
         ara:
-          en: Arabic
-          sv: Arabiska
+          eng: Arabic
+          swe: Arabiska
         arc:
-          en: Aramaic
-          sv: Arameiska
+          eng: Aramaic
+          swe: Arameiska
         ary:
-          en: Moroccan Arabic
-          sv: Marockansk arabiska
+          eng: Moroccan Arabic
+          swe: Marockansk arabiska
         aze:
-          en: Azerbaijani
-          sv: Azerbaijdzjanska
+          eng: Azerbaijani
+          swe: Azerbaijdzjanska
         bci:
-          en: Baoule
-          sv: Baoule
+          eng: Baoule
+          swe: Baoule
         bel:
-          en: Belarusian
-          sv: Vitryska
+          eng: Belarusian
+          swe: Vitryska
         ben:
-          en: Bengali
-          sv: Bengali
+          eng: Bengali
+          swe: Bengali
         ber:
-          en: Berber
-          sv: Berberspråk
+          eng: Berber
+          swe: Berberspråk
         bos:
-          en: Bosnian
-          sv: Bosniska
+          eng: Bosnian
+          swe: Bosniska
         bsy:
-          en: Sabah Bisaya
-          sv: Bisaya
+          eng: Sabah Bisaya
+          swe: Bisaya
         bul:
-          en: Bulgarian
-          sv: Bulgariska
+          eng: Bulgarian
+          swe: Bulgariska
         cat:
-          en: Catalan
-          sv: Katalanska
+          eng: Catalan
+          swe: Katalanska
         ces:
-          en: Czech
-          sv: Tjeckiska
+          eng: Czech
+          swe: Tjeckiska
         cgg:
-          en: Chiga
-          sv: Rukiga
+          eng: Chiga
+          swe: Rukiga
         ckb:
-          en: Central Kurdish
-          sv: Sorani
+          eng: Central Kurdish
+          swe: Sorani
         cld:
-          en: Chaldean Neo-Aramaic
-          sv: Kaldeiska
+          eng: Chaldean Neo-Aramaic
+          swe: Kaldeiska
         cmn:
-          en: Mandarin Chinese
-          sv: Mandarin
+          eng: Mandarin Chinese
+          swe: Mandarin
         cnr:
-          en: Montenegrin
-          sv: Montenegrinska
+          eng: Montenegrin
+          swe: Montenegrinska
         dan:
-          en: Danish
-          sv: Danska
+          eng: Danish
+          swe: Danska
         deu:
-          en: German
-          sv: Tyska
+          eng: German
+          swe: Tyska
         ell:
-          en: Greek
-          sv: Grekiska
+          eng: Greek
+          swe: Grekiska
         eng:
-          en: English
-          sv: Engelska
+          eng: English
+          swe: Engelska
         epo:
-          en: Esperanto
-          sv: Esperanto
+          eng: Esperanto
+          swe: Esperanto
         est:
-          en: Estonian
-          sv: Estniska
+          eng: Estonian
+          swe: Estniska
         eus:
-          en: Basque
-          sv: Baskiska
+          eng: Basque
+          swe: Baskiska
         fil:
-          en: Filipino
-          sv: Filippinska
+          eng: Filipino
+          swe: Filippinska
         fin:
-          en: Finnish
-          sv: Finska
+          eng: Finnish
+          swe: Finska
         fra:
-          en: French
-          sv: Franska
+          eng: French
+          swe: Franska
         gig:
-          en: Goaria
-          sv: Goaria
+          eng: Goaria
+          swe: Goaria
         glg:
-          en: Galician
-          sv: Galiciska
+          eng: Galician
+          swe: Galiciska
         guj:
-          en: Gujarati
-          sv: Gujarati
+          eng: Gujarati
+          swe: Gujarati
         hbs:
-          en: Serbo-Croatian
-          sv: Serbo-kroatiska
+          eng: Serbo-Croatian
+          swe: Serbo-kroatiska
         hin:
-          en: Hindi
-          sv: Hindi
+          eng: Hindi
+          swe: Hindi
         hrv:
-          en: Croatian
-          sv: Kroatiska
+          eng: Croatian
+          swe: Kroatiska
         hun:
-          en: Hungarian
-          sv: Ungerska
+          eng: Hungarian
+          swe: Ungerska
         ibo:
-          en: Igbo
-          sv: Igbo
+          eng: Igbo
+          swe: Igbo
         isl:
-          en: Icelandic
-          sv: Isländska
+          eng: Icelandic
+          swe: Isländska
         ita:
-          en: Italian
-          sv: Italienska
+          eng: Italian
+          swe: Italienska
         jpn:
-          en: Japanese
-          sv: Japanska
+          eng: Japanese
+          swe: Japanska
         kaz:
-          en: Kazakh
-          sv: Kazakiska
+          eng: Kazakh
+          swe: Kazakiska
         kin:
-          en: Kinyarwanda
-          sv: Kinyarwanda
+          eng: Kinyarwanda
+          swe: Kinyarwanda
         kir:
-          en: Kirghiz
-          sv: Kirgiziska
+          eng: Kirghiz
+          swe: Kirgiziska
         kor:
-          en: Korean
-          sv: Koreanska
+          eng: Korean
+          swe: Koreanska
         kur:
-          en: Kurdish
-          sv: Kurdiska
+          eng: Kurdish
+          swe: Kurdiska
         lat:
-          en: Latin
-          sv: Latin
+          eng: Latin
+          swe: Latin
         lav:
-          en: Latvian
-          sv: Lettiska
+          eng: Latvian
+          swe: Lettiska
         lit:
-          en: Lithuanian
-          sv: Litauiska
+          eng: Lithuanian
+          swe: Litauiska
         lug:
-          en: Ganda
-          sv: Luganda,ganda
+          eng: Ganda
+          swe: Luganda,ganda
         mal:
-          en: Malayalam
-          sv: Malayalam
+          eng: Malayalam
+          swe: Malayalam
         mkd:
-          en: Macedonian
-          sv: Makedonska
+          eng: Macedonian
+          swe: Makedonska
         msa:
-          en: Malay
-          sv: Malajiska
+          eng: Malay
+          swe: Malajiska
         nep:
-          en: Nepali
-          sv: Nepali
+          eng: Nepali
+          swe: Nepali
         nld:
-          en: Dutch
-          sv: Nederländska
+          eng: Dutch
+          swe: Nederländska
         nor:
-          en: Norwegian
-          sv: Norska
+          eng: Norwegian
+          swe: Norska
         nub:
-          en: Nuba (Sudan)
-          sv: Nuba (Sudan)
+          eng: Nuba (Sudan)
+          swe: Nuba (Sudan)
         nyn:
-          en: Nyankole
-          sv: Runyankore
+          eng: Nyankole
+          swe: Runyankore
         pan:
-          en: Panjabi
-          sv: Punjabi
+          eng: Panjabi
+          swe: Punjabi
         pol:
-          en: Polish
-          sv: Polska
+          eng: Polish
+          swe: Polska
         por:
-          en: Portuguese
-          sv: Portugisiska
+          eng: Portuguese
+          swe: Portugisiska
         prd:
-          en: Parsi-Dari
-          sv: Dari
+          eng: Parsi-Dari
+          swe: Dari
         prp:
-          en: Parsi
-          sv: Persiska
+          eng: Parsi
+          swe: Persiska
         prs:
-          en: Dari
-          sv: Persiska farsi
+          eng: Dari
+          swe: Persiska farsi
         pus:
-          en: Pushto
-          sv: Pashto
+          eng: Pushto
+          swe: Pashto
         ron:
-          en: Romanian
-          sv: Rumänska
+          eng: Romanian
+          swe: Rumänska
         rus:
-          en: Russian
-          sv: Ryska
+          eng: Russian
+          swe: Ryska
         sco:
-          en: Scots
-          sv: Skottska
+          eng: Scots
+          swe: Skottska
         sin:
-          en: Sinhala
-          sv: Singalesiska
+          eng: Sinhala
+          swe: Singalesiska
         slk:
-          en: Slovak
-          sv: Slovakiska
+          eng: Slovak
+          swe: Slovakiska
         som:
-          en: Somali
-          sv: Somaliska
+          eng: Somali
+          swe: Somaliska
         spa:
-          en: Spanish
-          sv: Spanska
+          eng: Spanish
+          swe: Spanska
         sqi:
-          en: Albanian
-          sv: Albanska
+          eng: Albanian
+          swe: Albanska
         srp:
-          en: Serbian
-          sv: Serbiska
+          eng: Serbian
+          swe: Serbiska
         swa:
-          en: Swahili
-          sv: Swahili
+          eng: Swahili
+          swe: Swahili
         swe:
-          en: Swedish
-          sv: Svenska
+          eng: Swedish
+          swe: Svenska
         swh:
-          en: Swahili
-          sv: Swahili
+          eng: Swahili
+          swe: Swahili
         syc:
-          en: Classical Syriac
-          sv: Syrisk arameiska
+          eng: Classical Syriac
+          swe: Syrisk arameiska
         syr:
-          en: Syriac
-          sv: Syriska
+          eng: Syriac
+          swe: Syriska
         tgl:
-          en: Tagalog
-          sv: Tagalog
+          eng: Tagalog
+          swe: Tagalog
         tha:
-          en: Thai
-          sv: Thailändska
+          eng: Thai
+          swe: Thailändska
         tir:
-          en: Tigrinya
-          sv: Tigrinska
+          eng: Tigrinya
+          swe: Tigrinska
         ttj:
-          en: Tooro
-          sv: Rutooro
+          eng: Tooro
+          swe: Rutooro
         tuk:
-          en: Turkmen
-          sv: Turkmeniska
+          eng: Turkmen
+          swe: Turkmeniska
         tur:
-          en: Turkish
-          sv: Turkiska
+          eng: Turkish
+          swe: Turkiska
         ukr:
-          en: Ukrainian
-          sv: Ukrainska
+          eng: Ukrainian
+          swe: Ukrainska
         undefined:
-          en: missing data
-          sv: Uppgift saknas
+          eng: missing data
+          swe: Uppgift saknas
         urd:
-          en: Urdu
-          sv: Urdu
+          eng: Urdu
+          swe: Urdu
         uzb:
-          en: Uzbek
-          sv: Uzbekiska
+          eng: Uzbek
+          swe: Uzbekiska
         vie:
-          en: Vietnamese
-          sv: Vietnamesiska
+          eng: Vietnamese
+          swe: Vietnamesiska
         vls:
-          en: Vlaams
-          sv: Flamländska
+          eng: Vlaams
+          swe: Flamländska
         yue:
-          en: Yue Chinese
-          sv: Kantonesiska
+          eng: Yue Chinese
+          swe: Kantonesiska
         zho:
-          en: Chinese
-          sv: Kinesiska
+          eng: Chinese
+          swe: Kinesiska
       type: set
   - text_gender:
       dataset:
