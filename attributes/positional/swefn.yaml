@@ -3,4 +3,8 @@ internal_search: true
 label:
   eng: Thematic keywords (Swedish FrameNet)
   swe: Tematiska nyckelord (Svenskt frasnät)
+extended_component: structServiceAutocomplete
+opts:
+  is: contains
+  is_not: not contains
 type: set
