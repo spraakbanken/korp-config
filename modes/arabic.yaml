@@ -1,6 +1,7 @@
 label:
   swe: Arabiska
   eng: Arabic
+autocomplete: false
 dir: rtl
 order: 100
 map_enabled: false
