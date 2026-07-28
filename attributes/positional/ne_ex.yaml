@@ -8,7 +8,7 @@ opts:
   is_not: "!="
 is_struct_attr: true
 label:
-  eng: type expression
+  eng: type of expression
   swe: typ av uttryck
 translation:
   ENAMEX:
