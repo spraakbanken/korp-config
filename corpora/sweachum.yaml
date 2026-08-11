@@ -38,6 +38,7 @@ struct_attributes:
       label:
         eng: subject
         swe: ämne
+  - text_date: year
 title:
   swe: 'Akademiska texter: Humaniora'
   eng: 'Academic texts: Humanities'

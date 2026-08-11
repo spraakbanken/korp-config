@@ -151,8 +151,11 @@ pos_attributes:
   - prefix: prefix
   - suffix: suffix
 struct_attributes:
-  - text_id:
-      label: text
+  - text_author: author
+  - text_title: title
+  - text_year: year
+  - text_isbn:
+      label: isbn
 title:
   swe: SUC-romaner (StorSUC)
   eng: SUC Novels (StorSUC)

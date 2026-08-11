@@ -50,6 +50,7 @@ struct_attributes:
       label:
         eng: issue
         swe: utgåva
+  - text_year: year
 title: Forskning & Framsteg
 within:
   - label:

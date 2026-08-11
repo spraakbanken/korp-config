@@ -29,7 +29,7 @@ pos_attributes:
   - prefix: prefix
   - suffix: suffix
 struct_attributes:
-  - text_date: year
+  - text_year: year
   - text_title: title
   - text_issue:
       label:

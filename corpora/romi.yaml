@@ -37,6 +37,7 @@ pos_attributes:
 struct_attributes:
   - text_author: author
   - text_title: title
+  - text_year: year
 title:
   swe: Bonniersromaner I (1976–77)
   eng: Bonnier novels I (1976–77)

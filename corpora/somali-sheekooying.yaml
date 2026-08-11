@@ -15,7 +15,7 @@ struct_attributes:
         swe: källa
       type: url
   - text_author: author
-  - text_date: year
+  - text_date: date
 title:
   swe: 'Somaliska: Sheekooyin Gaagaaban'
   eng: 'Somali: Sheekooyin Gaagaaban'

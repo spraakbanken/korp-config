@@ -44,7 +44,7 @@ struct_attributes:
       label:
         eng: original language
         swe: originalspråk
-  - text_year: year
+  - text_date: year
 title: SALT svenska-nederländska
 within:
   - label:

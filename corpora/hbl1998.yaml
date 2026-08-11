@@ -36,7 +36,7 @@ pos_attributes:
   - prefix: prefix
   - suffix: suffix
 struct_attributes:
-  - text_year: year
+  - text_date: date
 title:
   swe: 'Finlandssvenska: Hufvudstadsbladet 1998'
   eng: 'Finland Swedish: Hufvudstadsbladet 1998'

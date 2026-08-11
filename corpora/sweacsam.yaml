@@ -47,6 +47,7 @@ struct_attributes:
       label:
         eng: type
         swe: typ
+  - text_date: year
 title:
   swe: 'Akademiska texter: Samhällsvetenskap'
   eng: 'Academic texts: Social science'
