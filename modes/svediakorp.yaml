@@ -1,0 +1,22 @@
+label:
+  swe: Svensk diakronisk korpus
+  eng: Swedish Diachronic corpus
+hidden: true
+# folders:
+#   akerbruk1700:
+#     description: Texter om jordbruk från 1700-talet.
+#     title: Åkerbruk och gödsel
+#   bibel:
+#     description: Bibeln, 1873 och 1917 års utgåvor och Gustav Vasas Bibel (nya testamentet)
+#     title: Äldre biblar
+#   fsvb:
+#     title: Fornsvenska textbanken
+#     subfolders:
+#       aldre:
+#         title: Äldre fornsvenska
+#         description: <a target="_blank" href="http://project2.sol.lu.se/fornsvenska/">Fornsvenska
+#           textbanken</a> är ett projekt som digitaliserar fornsvenska texter och gör dem
+#           tillgängliga över webben. Projektet leds av Lars-Olof Delsing vid Lunds universitet.
+
+# struct_attribute_selector: intersection
+# pos_attribute_selector: intersection

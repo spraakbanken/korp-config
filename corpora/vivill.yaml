@@ -119,7 +119,7 @@ struct_attributes:
   - text_title: title
   - text_party:
       display_type: hidden
-  - text_källa:
+  - text_source:
       label:
         swe: källa
         eng: source

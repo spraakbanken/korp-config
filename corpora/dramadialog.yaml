@@ -3,6 +3,56 @@ id: dramadialog
 lang: swe
 mode:
   - name: all_hist
+description:
+  swe: |-
+    <b>Svensk dramadialog är en korpus av svensk dramadialog från perioden 1730-1950, bestående av 34 hela dramer.</b><br><br><p>Lärare och forskare vid Institutionen för nordiska språk i Uppsala inledde 1998 projektet <em>Svensk dramadialog
+    under tre sekler</em>. Finansiärer var Språkvetenskapliga fakulteten vid Uppsala universitet och dåvarande HSFR.
+    Huvudansvarig för projektet var Mats Thelander; medverkade från början gjorde också Görel Bergman Claeson, Ulla
+    Börestam, Ulla Melander Marttala, Siv Strömquist, Gun Widmark och Carin Östman. För digitalisering och kodning av
+    dramatexterna anlitades Kristina Ohlander vid Lingfil. Projektet presenteras i forskningsrapporterna Svensk
+    dramadialog nr 1 (Melander Marttala &amp; Östman 2000) och nr 2 (Melander Marttala &amp; Strömquist 2001). Ett betydande
+    antal punktstudier från projektet har genomförts och publicerats i senare rapporter, artiklar och antologier av
+    såväl projektdeltagarna själva, som av andra forskare i och utanför Uppsala.</p>
+    <p>Materialet bestod av 45 oavkortade svenska skådespel från 1730 till sent 1990-tal uppdelade på dialog och
+    metatext. Dramerna hade valts ut med diakronisk jämförbarhet i åtanke och var så långt möjligt svenska
+    originaldramer för vuxna som blivit uppförda och har en identifierbar författare. Urvalet syftade till att spegla
+    naturligt språk från respektive tidsperiod, varför man i första hand valt samtidsdramer och undvikit dramer
+    skrivna på vers.</p>
+    <p>I ett senare skede (efter 2009) har en delmängd av materialet annoterats och bearbetats för återanvändning i
+    korpusen <em>Engelsk och svensk dramadialog</em> 1725–1950 (ESDD). Korpusen innehöll 15 engelska och 15 svenska dramer,
+    och var ett samarbetsprojekt mellan Institutionen för nordiska språk och Engelska institutionen vid Uppsala
+    universitet. Arbetet med ESDD genomfördes av Linnéa Anglemark, Merja Kytö, Ulla Melander Marttala och Sofia
+    Gustafson Capcová, med stöd från Språkvetenskapliga fakulteten vid Uppsala universitet.</p>
+    <p>Resterande dramer har bearbetats av Astrid Berntsson Ingelstam med stöd av Språkbanken CLARIN, finansierat av
+    Vetenskapsrådet (2025–2028; grant 2023-00161) tillsammans med de 10 medverkande universiteten och myndigheterna.</p>
+  eng: |-
+    <b>Swedish Drama Dialogue is a corpus of Swedish drama dialogue from the period 1730-1950, consisting of 34 complete
+    dramas.</b><br><br><p>Swedish Drama Dialogue is a corpus of Swedish drama dialogue from the period 1730–1950, consisting of 34 complete
+    plays.</p>
+    <p>In 1998, teachers and researchers at the Department of Scandinavian Languages at Uppsala University initiated the
+    project <em>Svensk dramadialog över tre sekler</em> (’Swedish Drama Dialogue over Three Centuries’). The project was
+    funded by the Faculty of Languages at Uppsala University and the former Swedish Council for Research in the
+    Humanities and Social Sciences (HSFR). The principal investigator was Mats Thelander; other participants from the
+    outset included Görel Bergman Claeson, Ulla Börestam, Ulla Melander Marttala, Siv Strömquist, Gun Widmark, and
+    Carin Östman. The digitisation and encoding of the dramas were carried out by Kristina Ohlander at the department
+    of Linguistics and Philology, Uppsala University. The project is presented in research reports <em>Svensk
+    dramadialog</em> (’Swedish Drama Dialogue’) no. 1 (Melander Marttala &amp; Östman 2000) and no. 2 (Melander Marttala &amp;
+    Strömquist 2001). A substantial number of focused studies based on the project have since been conducted and
+    published in later reports, articles, and anthologies by both project members and other researchers within and
+    beyond Uppsala.</p>
+    <p>The material originally consisted of 45 complete Swedish plays dating from 1730 to the late 1990s, divided into
+    dialogue and metatext. The plays were selected with diachronic comparability in mind and, as far as possible,
+    comprised original Swedish plays for adult audiences that had been performed and whose authorship could be clearly
+    identified. The selection aimed to reflect natural language use for each period; consequently, contemporary plays
+    were prioritised and verse drama was largely avoided.</p>
+    <p>At a later stage (after 2009), a subset of the material was annotated and processed for reuse in the corpus
+    <em>English and Swedish Drama Dialogue 1725–1950</em> (ESDD). This corpus comprised 15 English and 15 Swedish plays and
+    was a collaborative project between the Department of Scandinavian Languages and the Department of English at
+    Uppsala University. Work on ESDD was carried out by Linnéa Anglemark, Merja Kytö, Ulla Melander Marttala, and
+    Sofia Gustafson Capcová, with support from the Faculty of Languages at Uppsala University.</p>
+    <p>The remaining plays have been processed by Astrid Berntsson Ingelstam with support from Språkbanken CLARIN, funded
+    by the Swedish Research Council (2025–2028; grant no. 2023-00161) in collaboration with the ten participating
+    universities and government agencies.</p>
 title:
   swe: Svensk Dramadialog
   eng: Swedish Drama Dialogue
@@ -32,7 +82,7 @@ struct_attributes:
   - text_lix: text_lix
   - text_ovix: text_ovix
   - text_nk: text_nk
-  - document_title:
+  - text_title:
       label:
         eng: title
         swe: titel
@@ -40,11 +90,11 @@ struct_attributes:
       opts:
         is: '='
         is_not: '!='
-  - document_identifier:
+  - text_identifier:
       label:
         eng: document ID
         swe: dokument-ID
-  - document_author:
+  - text_author:
       label:
         eng: author
         swe: författare
@@ -52,7 +102,7 @@ struct_attributes:
       opts:
         is: '='
         is_not: '!='
-  - document_contemporaneity:
+  - text_contemporaneity:
       label:
         eng: contemporaneity
         swe: samtidighet
@@ -60,7 +110,7 @@ struct_attributes:
       opts:
         is: '='
         is_not: '!='
-  - document_contemporaneity_sourceDate:
+  - text_contemporaneity_sourceDate:
       label:
         eng: contemporaneity category
         swe: samtidighetskategori
@@ -82,11 +132,11 @@ struct_attributes:
         NON_CONTEMP:
           eng: non-contemporary
           swe: icke-samtida
-  - document_speechPubDate:
+  - text_speechPubDate:
       label:
         eng: date of first performance
         swe: datum för första framförande
-  - document_subperiod:
+  - text_subperiod:
       label:
         eng: time period
         swe: tidsperiod
@@ -94,7 +144,7 @@ struct_attributes:
       opts:
         is: '='
         is_not: '!='
-  - document_textType:
+  - text_textType:
       label:
         eng: document type
         swe: dokumenttyp
@@ -102,7 +152,7 @@ struct_attributes:
       opts:
         is: '='
         is_not: '!='
-  - text_type:
+  - part_type:
       label:
         eng: text type
         swe: texttyp
@@ -110,7 +160,7 @@ struct_attributes:
       opts:
         is: '='
         is_not: '!='
-  - text_id:
+  - part_id:
       label:
         eng: scene
         swe: scen
@@ -350,5 +400,5 @@ pos_attributes:
   - blingbring: blingbring
   - swefn: swefn
 attribute_filters:
-  - document_title
-  - document_author
+  - text_title
+  - text_author

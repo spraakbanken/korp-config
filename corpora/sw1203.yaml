@@ -25,7 +25,7 @@ description:
     Enström</a>.
 id: sw1203
 mode:
-  - folder: protected
+  - folder: l2
     name: default
 pos_attributes:
   - lemma: lemma

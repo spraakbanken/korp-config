@@ -20,7 +20,7 @@ custom_attributes:
 description: ''
 id: swell-target
 mode:
-  - folder: protected
+  - folder: l2
     name: default
 pos_attributes:
   - correction_label:

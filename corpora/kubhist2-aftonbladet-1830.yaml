@@ -10,8 +10,8 @@ description:
   swe: Del av samlingen Kubhist2
   eng: Part of the collection Kubhist2
 title:
-  eng: Aftonbladet 1830's
-  swe: Aftonbladet 1830-talet
+  eng: 'Kubhist 2: Aftonbladet 1830''s'
+  swe: 'Kubhist 2: Aftonbladet 1830-talet'
 morphology: saldom|dalinm|swedbergm
 within:
   - value: sentence

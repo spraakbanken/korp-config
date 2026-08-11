@@ -20,7 +20,7 @@ description:
     access please contact <a href="mailto:elena.volodina@svenska.gu.se">Elena Volodina</a>.
 id: tisus
 mode:
-  - folder: protected
+  - folder: l2
     name: default
 pos_attributes:
   - lemma: lemma

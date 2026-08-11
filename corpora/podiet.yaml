@@ -5,12 +5,12 @@ mode:
   - name: default
     folder: magazines
 description:
-  eng: Articles from the consert magazine Podiet
   swe: |-
     <b>Artiklar från Konsertmagasinet Podiet</b><br><br><p>Magasinet <a href="https://podiet.prenly.com/">Podiet</a> innehåller
     artiklar och reportage om aktuella konserter, intervjuer med
     musiker och verkkommentarer till de klassiska konserter som spelas
     i Göteborgs Konserthus. Korpusen uppdateras regelbundet.</p>
+  eng: Articles from the consert magazine Podiet
 title:
   swe: Podiet
   eng: Podiet
@@ -48,7 +48,6 @@ struct_attributes:
       opts:
         is: '='
         is_not: '!='
-  - text_date: date
   - paragraph_type:
       label:
         swe: styckestyp
@@ -63,14 +62,11 @@ struct_attributes:
         title:
           swe: titel
           eng: title
-  - issue_title:
+  - text_url:
       label:
-        swe: utgåvans titel
-        eng: issue title
-      extended_component: structServiceSelect
-      opts:
-        is: '='
-        is_not: '!='
+        swe: artikelns URL
+        eng: article URL
+      type: url
   - text_id:
       label:
         swe: artikelns ID
@@ -87,6 +83,7 @@ struct_attributes:
       opts:
         is: '='
         is_not: '!='
+  - text_date: date
   - text_title:
       label:
         swe: artikelns titel
@@ -95,11 +92,14 @@ struct_attributes:
       opts:
         is: '='
         is_not: '!='
-  - text_url:
+  - issue_title:
       label:
-        swe: artikelns URL
-        eng: article URL
-      type: url
+        swe: utgåvans titel
+        eng: issue title
+      extended_component: structServiceSelect
+      opts:
+        is: '='
+        is_not: '!='
   - issue_url:
       label:
         swe: utgåvans URL

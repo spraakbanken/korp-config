@@ -1,0 +1,54 @@
+label:
+  swe: Voices of formerly Enslaved
+  eng: Voices of formerly Enslaved
+hidden: true
+autocomplete: false
+word_picture: false
+mode_description:
+  eng: |-
+    <p>The <b>Voices of formerly Enslaved Corpus (Pilot)</b></p>
+    <p>
+      A corpus of transcribed and annotated narratives from informants who were formerly enslaved. Texts selected are
+      mainly in vernacular English, but partly also in standard English [eng]. There are two main parts:
+      <ul>
+        <li>Selection of narratives collected in the Federal Writers' Projct (FWP) collected in late 1930's and published
+          in
+          1941.</li>
+        <li>Selection of narratives collected as part of the Documenting the American South Collection
+          (DocSouth)</li>
+      </ul>
+    </p>
+    <p>The Corpus has been developed in collaboration with Språkbanken Text.</p>
+    <p><b>For more on annotation, preparation of data, and acknowledgements see:</b>
+      <ul style="list-style: unset;padding: revert;">
+        <li>IE, LJO, KR. (202x). Voices of the formerly Enslaved Corpus, Pilot v0.1. [forthcoming]<i>[Where]</i>, pp nn--nn.</li>
+      </ul>
+    </p>
+    <p><b>For questions about the corpus:</b><br>Klas Rönnbäck <a
+        href="mailto:klas.ronnback@econhist.gu.se">klas.ronnback@econhist.gu.se</a>
+    </p>
+    <p> If you notice any
+      errors or inconsistencies in annotations, please report them to this email address.</p><p> <b>Main
+        contributors:</b>
+      <ul style="list-style: unset; padding: revert;">
+        <li>Irene Elmerot<br> Researcher,
+          University of Gothenburg</li>
+        <li>Leif-Jöran Olsson<br> Senior Research Engineer, University of
+          Gothenburg</li>
+        <li>Klas Rönnbäck<br> PI and Senior Researcher, University of Gothenburg</li>
+      </ul>
+    </p>
+
+# folders:
+#   aatc:
+#     title:
+#       swe:
+#       eng:
+#   dsc:
+#     title:
+#       swe:
+#       eng:
+#   fwp:
+#     title:
+#       swe:
+#       eng:

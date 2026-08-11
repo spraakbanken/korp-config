@@ -13,7 +13,7 @@ context:
 description: ''
 id: spin-source
 mode:
-  - folder: protected
+  - folder: l2
     name: default
 pos_attributes:
   - lemma: lemma
