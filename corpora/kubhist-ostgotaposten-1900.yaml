@@ -30,7 +30,6 @@ context:
       swe: 1 stycke
       eng: 1 paragraph
 struct_attributes:
-  - text_blingbring: text_blingbring
   - text_swefn: text_swefn
   - text_lix: text_lix
   - text_ovix: text_ovix
@@ -183,8 +182,6 @@ pos_attributes:
   - deprel: deprel
   - dephead: dephead
   - ref: ref
-  - sentiment_label: sentiment_label
-  - blingbring: blingbring
   - swefn: swefn
   - wordbreak_break:
       label:
