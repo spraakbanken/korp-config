@@ -10,4 +10,5 @@ opts:
   prefix: starts_with_contains
   suffix: ends_with_contains
 sidebar_component: expandList
+stringify: compwf
 type: set

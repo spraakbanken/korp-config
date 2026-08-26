@@ -11,4 +11,5 @@ opts:
   matches: regexp_contains
   matches_not: not_regexp_contains
 order: 1
+stringify: lemma
 type: set
