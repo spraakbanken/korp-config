@@ -42,7 +42,7 @@ struct_attributes:
   - text_tags:
       label: tags
       type: set
-      extended_component: structServiceSelect
+      extended_component: structServiceAutocomplete
       opts:
         is: contains
         is_not: not contains
