@@ -32,10 +32,6 @@ context:
       swe: 1 stycke
       eng: 1 paragraph
 struct_attributes:
-  - text_swefn: text_swefn
-  - text_lix: text_lix
-  - text_ovix: text_ovix
-  - text_nk: text_nk
   - Page_n: page
   - String_wordbreak:
       label:
@@ -60,6 +56,10 @@ struct_attributes:
         swe: källa
       pattern: <a href="https://tidningar.kb.se/<%=struct_attrs.text_libris %>/<%= struct_attrs.text_date %>/edition/<%= struct_attrs.text_edition %>/part/1/page/<%= struct_attrs.Page_n %>/" target="_blank">Kungliga biblioteket</a>
   - text_date: date
+  - text_swefn: text_swefn
+  - text_lix: text_lix
+  - text_ovix: text_ovix
+  - text_nk: text_nk
 pos_attributes:
   - ne_ex: ne_ex
   - ne_name: ne_name

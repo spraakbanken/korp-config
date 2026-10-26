@@ -66,14 +66,14 @@ struct_attributes:
         eng: source
         swe: källa
       pattern: <a href="https://tidningar.kb.se/<%=struct_attrs.text_libris %>/<%= struct_attrs.text_date %>/edition/<%= struct_attrs.text_edition %>/part/1/page/<%= struct_attrs.Page_n %>/" target="_blank">Kungliga biblioteket</a>
-  - text_swefn: text_swefn
-  - text_lix: text_lix
-  - text_ovix: text_ovix
-  - text_nk: text_nk
   - String_wordbreak:
       label:
         eng: hyphenation
         swe: avstavning
+  - text_swefn: text_swefn
+  - text_lix: text_lix
+  - text_ovix: text_ovix
+  - text_nk: text_nk
 title: Dalpilen 1920-talet
 within:
   - label:

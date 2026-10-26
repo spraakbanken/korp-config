@@ -23,10 +23,6 @@ context:
       swe: 1 mening
       eng: 1 sentence
 struct_attributes:
-  - text_swefn: text_swefn
-  - text_lix: text_lix
-  - text_ovix: text_ovix
-  - text_nk: text_nk
   - text_date: text_date
   - text_file_name:
       label:
@@ -36,6 +32,10 @@ struct_attributes:
       label:
         swe: kategori
         eng: category
+  - text_swefn: text_swefn
+  - text_lix: text_lix
+  - text_ovix: text_ovix
+  - text_nk: text_nk
 pos_attributes:
   - ne_ex: ne_ex
   - ne_name: ne_name

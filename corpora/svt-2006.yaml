@@ -29,10 +29,6 @@ context:
             swe: 1 stycke
             eng: 1 paragraph
 struct_attributes:
-    -   text_swefn: text_swefn
-    -   text_lix: text_lix
-    -   text_ovix: text_ovix
-    -   text_nk: text_nk
     -   paragraph_type:
             label:
                 swe: styckestyp
@@ -77,6 +73,10 @@ struct_attributes:
     -   text_url:
             label: url
             type: url
+    -   text_swefn: text_swefn
+    -   text_lix: text_lix
+    -   text_ovix: text_ovix
+    -   text_nk: text_nk
 pos_attributes:
     -   sense: sense
     -   compwf: compwf

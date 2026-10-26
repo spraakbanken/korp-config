@@ -33,10 +33,6 @@ context:
       swe: 1 stycke
       eng: 1 paragraph
 struct_attributes:
-  - text_swefn: text_swefn
-  - text_lix: text_lix
-  - text_ovix: text_ovix
-  - text_nk: text_nk
   - text_date: date
   - text_data_collected:
       label:
@@ -68,6 +64,10 @@ struct_attributes:
           label:
             swe: titel
             eng: title
+  - text_swefn: text_swefn
+  - text_lix: text_lix
+  - text_ovix: text_ovix
+  - text_nk: text_nk
 pos_attributes:
   - sense: sense
   - compwf: compwf

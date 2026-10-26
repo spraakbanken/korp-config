@@ -79,16 +79,16 @@ context:
       swe: 1 mening
       eng: 1 sentence
 struct_attributes:
-  - text_swefn: text_swefn
-  - text_lix: text_lix
-  - text_ovix: text_ovix
-  - text_nk: text_nk
   - page_n: page
   - page_thumbnail:
       display_type: hidden
   - page_url:
       display_type: hidden
   - date_when: date
+  - text_swefn: text_swefn
+  - text_lix: text_lix
+  - text_ovix: text_ovix
+  - text_nk: text_nk
 pos_attributes:
   - ne_ex: ne_ex
   - ne_name: ne_name

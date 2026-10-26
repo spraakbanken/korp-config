@@ -31,10 +31,6 @@ context:
       swe: 1 stycke
       eng: 1 paragraph
 struct_attributes:
-  - text_swefn: text_swefn
-  - text_lix: text_lix
-  - text_ovix: text_ovix
-  - text_nk: text_nk
   - text_libris:
       label: Libris-ID
   - text_date: date
@@ -59,6 +55,10 @@ struct_attributes:
       label:
         eng: hyphenation
         swe: avstavning
+  - text_swefn: text_swefn
+  - text_lix: text_lix
+  - text_ovix: text_ovix
+  - text_nk: text_nk
 pos_attributes:
   - ne_ex: ne_ex
   - ne_name: ne_name

@@ -41,10 +41,6 @@ pos_attributes:
   - suffix: suffix
   - swefn: swefn
 struct_attributes:
-  - text_swefn: text_swefn
-  - text_lix: text_lix
-  - text_ovix: text_ovix
-  - text_nk: text_nk
   - text_id:
       display_type: hidden
       label: id
@@ -62,6 +58,10 @@ struct_attributes:
       label:
         eng: favourite count
         swe: favoriter
+  - text_swefn: text_swefn
+  - text_lix: text_lix
+  - text_ovix: text_ovix
+  - text_nk: text_nk
 title:
   swe: Svensk Twitter 2015
   eng: Swedish Twitter 2015

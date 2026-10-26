@@ -16,10 +16,6 @@ context:
       swe: 1 mening
       eng: 1 sentence
 struct_attributes:
-  - text_swefn: text_swefn
-  - text_lix: text_lix
-  - text_ovix: text_ovix
-  - text_nk: text_nk
   - text_title: text_title
   - text_url: text_url
   - text_month:
@@ -27,6 +23,10 @@ struct_attributes:
         swe: månad
         eng: month
   - text_year: text_year
+  - text_swefn: text_swefn
+  - text_lix: text_lix
+  - text_ovix: text_ovix
+  - text_nk: text_nk
 pos_attributes:
   - sense: sense
   - compwf: compwf

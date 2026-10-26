@@ -48,10 +48,6 @@ pos_attributes:
   - suffix: suffix
   - swefn: swefn
 struct_attributes:
-  - text_swefn: text_swefn
-  - text_lix: text_lix
-  - text_ovix: text_ovix
-  - text_nk: text_nk
   - blog_id:
       extended_component: structServiceSelect
       label:
@@ -67,6 +63,10 @@ struct_attributes:
       label:
         eng: post ID
         swe: inläggs-ID
+  - text_swefn: text_swefn
+  - text_lix: text_lix
+  - text_ovix: text_ovix
+  - text_nk: text_nk
 title: SIC2 - Stockholm Internet Corpus
 within:
   - label:

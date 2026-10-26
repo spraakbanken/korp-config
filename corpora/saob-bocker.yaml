@@ -47,10 +47,6 @@ context:
       swe: 1 mening
       eng: 1 sentence
 struct_attributes:
-  - text_swefn: text_swefn
-  - text_lix: text_lix
-  - text_ovix: text_ovix
-  - text_nk: text_nk
   - page_printed_nr:
       label:
         swe: tryckt sidnummer
@@ -88,6 +84,10 @@ struct_attributes:
       label:
         swe: sidnummer
         eng: page number
+  - text_swefn: text_swefn
+  - text_lix: text_lix
+  - text_ovix: text_ovix
+  - text_nk: text_nk
 pos_attributes:
   - sense: sense
   - compwf: compwf

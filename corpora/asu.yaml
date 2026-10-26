@@ -36,10 +36,6 @@ context:
       swe: 1 text
     value: 1 text
 struct_attributes:
-  - text_swefn: text_swefn
-  - text_lix: text_lix
-  - text_ovix: text_ovix
-  - text_nk: text_nk
   - text_mode:
       extended_component: structServiceSelect
       opts:
@@ -115,6 +111,10 @@ struct_attributes:
         is: '='
         is_not: '!='
       label: given text
+  - text_swefn: text_swefn
+  - text_lix: text_lix
+  - text_ovix: text_ovix
+  - text_nk: text_nk
 pos_attributes:
   - sense: sense
   - compwf: compwf
