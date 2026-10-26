@@ -5,12 +5,12 @@ mode:
   - name: default
 description:
   swe: |-
-    <b>De svenska partiernas partiprogram och valmanifest 1887–2024</b><br><br><p>Datan till den här korpusen är hämtad från <a
-    href="https://doi.org/10.5878/kcsf-k293">Svensk nationell
+    <b>De svenska partiernas partiprogram och valmanifest 1887–2026</b><br><br><p>Datan till den här korpusen är hämtad från <a
+    href="https://doi.org/10.5878/19td-y919">Svensk nationell
     datatjänst</a>.</p>
 
     <p>Dokumenten finns öppet tillgängliga via denna länk: <a
-    href="https://snd.gu.se/vivill">https://snd.gu.se/vivill</a>. Här går
+    href="https://snd.se/vivill">https://snd.se/vivill</a>. Här går
     också att söka i dokumenten.</p>
 
     <p>Svenska partiprogram och valmanifest bygger på projektet "Vi vill....!
@@ -35,12 +35,12 @@ description:
     Fortfarande saknas ett okänt antal dokument som skulle kunna ingå i
     samlingen.</p>
   eng: |-
-    <b>Swedish political party programs and election manifestos 1887–2024</b><br><br><p>The data for this corpus was retrieved from <a
-    href="https://doi.org/10.5878/kcsf-k293">Svensk nationell
+    <b>Swedish political party programs and election manifestos 1887–2026</b><br><br><p>The data for this corpus was retrieved from <a
+    href="https://doi.org/10.5878/19td-y919">Svensk nationell
     datatjänst</a>.</p>
 
     <p>All documents are also open a vailable at page: <a
-    href="https://snd.gu.se/vivill">https://snd.gu.se/vivill</a>, where it
+    href="https://snd.se/vivill">https://snd.se/vivill</a>, where it
     is possible to search in the documents.</p>
 
     <p>Swedish party programs and election manifestos builds on the "Vi vill …!
@@ -115,9 +115,14 @@ struct_attributes:
       label:
         eng: party
         swe: parti
-  - text_title: title
   - text_party:
       display_type: hidden
+  - text_year:
+      preset: year
+      extended_component: structServiceSelect
+      opts:
+        is: '='
+        is_not: '!='
   - text_source:
       label:
         swe: källa
@@ -132,16 +137,10 @@ struct_attributes:
       label:
         eng: type
         swe: typ
+  - text_title: title
   - text_type_id:
       display_type: hidden
-  - text_year:
-      preset: year
-      extended_component: structServiceSelect
-      opts:
-        is: '='
-        is_not: '!='
 pos_attributes:
-  - sense: sense
   - compwf: compwf
   - complemgram: complemgram
   - ufeats: ufeats
@@ -157,6 +156,7 @@ pos_attributes:
   - lex: lex
   - msd: msd
   - pos: pos
+  - sense: sense
 attribute_filters:
   - text_party_name
   - text_year

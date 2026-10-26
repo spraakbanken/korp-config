@@ -95,14 +95,6 @@ struct_attributes:
       label:
         eng: translation
         swe: översättning
-  - sentence_speaker:
-      label:
-        eng: speaker
-        swe: talare
-      extended_component: structServiceSelect
-      opts:
-        is: '='
-        is_not: '!='
   - text_filename:
       extended_component: structServiceSelect
       opts:
@@ -111,20 +103,15 @@ struct_attributes:
       label:
         eng: filename
         swe: filnamn
-pos_attributes:
-  - segmented:
+  - sentence_speaker:
       label:
-        eng: segmentation
-        swe: segmentering
-  - macroglosses:
-      opts:
-        is: contains
-        is_not: not contains
-      type: set
-      label:
-        eng: macrogloss
-        swe: makrogloss
+        eng: speaker
+        swe: talare
       extended_component: structServiceSelect
+      opts:
+        is: '='
+        is_not: '!='
+pos_attributes:
   - sense:
       extended_component: structServiceAutocomplete
       opts:
@@ -133,22 +120,6 @@ pos_attributes:
       label:
         eng: lexical sense
         swe: lexikal betydelse
-  - normalized:
-      label:
-        eng: normalized word form
-        swe: normaliserad ordform
-  - type:
-      extended_component: structServiceSelect
-      opts:
-        is: '='
-        is_not: '!='
-      label:
-        eng: type
-        swe: typ
-  - glossed:
-      label:
-        eng: glossing
-        swe: glossering
   - pos:
       extended_component: structServiceSelect
       opts:
@@ -157,6 +128,18 @@ pos_attributes:
       label:
         eng: part of speech
         swe: ordklass
+  - type:
+      extended_component: structServiceSelect
+      opts:
+        is: '='
+        is_not: '!='
+      label:
+        eng: type
+        swe: typ
+  - segmented:
+      label:
+        eng: segmentation
+        swe: segmentering
   - microglosses:
       opts:
         is: contains
@@ -242,5 +225,22 @@ pos_attributes:
         SM: subject marker
         VEN: ventive
         VOC: vocative
+  - glossed:
+      label:
+        eng: glossing
+        swe: glossering
+  - macroglosses:
+      opts:
+        is: contains
+        is_not: not contains
+      type: set
+      label:
+        eng: macrogloss
+        swe: makrogloss
+      extended_component: structServiceSelect
+  - normalized:
+      label:
+        eng: normalized word form
+        swe: normaliserad ordform
 attribute_filters:
   - text_filename
