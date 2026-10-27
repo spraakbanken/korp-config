@@ -29,7 +29,6 @@ struct_attributes:
   - text_lix: text_lix
   - text_ovix: text_ovix
   - text_nk: text_nk
-  - text__id: text__id
   - dokument_dok_id:
       extended_component: structServiceSelect
       opts:
@@ -127,5 +126,3 @@ pos_attributes:
   - lex: lex
   - msd: msd
   - pos: pos
-  - _tail: _tail
-  - _head: _head
