@@ -16,6 +16,8 @@ id: ordat
 mode:
   - folder: newstexts
     name: default
+  - name: svediakorp
+    folder: newspapers
 pos_attributes:
   - lemma: lemma
   - pos: pos

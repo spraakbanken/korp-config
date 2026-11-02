@@ -3,6 +3,8 @@ id: poeter
 lang: swe
 mode:
   - name: default
+  - name: svediakorp
+    folder: secprose
 description:
   swe: Poesi från Poeter.se
   eng: Poetry from Poeter.se

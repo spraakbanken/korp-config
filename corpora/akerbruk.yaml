@@ -19,6 +19,8 @@ id: akerbruk
 mode:
   - folder: akerbruk1700
     name: all_hist
+  - name: svediakorp
+    folder: science.agriculture
 morphology: swedbergm|dalinm|saldom
 pos_attributes:
   - lemma: lemma

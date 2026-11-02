@@ -4,6 +4,8 @@ lang: swe
 mode:
   - name: default
     folder: socialmedia.forum.familjeliv
+  - name: svediakorp
+    folder: socialmedia.familjeliv
 description:
   eng: Material from the Familjeliv internet forum.
   swe: Material från diskussionsforumet Familjeliv.

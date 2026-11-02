@@ -11,6 +11,8 @@ description: Konung Gustaf den förstes registratur
 id: vasabrev
 mode:
   - name: all_hist
+  - name: svediakorp
+    folder: letters
 morphology: swedbergm|dalinm|saldom
 pos_attributes:
   - dalinlex:

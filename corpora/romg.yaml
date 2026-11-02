@@ -157,6 +157,8 @@ mode:
   - name: all_hist
   - folder: novels
     name: default
+  - name: svediakorp
+    folder: secprose.novels
 pos_attributes:
   - lemma: lemma
   - pos: pos

@@ -3,6 +3,8 @@ id: wikipedia-sv
 lang: swe
 mode:
   - name: default
+  - name: svediakorp
+    folder: socialmedia
 description:
   swe: Korpus av svenskspråkiga Wikipedia
   eng: Corpus of Swedish Wikipedia

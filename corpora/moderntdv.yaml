@@ -12,6 +12,8 @@ id: moderntdv
 mode:
   - folder: modern
     name: law
+  - name: svediakorp
+    folder: court
 pos_attributes:
   - posset:
       dataset:

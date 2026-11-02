@@ -28,6 +28,8 @@ id: fof
 mode:
   - folder: magazines
     name: default
+  - name: svediakorp
+    folder: periodicals
 pos_attributes:
   - lemma: lemma
   - pos: pos

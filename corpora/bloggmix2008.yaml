@@ -7,6 +7,8 @@ id: bloggmix2008
 mode:
   - folder: socialmedia.bloggmix
     name: default
+  - name: svediakorp
+    folder: socialmedia.blog
 pos_attributes:
   - lemma: lemma
   - pos: pos

@@ -17,6 +17,8 @@ id: klarsprak
 mode:
   - folder: governmental
     name: default
+  - name: svediakorp
+    folder: governmental
 pos_attributes:
   - lemma: lemma
   - pos: pos

@@ -32,6 +32,8 @@ id: strindbergbrev
 mode:
   - folder: strindberg
     name: default
+  - name: svediakorp
+    folder: letters
 pos_attributes:
   - lemma: lemma
   - pos: pos

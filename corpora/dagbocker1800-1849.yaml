@@ -15,6 +15,8 @@ id: dagbocker1800-1849
 mode:
   - folder: brevdagbocker
     name: fisk1800
+  - name: svediakorp
+    folder: informal.diaries
 morphology: saldom|dalinm|swedbergm
 pos_attributes:
   - lemma: lemma

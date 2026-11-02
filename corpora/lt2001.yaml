@@ -11,6 +11,8 @@ id: lt2001
 mode:
   - folder: medical.ltd
     name: default
+  - name: svediakorp
+    folder: periodicals.medicine
 pos_attributes:
   - lemma: lemma
   - pos: pos

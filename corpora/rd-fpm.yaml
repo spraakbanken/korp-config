@@ -3,6 +3,8 @@ lang: swe
 mode:
   - name: default
     folder: governmental.rd
+  - name: svediakorp
+    folder: governmental.rd
 description:
   swe: Regeringens faktapromemorior om EU-kommissionens förslag
 title:

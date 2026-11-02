@@ -10,6 +10,8 @@ id: ub-kvt-tidevarvet
 mode:
   - folder: ubkvt
     name: all_hist
+  - name: svediakorp
+    folder: periodicals.kvt
 morphology: saldom|dalinm|swedbergm
 pos_attributes:
   - dalinlex:

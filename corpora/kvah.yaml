@@ -4,6 +4,8 @@ lang: swe
 mode:
   - name: all_hist
     folder: akerbruk1700
+  - name: svediakorp
+    folder: science.agriculture
 description:
   swe: <b>Kungl. Vetenskapsakademiens Handlingar</b><br><br>18 artiklar från kungliga
     vetenskapsakademiens handlingar. Alla artiklarna handlar om åkerbruk och gödsel.

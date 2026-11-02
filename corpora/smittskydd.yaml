@@ -11,6 +11,8 @@ id: smittskydd
 mode:
   - folder: medical
     name: default
+  - name: svediakorp
+    folder: periodicals.medicine
 pos_attributes:
   - lemma: lemma
   - pos: pos

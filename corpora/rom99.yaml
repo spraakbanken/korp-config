@@ -42,6 +42,8 @@ id: rom99
 mode:
   - folder: novels
     name: default
+  - name: svediakorp
+    folder: secprose.novels
 pos_attributes:
   - lemma: lemma
   - pos: pos

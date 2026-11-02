@@ -2,21 +2,166 @@ label:
   swe: Svensk diakronisk korpus
   eng: Swedish Diachronic corpus
 hidden: true
-# folders:
-#   akerbruk1700:
-#     description: Texter om jordbruk från 1700-talet.
-#     title: Åkerbruk och gödsel
-#   bibel:
-#     description: Bibeln, 1873 och 1917 års utgåvor och Gustav Vasas Bibel (nya testamentet)
-#     title: Äldre biblar
-#   fsvb:
-#     title: Fornsvenska textbanken
-#     subfolders:
-#       aldre:
-#         title: Äldre fornsvenska
-#         description: <a target="_blank" href="http://project2.sol.lu.se/fornsvenska/">Fornsvenska
-#           textbanken</a> är ett projekt som digitaliserar fornsvenska texter och gör dem
-#           tillgängliga över webben. Projektet leds av Lars-Olof Delsing vid Lunds universitet.
+folders:
+  court:
+    title:
+      eng: Court
+      swe: Domstolsprotokoll
+  governmental:
+    title:
+      eng: Governmental
+      swe: Myndighetstext
+    subfolders:
+      riksdagstryck:
+        title:
+          eng: Riksdagstryck
+          swe: Riksdagstryck
+      rd:
+        title:
+          eng: The Riksdag's open data
+          swe: Riksdagens öppna data
+  informal:
+    title:
+      eng: Informal
+      swe: Informella texter
+    subfolders:
+      diaries:
+        title:
+          eng: diaries
+          swe: dagböcker
+  law:
+    title:
+      eng: Laws and regulations
+      swe: Lagar och förordningar
+    subfolders:
+      church:
+        title:
+          eng: church regulations
+          swe: kyrkoförordningar
+  letters:
+    title:
+      eng: Letters and charters
+      swe: Brev och diplom
+  lyrics:
+    title:
+      eng: Lyrics
+      swe: Sångtexter
+  newspapers:
+    title:
+      eng: Newspapers
+      swe: Tidningstext
+    subfolders:
+      kubhist2:
+        title:
+          eng: Kubhist 2
+          swe: Kubhist 2
+      press:
+        title:
+          eng: Press
+          swe: Press
+      gp:
+        title:
+          eng: Göteborgsposten
+          swe: Göteborgsposten
+      webnews:
+        title:
+          eng: web news
+          swe: webbnyheter
+  # pamphlets: # only one corpus. Skip folder?
+  #   title:
+  #     eng: Pamphlets
+  #     swe: Pamfletter
+  periodicals:
+    title:
+      eng: Periodicals
+      swe: Tidskrifter
+    subfolders:
+      medicine:
+        title:
+          eng: medicine
+          swe: medicin
+      kvt:
+        title:
+          eng: women and society
+          swe: kvinnor och samhälle
+  religion:
+    title:
+      eng: Religion
+      swe: Religion
+  science:
+    title:
+      eng: Scientific and academic text (incl. medicine)
+      swe: Vetenskaplig text (inkl. medicin)
+    subfolders:
+      humanities:
+        title:
+          eng: humanities
+          swe: humaniora
+      science:
+        title:
+          eng: natural science
+          swe: naturvetenskap
+      agriculture:
+        title:
+          eng: agriculture
+          swe: jordbruk
+  secprose:
+    title:
+      eng: Secular prose
+      swe: Sekulär prosa
+    subfolders:
+      biographies:
+        title:
+          eng: autobiographies, biographies, memoirs
+          swe: biografier, självbiografier, memoarer
+      children:
+        title:
+          eng: children's literature, fairytales, fables
+          swe: barnböcker, sagor, fabler
+      drama:
+        title:
+          eng: drama
+          swe: drama
+      fiction:
+        title:
+          eng: fiction, miscellaneous
+          swe: skönlitteratur, blandat
+      humour:
+        title:
+          eng: humour
+          swe: humor
+      novels:
+        title:
+          eng: novels
+          swe: romaner
+      nonfiction:
+        title:
+          eng: non-fiction, miscellaneous
+          swe: facklitteratur, blandat
+  # student: # only one corpus. Skip folder?
+  #   title:
+  #     eng: Student writings
+  #     swe: Elevtexter
+  socialmedia:
+    title:
+      eng: User-generated Text
+      swe: Sociala medier och Wikipedia
+    subfolders:
+      blog:
+        title:
+          eng: Blog mix
+          swe: Bloggmix
+      familjeliv:
+        title:
+          eng: Familjeliv
+          swe: Familjeliv
+      flashback:
+        title:
+          eng: Flashback
+          swe: Flashback
+
+preselected_corpora:
+   - svediakorp-pamphlets
 
 # struct_attribute_selector: intersection
 # pos_attribute_selector: intersection

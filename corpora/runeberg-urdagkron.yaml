@@ -21,6 +21,8 @@ mode:
     name: all_hist
   - name: saob
     folder: runeberg
+  - name: svediakorp
+    folder: periodicals
 morphology: swedbergm|dalinm|saldom
 pos_attributes:
   - lemma: lemma

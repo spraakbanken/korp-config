@@ -4,6 +4,8 @@ lang: swe
 mode:
   - name: default
     folder: socialmedia.forum.flashback
+  - name: svediakorp
+    folder: socialmedia.flashback
 description:
   swe: Material från diskussionsforumet Flashback.
   eng: Material from the Flashback internet forum.

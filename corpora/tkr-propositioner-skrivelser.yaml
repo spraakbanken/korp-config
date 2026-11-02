@@ -6,6 +6,8 @@ mode:
     folder: governmental.tvakammarriksdagen
   - name: law
     folder: tvakammarriksdagen
+  - name: svediakorp
+    folder: governmental.riksdagstryck
 description:
   swe: Del av Tvåkammarriksdagen
   eng: Part of the data set "Bicameral Riksdag"

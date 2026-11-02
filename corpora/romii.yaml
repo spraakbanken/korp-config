@@ -17,6 +17,8 @@ id: romii
 mode:
   - folder: novels
     name: default
+  - name: svediakorp
+    folder: secprose.novels
 pos_attributes:
   - lemma: lemma
   - pos: pos

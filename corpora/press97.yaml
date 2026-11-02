@@ -112,6 +112,8 @@ id: press97
 mode:
   - folder: newstexts.press
     name: default
+  - name: svediakorp
+    folder: newspapers.press
 pos_attributes:
   - lemma: lemma
   - pos: pos

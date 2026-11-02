@@ -36,6 +36,8 @@ id: fsbessaistik
 mode:
   - folder: fisk.literature
     name: default
+  - name: svediakorp
+    folder: secprose
 pos_attributes:
   - lemma: lemma
   - pos: pos

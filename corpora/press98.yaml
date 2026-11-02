@@ -113,6 +113,8 @@ mode:
     name: default
   - name: saob
     folder: modern.newstexts.press
+  - name: svediakorp
+    folder: newspapers.press
 pos_attributes:
   - lemma: lemma
   - pos: pos

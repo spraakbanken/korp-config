@@ -6,6 +6,8 @@ mode:
     folder: standsriksdagen
   - name: all_hist
     folder: standsriksdagen
+  - name: svediakorp
+    folder: governmental.riksdagstryck
 description:
   swe: Del av Ståndsriksdagen
   eng: Part of the data set "Riksdag of the Estates"

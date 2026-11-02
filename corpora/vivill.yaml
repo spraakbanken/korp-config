@@ -3,6 +3,8 @@ id: vivill
 lang: swe
 mode:
   - name: default
+  - name: svediakorp
+    folder: governmental
 description:
   swe: |-
     <b>De svenska partiernas partiprogram och valmanifest 1887–2026</b><br><br><p>Datan till den här korpusen är hämtad från <a

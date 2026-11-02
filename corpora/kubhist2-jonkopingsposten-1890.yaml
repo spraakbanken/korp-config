@@ -11,6 +11,8 @@ mode:
     folder: kubhist2.jonkopingsposten
   - name: saob
     folder: kubhist2.jonkopingsposten
+  - name: svediakorp
+    folder: newspapers.kubhist2
 morphology: saldom|dalinm|swedbergm
 within:
   - value: sentence

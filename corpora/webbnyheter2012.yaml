@@ -4,6 +4,8 @@ lang: swe
 mode:
     -   name: default
         folder: newstexts.webnews
+    -   name: svediakorp
+        folder: newspapers.webnews
 description:
     eng: News from Swedish newspapers' websites
     swe: Nyheter från svenska dagstidningars webbplatser

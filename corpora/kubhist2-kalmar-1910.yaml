@@ -17,6 +17,8 @@ mode:
   - folder: kubhist2.kalmar
     lab_only: true
     name: kubhist
+  - name: svediakorp
+    folder: newspapers.kubhist2
 morphology: saldom|dalinm|swedbergm
 pos_attributes:
   - dalinlex:
