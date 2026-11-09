@@ -107,3 +107,6 @@ pos_attributes:
         swe: dependenshuvud lemma
   - original:
       label: original
+
+deptree:
+  hidden: true

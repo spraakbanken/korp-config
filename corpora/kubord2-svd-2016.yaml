@@ -107,3 +107,6 @@ pos_attributes:
             label:
                 eng: dependency head MSD
                 swe: dependenshuvud MSD
+
+deptree:
+  hidden: true

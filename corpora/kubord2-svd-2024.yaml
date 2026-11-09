@@ -107,3 +107,6 @@ pos_attributes:
   - original:
       label: original
   - msd: msd
+
+deptree:
+  hidden: true

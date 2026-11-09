@@ -107,3 +107,6 @@ pos_attributes:
         swe: dependenshuvud sammansättning
   - lex: lex
   - lemma: lemma
+
+deptree:
+  hidden: true

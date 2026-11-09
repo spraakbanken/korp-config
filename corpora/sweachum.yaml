@@ -10,6 +10,8 @@ id: sweachum
 mode:
   - folder: sweac
     name: default
+  - name: svediakorp
+    folder: science.humanities
 pos_attributes:
   - lemma: lemma
   - pos: pos

@@ -107,3 +107,6 @@ pos_attributes:
         eng: hyphenation
         swe: avstavning
   - lex: lex
+
+deptree:
+  hidden: true

@@ -91,18 +91,6 @@ struct_attributes:
       opts:
         is: '='
         is_not: '!='
-  - sentence_translation:
-      label:
-        eng: translation
-        swe: översättning
-  - text_filename:
-      extended_component: structServiceSelect
-      opts:
-        is: '='
-        is_not: '!='
-      label:
-        eng: filename
-        swe: filnamn
   - sentence_speaker:
       label:
         eng: speaker
@@ -111,6 +99,18 @@ struct_attributes:
       opts:
         is: '='
         is_not: '!='
+  - text_filename:
+      extended_component: structServiceSelect
+      opts:
+        is: '='
+        is_not: '!='
+      label:
+        eng: filename
+        swe: filnamn
+  - sentence_translation:
+      label:
+        eng: translation
+        swe: översättning
 pos_attributes:
   - sense:
       extended_component: structServiceAutocomplete
@@ -120,26 +120,18 @@ pos_attributes:
       label:
         eng: lexical sense
         swe: lexikal betydelse
-  - pos:
-      extended_component: structServiceSelect
-      opts:
-        is: '='
-        is_not: '!='
+  - glossed:
       label:
-        eng: part of speech
-        swe: ordklass
-  - type:
-      extended_component: structServiceSelect
-      opts:
-        is: '='
-        is_not: '!='
-      label:
-        eng: type
-        swe: typ
+        eng: glossing
+        swe: glossering
   - segmented:
       label:
         eng: segmentation
         swe: segmentering
+  - normalized:
+      label:
+        eng: normalized word form
+        swe: normaliserad ordform
   - microglosses:
       opts:
         is: contains
@@ -225,10 +217,22 @@ pos_attributes:
         SM: subject marker
         VEN: ventive
         VOC: vocative
-  - glossed:
+  - type:
+      extended_component: structServiceSelect
+      opts:
+        is: '='
+        is_not: '!='
       label:
-        eng: glossing
-        swe: glossering
+        eng: type
+        swe: typ
+  - pos:
+      extended_component: structServiceSelect
+      opts:
+        is: '='
+        is_not: '!='
+      label:
+        eng: part of speech
+        swe: ordklass
   - macroglosses:
       opts:
         is: contains
@@ -238,9 +242,5 @@ pos_attributes:
         eng: macrogloss
         swe: makrogloss
       extended_component: structServiceSelect
-  - normalized:
-      label:
-        eng: normalized word form
-        swe: normaliserad ordform
 attribute_filters:
   - text_filename

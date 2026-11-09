@@ -107,3 +107,6 @@ pos_attributes:
                 eng: dependency head sense
                 swe: dependenshuvud sense
     -   deprel: deprel
+
+deptree:
+  hidden: true

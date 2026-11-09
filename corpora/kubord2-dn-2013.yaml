@@ -107,3 +107,6 @@ pos_attributes:
     -   deprel: deprel
     -   sense: sense
     -   lex: lex
+
+deptree:
+  hidden: true

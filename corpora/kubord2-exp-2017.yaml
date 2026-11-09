@@ -107,3 +107,6 @@ pos_attributes:
         eng: dependency head token
         swe: dependenshuvud token
   - lemma: lemma
+
+deptree:
+  hidden: true

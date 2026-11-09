@@ -103,3 +103,6 @@ pos_attributes:
             label:
                 eng: dependency head lemma
                 swe: dependenshuvud lemma
+
+deptree:
+  hidden: true

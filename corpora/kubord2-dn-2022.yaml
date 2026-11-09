@@ -107,3 +107,6 @@ pos_attributes:
         swe: dependenshuvud avstavning
   - deprel: deprel
   - sense: sense
+
+deptree:
+  hidden: true

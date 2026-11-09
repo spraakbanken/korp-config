@@ -88,6 +88,11 @@ folders:
     title:
       eng: Religion
       swe: Religion
+    subfolders:
+      bible:
+        title:
+          eng: bible texts
+          swe: bibeltexter
   science:
     title:
       eng: Scientific and academic text (incl. medicine)
@@ -144,7 +149,7 @@ folders:
   #     swe: Elevtexter
   socialmedia:
     title:
-      eng: User-generated Text
+      eng: Social media and Wikipedia
       swe: Sociala medier och Wikipedia
     subfolders:
       blog:
@@ -161,7 +166,7 @@ folders:
           swe: Flashback
 
 preselected_corpora:
-   - svediakorp-pamphlets
+   - svedia-pamphlets
 
 # struct_attribute_selector: intersection
 # pos_attribute_selector: intersection

@@ -107,3 +107,6 @@ pos_attributes:
       label:
         eng: dependency head lemgram
         swe: dependenshuvud lemgram
+
+deptree:
+  hidden: true

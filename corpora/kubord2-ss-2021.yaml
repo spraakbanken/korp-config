@@ -107,3 +107,6 @@ pos_attributes:
       opts:
         is: '='
         is_not: '!='
+
+deptree:
+  hidden: true

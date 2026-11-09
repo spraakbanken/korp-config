@@ -107,3 +107,6 @@ pos_attributes:
                 eng: dependency head hyphenation
                 swe: dependenshuvud avstavning
     -   complemgram: complemgram
+
+deptree:
+  hidden: true

@@ -107,3 +107,6 @@ pos_attributes:
       label:
         eng: dependency head token
         swe: dependenshuvud token
+
+deptree:
+  hidden: true

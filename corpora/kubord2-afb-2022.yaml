@@ -107,3 +107,6 @@ pos_attributes:
         swe: dependenshuvud MSD
   - original:
       label: original
+
+deptree:
+  hidden: true

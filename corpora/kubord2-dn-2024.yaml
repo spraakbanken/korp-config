@@ -107,3 +107,6 @@ pos_attributes:
         eng: dependency head original
         swe: dependenshuvud original
   - sense: sense
+
+deptree:
+  hidden: true

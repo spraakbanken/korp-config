@@ -107,3 +107,6 @@ pos_attributes:
     -   original:
             label: original
     -   deprel: deprel
+
+deptree:
+  hidden: true

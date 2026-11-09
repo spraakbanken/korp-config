@@ -107,3 +107,6 @@ pos_attributes:
                 swe: dependenshuvud MSD
     -   lemma: lemma
     -   complemgram: complemgram
+
+deptree:
+  hidden: true

@@ -107,3 +107,6 @@ pos_attributes:
                 eng: dependency head lemgram
                 swe: dependenshuvud lemgram
     -   complemgram: complemgram
+
+deptree:
+  hidden: true

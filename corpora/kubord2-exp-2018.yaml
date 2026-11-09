@@ -107,3 +107,6 @@ pos_attributes:
   - complemgram: complemgram
   - lemma: lemma
   - deprel: deprel
+
+deptree:
+  hidden: true
